@@ -12,7 +12,7 @@ repositories {
 }
 gatling {
     simulations = {
-        include "simulations/**" // <1>
+        include "simulations/**"
     }
 }
 
