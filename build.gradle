@@ -12,7 +12,7 @@ repositories {
 }
 gatling {
     simulations = {
-        include "simulations/**"
+        include "simulations/publication/*"
     }
 }
 
@@ -28,8 +28,11 @@ dependencies {
     gatling group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.16.0'
     gatling group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.16.0'
     gatling group: 'io.gatling', name: 'gatling-core', version: '3.9.5'
-    implementation 'org.scala-lang:scala3-library_3:3.3.1'
     implementation 'commons-collections:commons-collections:3.2.2'
+    testImplementation group: 'io.gatling', name: 'gatling-core', version: '3.9.5'
+    testImplementation group: 'io.gatling.highcharts', name: 'gatling-charts-highcharts', version: '3.9.5'
+    testImplementation group: 'io.gatling', name: 'gatling-app', version: '3.9.5'
+    testImplementation group: 'io.gatling', name: 'gatling-recorder', version: '3.9.5'
     testImplementation 'org.scalatest:scalatest_3:3.2.9'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'

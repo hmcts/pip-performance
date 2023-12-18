@@ -1,0 +1,401 @@
+﻿P&I UniqueID,P&I ID,Court Desc,Welsh Court Desc,Region,Welsh Region,Jurisdiction,Welsh Jurisdiction,Provenance,Provenance Location ID,Provenance Location Type
+,401,Test Court 1,Test Court 1,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1001,Venue
+,402,Test Court 2,Test Court 2,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1002,Venue
+,403,Test Court 3,Test Court 3,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1003,Venue
+,404,Test Court 4,Test Court 4,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1004,Venue
+,405,Test Court 5,Test Court 5,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1005,Venue
+,406,Test Court 6,Test Court 6,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1006,Venue
+,407,Test Court 7,Llys Prawf 7,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1007,Venue
+,408,Test Court 8,Test Court 8,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1008,Venue
+,409,Test Court 9,Test Court 9,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1009,Venue
+,410,Test Court 10,Test Court 10,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1010,Venue
+,411,Test Court 11,Test Court 11,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1011,Venue
+,412,Test Court 12,Test Court 12,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1012,Venue
+,413,Test Court 13,Test Court 13,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1013,Venue
+,414,Test Court 14,Test Court 14,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1014,Venue
+,415,Test Court 15,Llys Prawf 15,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1015,Venue
+,416,Test Court 16,Test Court 16,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1016,Venue
+,417,Test Court 17,Test Court 17,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1017,Venue
+,418,Test Court 18,Test Court 18,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1018,Venue
+,419,Test Court 19,Test Court 19,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1019,Venue
+,420,Test Court 20,Test Court 20,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1020,Venue
+,421,Test Court 21,Test Court 21,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1021,Venue
+,422,Test Court 22,Test Court 22,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1022,Venue
+,423,Test Court 23,Test Court 23,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1023,Venue
+,424,Test Court 24,Test Court 24,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1024,Venue
+,425,Test Court 25,Test Court 25,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1025,Venue
+,426,Test Court 26,Test Court 26,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1026,Venue
+,427,Test Court 27,Test Court 27,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1027,Venue
+,428,Test Court 28,Llys Prawf 28,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1028,Venue
+,429,Test Court 29,Test Court 29,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1029,Venue
+,430,Test Court 30,Test Court 30,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1030,Venue
+,431,Test Court 31,Test Court 31,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1031,Venue
+,432,Test Court 32,Test Court 32,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1032,Venue
+,433,Test Court 33,Test Court 33,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1033,Venue
+,434,Test Court 34,Test Court 34,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1034,Venue
+,435,Test Court 35,Test Court 35,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1035,Venue
+,436,Test Court 36,Llys Prawf 36,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1036,Venue
+,437,Test Court 37,Test Court 37,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1037,Venue
+,438,Test Court 38,Test Court 38,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1038,Venue
+,439,Test Court 39,Test Court 39,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1039,Venue
+,440,Test Court 40,Test Court 40,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1040,Venue
+,441,Test Court 41,Test Court 41,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1041,Venue
+,442,Test Court 42,Test Court 42,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1042,Venue
+,443,Test Court 43,Test Court 43,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1043,Venue
+,444,Test Court 44,Test Court 44,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1044,Venue
+,445,Test Court 45,Test Court 45,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1045,Venue
+,446,Test Court 46,Test Court 46,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1046,Venue
+,447,Test Court 47,Test Court 47,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1047,Venue
+,448,Test Court 48,Test Court 48,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1048,Venue
+,449,Test Court 49,Llys Prawf 49,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1049,Venue
+,450,Test Court 50,Test Court 50,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1050,Venue
+,451,Test Court 51,Test Court 51,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1051,Venue
+,452,Test Court 52,Test Court 52,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1052,Venue
+,453,Test Court 53,Test Court 53,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1053,Venue
+,454,Test Court 54,Test Court 54,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1054,Venue
+,455,Test Court 55,Test Court 55,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1055,Venue
+,456,Test Court 56,Test Court 56,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1056,Venue
+,457,Test Court 57,Llys Prawf 57,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1057,Venue
+,458,Test Court 58,Test Court 58,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1058,Venue
+,459,Test Court 59,Test Court 59,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1059,Venue
+,460,Test Court 60,Test Court 60,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1060,Venue
+,461,Test Court 61,Test Court 61,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1061,Venue
+,462,Test Court 62,Test Court 62,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1062,Venue
+,463,Test Court 63,Test Court 63,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1063,Venue
+,464,Test Court 64,Test Court 64,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1064,Venue
+,465,Test Court 65,Test Court 65,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1065,Venue
+,466,Test Court 66,Test Court 66,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1066,Venue
+,467,Test Court 67,Test Court 67,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1067,Venue
+,468,Test Court 68,Test Court 68,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1068,Venue
+,469,Test Court 69,Test Court 69,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1069,Venue
+,470,Test Court 70,Llys Prawf 70,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1070,Venue
+,471,Test Court 71,Test Court 71,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1071,Venue
+,472,Test Court 72,Test Court 72,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1072,Venue
+,473,Test Court 73,Test Court 73,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1073,Venue
+,474,Test Court 74,Test Court 74,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1074,Venue
+,475,Test Court 75,Test Court 75,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1075,Venue
+,476,Test Court 76,Test Court 76,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1076,Venue
+,477,Test Court 77,Test Court 77,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1077,Venue
+,478,Test Court 78,Llys Prawf 78,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1078,Venue
+,479,Test Court 79,Test Court 79,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1079,Venue
+,480,Test Court 80,Test Court 80,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1080,Venue
+,481,Test Court 81,Test Court 81,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1081,Venue
+,482,Test Court 82,Test Court 82,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1082,Venue
+,483,Test Court 83,Test Court 83,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1083,Venue
+,484,Test Court 84,Test Court 84,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1084,Venue
+,485,Test Court 85,Test Court 85,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1085,Venue
+,486,Test Court 86,Test Court 86,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1086,Venue
+,487,Test Court 87,Test Court 87,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1087,Venue
+,488,Test Court 88,Test Court 88,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1088,Venue
+,489,Test Court 89,Test Court 89,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1089,Venue
+,490,Test Court 90,Test Court 90,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1090,Venue
+,491,Test Court 91,Llys Prawf 91,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1091,Venue
+,492,Test Court 92,Test Court 92,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1092,Venue
+,493,Test Court 93,Test Court 93,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1093,Venue
+,494,Test Court 94,Test Court 94,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1094,Venue
+,495,Test Court 95,Test Court 95,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1095,Venue
+,496,Test Court 96,Test Court 96,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1096,Venue
+,497,Test Court 97,Test Court 97,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1097,Venue
+,498,Test Court 98,Test Court 98,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1098,Venue
+,499,Test Court 99,Llys Prawf 99,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1099,Venue
+,500,Test Court 100,Test Court 100,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1100,Venue
+,501,Test Court 101,Test Court 101,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1101,Venue
+,502,Test Court 102,Test Court 102,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1102,Venue
+,503,Test Court 103,Test Court 103,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1103,Venue
+,504,Test Court 104,Test Court 104,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1104,Venue
+,505,Test Court 105,Test Court 105,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1105,Venue
+,506,Test Court 106,Test Court 106,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1106,Venue
+,507,Test Court 107,Test Court 107,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1107,Venue
+,508,Test Court 108,Test Court 108,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1108,Venue
+,509,Test Court 109,Test Court 109,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1109,Venue
+,510,Test Court 110,Test Court 110,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1110,Venue
+,511,Test Court 111,Test Court 111,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1111,Venue
+,512,Test Court 112,Llys Prawf 112,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1112,Venue
+,513,Test Court 113,Test Court 113,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1113,Venue
+,514,Test Court 114,Test Court 114,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1114,Venue
+,515,Test Court 115,Test Court 115,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1115,Venue
+,516,Test Court 116,Test Court 116,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1116,Venue
+,517,Test Court 117,Test Court 117,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1117,Venue
+,518,Test Court 118,Test Court 118,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1118,Venue
+,519,Test Court 119,Test Court 119,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1119,Venue
+,520,Test Court 120,Llys Prawf 120,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1120,Venue
+,521,Test Court 121,Test Court 121,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1121,Venue
+,522,Test Court 122,Test Court 122,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1122,Venue
+,523,Test Court 123,Test Court 123,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1123,Venue
+,524,Test Court 124,Test Court 124,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1124,Venue
+,525,Test Court 125,Test Court 125,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1125,Venue
+,526,Test Court 126,Test Court 126,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1126,Venue
+,527,Test Court 127,Test Court 127,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1127,Venue
+,528,Test Court 128,Test Court 128,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1128,Venue
+,529,Test Court 129,Test Court 129,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1129,Venue
+,530,Test Court 130,Test Court 130,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1130,Venue
+,531,Test Court 131,Test Court 131,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1131,Venue
+,532,Test Court 132,Test Court 132,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1132,Venue
+,533,Test Court 133,Llys Prawf 133,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1133,Venue
+,534,Test Court 134,Test Court 134,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1134,Venue
+,535,Test Court 135,Test Court 135,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1135,Venue
+,536,Test Court 136,Test Court 136,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1136,Venue
+,537,Test Court 137,Test Court 137,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1137,Venue
+,538,Test Court 138,Test Court 138,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1138,Venue
+,539,Test Court 139,Test Court 139,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1139,Venue
+,540,Test Court 140,Test Court 140,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1140,Venue
+,541,Test Court 141,Llys Prawf 141,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1141,Venue
+,542,Test Court 142,Test Court 142,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1142,Venue
+,543,Test Court 143,Test Court 143,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1143,Venue
+,544,Test Court 144,Test Court 144,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1144,Venue
+,545,Test Court 145,Test Court 145,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1145,Venue
+,546,Test Court 146,Test Court 146,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1146,Venue
+,547,Test Court 147,Test Court 147,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1147,Venue
+,548,Test Court 148,Test Court 148,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1148,Venue
+,549,Test Court 149,Test Court 149,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1149,Venue
+,550,Test Court 150,Test Court 150,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1150,Venue
+,551,Test Court 151,Test Court 151,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1151,Venue
+,552,Test Court 152,Test Court 152,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1152,Venue
+,553,Test Court 153,Test Court 153,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1153,Venue
+,554,Test Court 154,Llys Prawf 154,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1154,Venue
+,555,Test Court 155,Test Court 155,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1155,Venue
+,556,Test Court 156,Test Court 156,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1156,Venue
+,557,Test Court 157,Test Court 157,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1157,Venue
+,558,Test Court 158,Test Court 158,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1158,Venue
+,559,Test Court 159,Test Court 159,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1159,Venue
+,560,Test Court 160,Test Court 160,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1160,Venue
+,561,Test Court 161,Test Court 161,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1161,Venue
+,562,Test Court 162,Llys Prawf 162,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1162,Venue
+,563,Test Court 163,Test Court 163,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1163,Venue
+,564,Test Court 164,Test Court 164,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1164,Venue
+,565,Test Court 165,Test Court 165,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1165,Venue
+,566,Test Court 166,Test Court 166,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1166,Venue
+,567,Test Court 167,Test Court 167,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1167,Venue
+,568,Test Court 168,Test Court 168,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1168,Venue
+,569,Test Court 169,Test Court 169,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1169,Venue
+,570,Test Court 170,Test Court 170,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1170,Venue
+,571,Test Court 171,Test Court 171,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1171,Venue
+,572,Test Court 172,Test Court 172,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1172,Venue
+,573,Test Court 173,Test Court 173,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1173,Venue
+,574,Test Court 174,Test Court 174,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1174,Venue
+,575,Test Court 175,Llys Prawf 175,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1175,Venue
+,576,Test Court 176,Test Court 176,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1176,Venue
+,577,Test Court 177,Test Court 177,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1177,Venue
+,578,Test Court 178,Test Court 178,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1178,Venue
+,579,Test Court 179,Test Court 179,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1179,Venue
+,580,Test Court 180,Test Court 180,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1180,Venue
+,581,Test Court 181,Test Court 181,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1181,Venue
+,582,Test Court 182,Test Court 182,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1182,Venue
+,583,Test Court 183,Llys Prawf 183,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1183,Venue
+,584,Test Court 184,Test Court 184,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1184,Venue
+,585,Test Court 185,Test Court 185,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1185,Venue
+,586,Test Court 186,Test Court 186,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1186,Venue
+,587,Test Court 187,Test Court 187,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1187,Venue
+,588,Test Court 188,Test Court 188,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1188,Venue
+,589,Test Court 189,Test Court 189,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1189,Venue
+,590,Test Court 190,Test Court 190,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1190,Venue
+,591,Test Court 191,Test Court 191,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1191,Venue
+,592,Test Court 192,Test Court 192,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1192,Venue
+,593,Test Court 193,Test Court 193,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1193,Venue
+,594,Test Court 194,Test Court 194,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1194,Venue
+,595,Test Court 195,Test Court 195,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1195,Venue
+,596,Test Court 196,Llys Prawf 196,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1196,Venue
+,597,Test Court 197,Test Court 197,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1197,Venue
+,598,Test Court 198,Test Court 198,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1198,Venue
+,599,Test Court 199,Test Court 199,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1199,Venue
+,600,Test Court 200,Test Court 200,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1200,Venue
+,601,Test Court 201,Test Court 201,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1201,Venue
+,602,Test Court 202,Test Court 202,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1202,Venue
+,603,Test Court 203,Test Court 203,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1203,Venue
+,604,Test Court 204,Llys Prawf 204,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1204,Venue
+,605,Test Court 205,Test Court 205,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1205,Venue
+,606,Test Court 206,Test Court 206,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1206,Venue
+,607,Test Court 207,Test Court 207,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1207,Venue
+,608,Test Court 208,Test Court 208,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1208,Venue
+,609,Test Court 209,Test Court 209,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1209,Venue
+,610,Test Court 210,Test Court 210,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1210,Venue
+,611,Test Court 211,Test Court 211,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1211,Venue
+,612,Test Court 212,Test Court 212,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1212,Venue
+,613,Test Court 213,Test Court 213,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1213,Venue
+,614,Test Court 214,Test Court 214,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1214,Venue
+,615,Test Court 215,Test Court 215,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1215,Venue
+,616,Test Court 216,Test Court 216,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1216,Venue
+,617,Test Court 217,Llys Prawf 217,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1217,Venue
+,618,Test Court 218,Test Court 218,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1218,Venue
+,619,Test Court 219,Test Court 219,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1219,Venue
+,620,Test Court 220,Test Court 220,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1220,Venue
+,621,Test Court 221,Test Court 221,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1221,Venue
+,622,Test Court 222,Test Court 222,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1222,Venue
+,623,Test Court 223,Test Court 223,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1223,Venue
+,624,Test Court 224,Test Court 224,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1224,Venue
+,625,Test Court 225,Llys Prawf 225,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1225,Venue
+,626,Test Court 226,Test Court 226,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1226,Venue
+,627,Test Court 227,Test Court 227,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1227,Venue
+,628,Test Court 228,Test Court 228,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1228,Venue
+,629,Test Court 229,Test Court 229,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1229,Venue
+,630,Test Court 230,Test Court 230,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1230,Venue
+,631,Test Court 231,Test Court 231,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1231,Venue
+,632,Test Court 232,Test Court 232,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1232,Venue
+,633,Test Court 233,Test Court 233,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1233,Venue
+,634,Test Court 234,Test Court 234,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1234,Venue
+,635,Test Court 235,Test Court 235,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1235,Venue
+,636,Test Court 236,Test Court 236,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1236,Venue
+,637,Test Court 237,Test Court 237,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1237,Venue
+,638,Test Court 238,Llys Prawf 238,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1238,Venue
+,639,Test Court 239,Test Court 239,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1239,Venue
+,640,Test Court 240,Test Court 240,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1240,Venue
+,641,Test Court 241,Test Court 241,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1241,Venue
+,642,Test Court 242,Test Court 242,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1242,Venue
+,643,Test Court 243,Test Court 243,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1243,Venue
+,644,Test Court 244,Test Court 244,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1244,Venue
+,645,Test Court 245,Test Court 245,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1245,Venue
+,646,Test Court 246,Llys Prawf 246,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1246,Venue
+,647,Test Court 247,Test Court 247,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1247,Venue
+,648,Test Court 248,Test Court 248,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1248,Venue
+,649,Test Court 249,Test Court 249,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1249,Venue
+,650,Test Court 250,Test Court 250,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1250,Venue
+,651,Test Court 251,Test Court 251,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1251,Venue
+,652,Test Court 252,Test Court 252,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1252,Venue
+,653,Test Court 253,Test Court 253,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1253,Venue
+,654,Test Court 254,Test Court 254,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1254,Venue
+,655,Test Court 255,Test Court 255,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1255,Venue
+,656,Test Court 256,Test Court 256,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1256,Venue
+,657,Test Court 257,Test Court 257,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1257,Venue
+,658,Test Court 258,Test Court 258,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1258,Venue
+,659,Test Court 259,Llys Prawf 259,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1259,Venue
+,660,Test Court 260,Test Court 260,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1260,Venue
+,661,Test Court 261,Test Court 261,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1261,Venue
+,662,Test Court 262,Test Court 262,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1262,Venue
+,663,Test Court 263,Test Court 263,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1263,Venue
+,664,Test Court 264,Test Court 264,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1264,Venue
+,665,Test Court 265,Test Court 265,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1265,Venue
+,666,Test Court 266,Test Court 266,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1266,Venue
+,667,Test Court 267,Llys Prawf 267,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1267,Venue
+,668,Test Court 268,Test Court 268,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1268,Venue
+,669,Test Court 269,Test Court 269,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1269,Venue
+,670,Test Court 270,Test Court 270,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1270,Venue
+,671,Test Court 271,Test Court 271,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1271,Venue
+,672,Test Court 272,Test Court 272,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1272,Venue
+,673,Test Court 273,Test Court 273,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1273,Venue
+,674,Test Court 274,Test Court 274,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1274,Venue
+,675,Test Court 275,Test Court 275,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1275,Venue
+,676,Test Court 276,Test Court 276,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1276,Venue
+,677,Test Court 277,Test Court 277,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1277,Venue
+,678,Test Court 278,Test Court 278,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1278,Venue
+,679,Test Court 279,Test Court 279,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1279,Venue
+,680,Test Court 280,Llys Prawf 280,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1280,Venue
+,681,Test Court 281,Test Court 281,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1281,Venue
+,682,Test Court 282,Test Court 282,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1282,Venue
+,683,Test Court 283,Test Court 283,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1283,Venue
+,684,Test Court 284,Test Court 284,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1284,Venue
+,685,Test Court 285,Test Court 285,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1285,Venue
+,686,Test Court 286,Test Court 286,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1286,Venue
+,687,Test Court 287,Test Court 287,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1287,Venue
+,688,Test Court 288,Llys Prawf 288,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1288,Venue
+,689,Test Court 289,Test Court 289,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1289,Venue
+,690,Test Court 290,Test Court 290,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1290,Venue
+,691,Test Court 291,Test Court 291,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1291,Venue
+,692,Test Court 292,Test Court 292,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1292,Venue
+,693,Test Court 293,Test Court 293,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1293,Venue
+,694,Test Court 294,Test Court 294,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1294,Venue
+,695,Test Court 295,Test Court 295,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1295,Venue
+,696,Test Court 296,Test Court 296,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1296,Venue
+,697,Test Court 297,Test Court 297,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1297,Venue
+,698,Test Court 298,Test Court 298,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1298,Venue
+,699,Test Court 299,Test Court 299,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1299,Venue
+,700,Test Court 300,Test Court 300,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1300,Venue
+,701,Test Court 301,Llys Prawf 301,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1301,Venue
+,702,Test Court 302,Test Court 302,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1302,Venue
+,703,Test Court 303,Test Court 303,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1303,Venue
+,704,Test Court 304,Test Court 304,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1304,Venue
+,705,Test Court 305,Test Court 305,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1305,Venue
+,706,Test Court 306,Test Court 306,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1306,Venue
+,707,Test Court 307,Test Court 307,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1307,Venue
+,708,Test Court 308,Test Court 308,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1308,Venue
+,709,Test Court 309,Llys Prawf 309,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1309,Venue
+,710,Test Court 310,Test Court 310,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1310,Venue
+,711,Test Court 311,Test Court 311,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1311,Venue
+,712,Test Court 312,Test Court 312,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1312,Venue
+,713,Test Court 313,Test Court 313,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1313,Venue
+,714,Test Court 314,Test Court 314,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1314,Venue
+,715,Test Court 315,Test Court 315,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1315,Venue
+,716,Test Court 316,Test Court 316,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1316,Venue
+,717,Test Court 317,Test Court 317,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1317,Venue
+,718,Test Court 318,Test Court 318,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1318,Venue
+,719,Test Court 319,Test Court 319,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1319,Venue
+,720,Test Court 320,Test Court 320,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1320,Venue
+,721,Test Court 321,Test Court 321,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1321,Venue
+,722,Test Court 322,Llys Prawf 322,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1322,Venue
+,723,Test Court 323,Test Court 323,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1323,Venue
+,724,Test Court 324,Test Court 324,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1324,Venue
+,725,Test Court 325,Test Court 325,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1325,Venue
+,726,Test Court 326,Test Court 326,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1326,Venue
+,727,Test Court 327,Test Court 327,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1327,Venue
+,728,Test Court 328,Test Court 328,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1328,Venue
+,729,Test Court 329,Test Court 329,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1329,Venue
+,730,Test Court 330,Llys Prawf 330,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1330,Venue
+,731,Test Court 331,Test Court 331,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1331,Venue
+,732,Test Court 332,Test Court 332,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1332,Venue
+,733,Test Court 333,Test Court 333,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1333,Venue
+,734,Test Court 334,Test Court 334,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1334,Venue
+,735,Test Court 335,Test Court 335,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1335,Venue
+,736,Test Court 336,Test Court 336,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1336,Venue
+,737,Test Court 337,Test Court 337,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1337,Venue
+,738,Test Court 338,Test Court 338,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1338,Venue
+,739,Test Court 339,Test Court 339,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1339,Venue
+,740,Test Court 340,Llys Prawf 340,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1340,Venue
+,741,Test Court 341,Test Court 341,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1341,Venue
+,742,Test Court 342,Test Court 342,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1342,Venue
+,743,Test Court 343,Test Court 343,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1343,Venue
+,744,Test Court 344,Test Court 344,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1344,Venue
+,745,Test Court 345,Test Court 345,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1345,Venue
+,746,Test Court 346,Test Court 346,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1346,Venue
+,747,Test Court 347,Test Court 347,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1347,Venue
+,748,Test Court 348,Llys Prawf 348,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1348,Venue
+,749,Test Court 349,Test Court 349,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1349,Venue
+,750,Test Court 350,Test Court 350,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1350,Venue
+,751,Test Court 351,Test Court 351,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1351,Venue
+,752,Test Court 352,Test Court 352,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1352,Venue
+,753,Test Court 353,Test Court 353,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1353,Venue
+,754,Test Court 354,Test Court 354,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1354,Venue
+,755,Test Court 355,Test Court 355,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1355,Venue
+,756,Test Court 356,Test Court 356,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1356,Venue
+,757,Test Court 357,Test Court 357,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1357,Venue
+,758,Test Court 358,Test Court 358,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1358,Venue
+,759,Test Court 359,Test Court 359,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1359,Venue
+,760,Test Court 360,Test Court 360,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1360,Venue
+,761,Test Court 361,Llys Prawf 361,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1361,Venue
+,762,Test Court 362,Test Court 362,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1362,Venue
+,763,Test Court 363,Test Court 363,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1363,Venue
+,764,Test Court 364,Test Court 364,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1364,Venue
+,765,Test Court 365,Test Court 365,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1365,Venue
+,766,Test Court 366,Test Court 366,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1366,Venue
+,767,Test Court 367,Test Court 367,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1367,Venue
+,768,Test Court 368,Test Court 368,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1368,Venue
+,769,Test Court 369,Llys Prawf 369,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1369,Venue
+,770,Test Court 370,Test Court 370,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1370,Venue
+,771,Test Court 371,Test Court 371,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1371,Venue
+,772,Test Court 372,Test Court 372,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1372,Venue
+,773,Test Court 373,Test Court 373,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1373,Venue
+,774,Test Court 374,Test Court 374,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1374,Venue
+,775,Test Court 375,Test Court 375,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1375,Venue
+,776,Test Court 376,Test Court 376,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1376,Venue
+,777,Test Court 377,Test Court 377,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1377,Venue
+,778,Test Court 378,Test Court 378,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1378,Venue
+,779,Test Court 379,Test Court 379,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1379,Venue
+,780,Test Court 380,Test Court 380,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1380,Venue
+,781,Test Court 381,Test Court 381,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1381,Venue
+,782,Test Court 382,Llys Prawf 382,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1382,Venue
+,783,Test Court 383,Test Court 383,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1383,Venue
+,784,Test Court 384,Test Court 384,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1384,Venue
+,785,Test Court 385,Test Court 385,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1385,Venue
+,786,Test Court 386,Test Court 386,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1386,Venue
+,787,Test Court 387,Test Court 387,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1387,Venue
+,788,Test Court 388,Test Court 388,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1388,Venue
+,789,Test Court 389,Test Court 389,London,Llundain,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1389,Venue
+,790,Test Court 390,Llys Prawf 390,Wales,Cymru,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1390,Venue
+,791,Test Court 391,Test Court 391,Scotland,Alban,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1391,Venue
+,792,Test Court 392,Test Court 392,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1392,Venue
+,793,Test Court 393,Test Court 393,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1393,Venue
+,794,Test Court 394,Test Court 394,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1394,Venue
+,795,Test Court 395,Test Court 395,North West,Gogledd Orllewin Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1395,Venue
+,796,Test Court 396,Test Court 396,North East,Gogledd-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1396,Venue
+,797,Test Court 397,Test Court 397,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1397,Venue
+,798,Test Court 398,Test Court 398,West Midlands,Gorllewin Canolbarth Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1398,Venue
+,799,Test Court 399,Test Court 399,West Yorkshire,Gorllewin Swydd Efrog Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1399,Venue
+,800,Test Court 400,Test Court 400,South East,De-ddwyrain Lloegr,Family; Civil; Crown,Teulu; Sifil; Goron,Manually added,1400,Venue

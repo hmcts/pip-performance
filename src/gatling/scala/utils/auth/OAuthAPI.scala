@@ -3,6 +3,8 @@ package utils.auth
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory
 import config.RootConfig
+import io.gatling.core.Predef._
+import io.gatling.http.Predef._
 import org.apache.commons.text.StringSubstitutor
 
 import java.io.FileReader
@@ -19,4 +21,22 @@ object OAuthAPI {
   val mapper = new ObjectMapper(new YAMLFactory())
   val config: RootConfig = mapper.readValue(text, classOf[RootConfig])
 
+  private val tenant        = config.tenantId;
+  private val clientId      = config.clientId;
+  private val clientSecret  = config.clientSecret;
+  private val scope         = config.dataManagementApi.scope;
+  private val grantType     = "client_credentials";
+
+  val header        = Map("Content-Type" -> """application/x-www-form-urlencoded""");
+  val authURI       = "https://login.microsoftonline.com";
+
+  val auth = scenario("GetToken")
+    .exec(http("Microsoft Token Generation")
+      .post(s"$authURI/$tenant/oauth2/v2.0/token")
+      .formParam("scope", scope)
+      .formParam("grant_type", grantType)
+      .formParam("client_secret", clientSecret)
+      .formParam("client_id", clientId)
+      .headers(header).check(status.is(200))
+      .check(jsonPath("$..access_token").saveAs("bearerx")))
 }
