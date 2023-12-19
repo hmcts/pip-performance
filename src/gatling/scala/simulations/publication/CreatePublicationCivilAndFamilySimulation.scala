@@ -3,7 +3,6 @@ package simulations.publication
 import io.gatling.core.Predef._
 import requests.publication.PublicationRequests.httpProtocol
 import scenarios.publication.PublicationScenarios
-import utils.auth.OAuthAPI.config
 import utils.auth.OAuthAPI.config.{onceUsers, rampUpUsers, rampUpUsersDuration}
 
 import scala.concurrent.duration.DurationInt
@@ -11,13 +10,12 @@ import scala.language.postfixOps
 
 class CreatePublicationCivilAndFamilySimulation extends Simulation {
 
-  print("api url is" + config.dataManagementApi.url)
   private val createPublicationCivilFamilyExec = PublicationScenarios.CreatePublicationCivilAndFamilyScenario
     .inject(
       atOnceUsers(onceUsers),
-      rampUsers(rampUpUsers) during(rampUpUsersDuration seconds)
+      rampUsers(rampUpUsers) during (rampUpUsersDuration seconds)
     )
-  // Per-06
+
   setUp(createPublicationCivilFamilyExec)
     .protocols(httpProtocol)
     .assertions(

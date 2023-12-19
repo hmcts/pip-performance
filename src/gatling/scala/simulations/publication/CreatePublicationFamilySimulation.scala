@@ -13,10 +13,9 @@ class CreatePublicationFamilySimulation extends Simulation {
   private val createPublicationFamilyExec = PublicationScenarios.CreatePublicationFamilyScenario
     .inject(
       atOnceUsers(onceUsers),
-      rampUsers(rampUpUsers) during(rampUpUsersDuration seconds)
+      rampUsers(rampUpUsers) during (rampUpUsersDuration seconds)
     )
 
-  // Per-06
   setUp(createPublicationFamilyExec)
     .protocols(httpProtocol)
     .assertions(

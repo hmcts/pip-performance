@@ -13,10 +13,9 @@ class CreatePublicationCivilSimulation extends Simulation {
   private val createPublicationCivilExec = PublicationScenarios.CreatePublicationCivilScenario
     .inject(
       atOnceUsers(onceUsers),
-      rampUsers(rampUpUsers) during(rampUpUsersDuration seconds)
+      rampUsers(rampUpUsers) during (rampUpUsersDuration seconds)
     )
 
-  // Per-06
   setUp(createPublicationCivilExec)
     .protocols(httpProtocol)
     .assertions(
