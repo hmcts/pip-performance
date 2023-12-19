@@ -51,18 +51,13 @@ object PublicationScenarios {
     .feed(createPublicationFeed)
     .feed(courtListFeed)
     // Civil
-    .exec(PublicationRequests.createPublicationCivilRequest)
+    .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
     .exec( session => {
       scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber1").as[String]+"\n")
       scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber2").as[String]+"\n")
       scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber3").as[String]+"\n")
       scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber4").as[String]+"\n")
       scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber5").as[String]+"\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber6").as[String]+"\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber7").as[String]+"\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber8").as[String]+"\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber9").as[String]+"\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber10").as[String]+"\n")
       session}
     )
     // Civil

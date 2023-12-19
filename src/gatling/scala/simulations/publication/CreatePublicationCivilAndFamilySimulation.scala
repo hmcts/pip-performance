@@ -21,17 +21,17 @@ class CreatePublicationCivilAndFamilySimulation extends Simulation {
   setUp(createPublicationCivilFamilyExec)
     .protocols(httpProtocol)
     .assertions(
-      details("Create Publication Civil request").responseTime.percentile(90).lt(1000),
+      details("Create Publication Civil And Family request").responseTime.percentile(90).lt(1000),
       details("Create Publication Civil Next Day request").responseTime.percentile(90).lt(1000),
       details("Create Publication Family request").responseTime.percentile(90).lt(1000)
     )
     .assertions(
-      details("Create Publication Civil request").responseTime.percentile(95).lt(1500),
+      details("Create Publication Civil And Family request").responseTime.percentile(95).lt(1500),
       details("Create Publication Civil Next Day request").responseTime.percentile(95).lt(1500),
       details("Create Publication Family request").responseTime.percentile(95).lt(1500)
     )
     .assertions(
-      details("Create Publication Civil request").responseTime.percentile(99).lt(2000),
+      details("Create Publication Civil And Family request").responseTime.percentile(99).lt(2000),
       details("Create Publication Civil Next Day request").responseTime.percentile(99).lt(2000),
       details("Create Publication Family request").responseTime.percentile(99).lt(2000)
     )

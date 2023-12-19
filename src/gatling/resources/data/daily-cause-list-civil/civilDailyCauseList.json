@@ -50,13 +50,13 @@
                         "hearingType": "FHDRA1 (First Hearing and Dispute Resolution Appointment)",
                         "case": [
                           {
-                            "caseName": "A1 Vs B1",
-                            "caseNumber": "12345678",
+                            "caseName": "#{caseName}A",
+                            "caseNumber": "#{caseNumber1}",
                             "caseSequenceIndicator": "2 of 3"
                           },
                           {
-                            "caseName": "A2 Vs B2",
-                            "caseNumber": "112233445"
+                            "caseName": "#{caseName}B",
+                            "caseNumber": "#{caseNumber2}"
                           }
                         ]
                       },
@@ -64,8 +64,8 @@
                         "hearingType": "FHDRA1 (First Hearing and Dispute Resolution Appointment)",
                         "case": [
                           {
-                            "caseName": "A2 Vs B2",
-                            "caseNumber": "112233445"
+                            "caseName": "#{caseName}C",
+                            "caseNumber": "#{caseNumber3}"
                           }
                         ]
                       }
@@ -80,8 +80,8 @@
                         "hearingType": "FHDRA1 (First Hearing and Dispute Resolution Appointment)",
                         "case": [
                           {
-                            "caseName": "A1 Vs B1",
-                            "caseNumber": "12345678"
+                            "caseName": "#{caseName}D",
+                            "caseNumber": "#{caseNumber4}"
                           }
                         ]
                       },
@@ -89,8 +89,8 @@
                         "hearingType": "FHDRA1 (First Hearing and Dispute Resolution Appointment)",
                         "case": [
                           {
-                            "caseName": "A2 Vs B2",
-                            "caseNumber": "112233445"
+                            "caseName": "#{caseName}E",
+                            "caseNumber": "#{caseNumber5}"
                           }
                         ]
                       }
@@ -139,8 +139,8 @@
                         "hearingType": "FHDRA1 (First Hearing and Dispute Resolution Appointment)",
                         "case": [
                           {
-                            "caseName": "A1 Vs B1",
-                            "caseNumber": "12345678",
+                            "caseName": "#{caseName}F",
+                            "caseNumber": "#{caseNumber6}",
                             "caseSequenceIndicator": "2 of 3"
                           }
                         ]
@@ -187,8 +187,8 @@
                         "hearingType": "FHDRA1 (First Hearing and Dispute Resolution Appointment)",
                         "case": [
                           {
-                            "caseName": "A1 Vs B1",
-                            "caseNumber": "12345678",
+                            "caseName": "#{caseName}G",
+                            "caseNumber": "#{caseNumber7}",
                             "caseSequenceIndicator": "2 of 3"
                           }
                         ]
@@ -235,8 +235,8 @@
                         "hearingType": "FHDRA1 (First Hearing and Dispute Resolution Appointment)",
                         "case": [
                           {
-                            "caseName": "A1 Vs B1",
-                            "caseNumber": "12345678",
+                            "caseName": "#{caseName}H",
+                            "caseNumber": "#{caseNumber8}",
                             "caseSequenceIndicator": "2 of 3"
                           }
                         ]

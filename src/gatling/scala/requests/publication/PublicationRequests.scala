@@ -37,6 +37,14 @@ object PublicationRequests {
       ))
 
   // Set requests
+  val createPublicationCivilAndFamilyRequest : HttpRequestBuilder = http("Create Publication Civil And Family request")
+    .post(PublicationsPath )
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  // Set requests
   val createPublicationCivilRequest : HttpRequestBuilder = http("Create Publication Civil request")
     .post(PublicationsPath )
     .body(ElFileBody("data/daily-cause-list-civil/civilDailyCauseList.json"))

@@ -47,62 +47,62 @@
                         "hearingType": "Directions",
                         "case": [
                           {
-                            "caseName": "${caseName}A",
-                            "caseNumber": "${caseNumber1}",
+                            "caseName": "#{caseName}A",
+                            "caseNumber": "#{caseNumber1}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           },
                           {
-                            "caseName": "${caseName}B",
-                            "caseNumber": "${caseNumber2}",
+                            "caseName": "#{caseName}B",
+                            "caseNumber": "#{caseNumber2}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           },
                           {
-                            "caseName": "${caseName}C",
-                            "caseNumber": "${caseNumber3}",
+                            "caseName": "#{caseName}C",
+                            "caseNumber": "#{caseNumber3}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           },
                           {
-                            "caseName": "${caseName}D",
-                            "caseNumber": "${caseNumber4}",
+                            "caseName": "#{caseName}D",
+                            "caseNumber": "#{caseNumber4}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           },
                           {
-                            "caseName": "${caseName}E",
-                            "caseNumber": "${caseNumber5}",
+                            "caseName": "#{caseName}E",
+                            "caseNumber": "#{caseNumber5}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           },
                           {
-                            "caseName": "${caseName}F",
-                            "caseNumber": "${caseNumber6}",
+                            "caseName": "#{caseName}F",
+                            "caseNumber": "#{caseNumber6}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           },
                           {
-                            "caseName": "${caseName}G",
-                            "caseNumber": "${caseNumber7}",
+                            "caseName": "#{caseName}G",
+                            "caseNumber": "#{caseNumber7}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           },
                           {
-                            "caseName": "${caseName}H",
-                            "caseNumber": "${caseNumber8}",
+                            "caseName": "#{caseName}H",
+                            "caseNumber": "#{caseNumber8}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           },
                           {
-                            "caseName": "${caseName}I",
-                            "caseNumber": "${caseNumber9}",
+                            "caseName": "#{caseName}I",
+                            "caseNumber": "#{caseNumber9}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           },
                           {
-                            "caseName": "${caseName}J",
-                            "caseNumber": "${caseNumber10}",
+                            "caseName": "#{caseName}J",
+                            "caseNumber": "#{caseNumber10}",
                             "caseJurisdictionET": "Family Law",
                             "caseSequenceIndicator": "[2 of 3]"
                           }
