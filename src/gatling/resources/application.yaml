@@ -6,7 +6,7 @@ subscriptionManagementApi:
   url: ${env:SUBSCRIPTION_MANAGEMENT_URL:-https://pip-subscription-management.staging.platform.hmcts.net/}
 dataManagementApi:
   scopes: ${env:DATA_MANAGEMENT_AZ_API}/.default
-  url: ${env:DATA_MANAGEMENT_URL:https:-//pip-data-management.staging.platform.hmcts.net/}
+  url: ${env:DATA_MANAGEMENT_URL:-https://pip-data-management.staging.platform.hmcts.net/}
 accountManagementApi:
   scopes: ${env:ACCOUNT_MANAGEMENT_AZ_API}/.default
   url: ${env:ACCOUNT_MANAGEMENT_URL:-https://pip-account-management.staging.platform.hmcts.net/}

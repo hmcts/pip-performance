@@ -19,4 +19,9 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
   val accountManagementApi = _accountManagementApi
   val channelManagementApi = _channelManagementApi
   val publicationServicesApi = _publicationServicesApi
+  val rampUpUsers: Int = Integer.getInteger("rampUsers", 0).toInt
+  val rampUpUsersDuration: Int = Integer.getInteger("rampDuration", 30).toInt
+  val onceUsers: Int = Integer.getInteger("atOnceUsers", 1).toInt
+  val constUsersPerSec: Int = Integer.getInteger("constantUsersPerSec", 0).toInt
+  val constUsersPerSecDuration: Int = Integer.getInteger("constUsersDuration",0).toInt
 }
