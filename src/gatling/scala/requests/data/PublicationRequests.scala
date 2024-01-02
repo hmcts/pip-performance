@@ -1,4 +1,4 @@
-package requests.publication
+package requests.data
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
@@ -13,6 +13,7 @@ object PublicationRequests {
 
   // Set paths for endpoints
   private val PublicationsPath = "/publication"
+
   // Load court CSV file
   val courtListFeed = csv("courtLists/ReferenceData.csv").circular
   val httpProtocol = http.baseUrl(config.dataManagementApi.url)
@@ -31,40 +32,40 @@ object PublicationRequests {
       "caseNumber8" -> ("perfCaseNumber " + Random.nextInt(99999999)),
       "caseNumber9" -> ("perfCaseNumber " + Random.nextInt(99999999)),
       "caseNumber10" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseUrn"-> ("perfURN " + Random.nextInt(99999999)),
+      "caseUrn" -> ("perfURN " + Random.nextInt(99999999)),
       "startDate" -> LocalDateTime.now(),
       "endDate" -> LocalDateTime.now().plusDays(1)
-      ))
+    ))
 
   // Set requests
-  val createPublicationCivilAndFamilyRequest : HttpRequestBuilder = http("Create Publication Civil And Family request")
-    .post(PublicationsPath )
+  val createPublicationCivilAndFamilyRequest: HttpRequestBuilder = http("Create Publication Civil And Family request")
+    .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList.json"))
     .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
     .check(status is 201)
 
   // Set requests
-  val createPublicationCivilRequest : HttpRequestBuilder = http("Create Publication Civil request")
-    .post(PublicationsPath )
+  val createPublicationCivilRequest: HttpRequestBuilder = http("Create Publication Civil request")
+    .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil/civilDailyCauseList.json"))
     .header("x-list-type", "CIVIL_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
     .check(status is 201)
 
   // Set requests
-  val createPublicationCivilNextDayRequest : HttpRequestBuilder = http("Create Publication Civil Next Day request")
-    .post(PublicationsPath )
+  val createPublicationCivilNextDayRequest: HttpRequestBuilder = http("Create Publication Civil Next Day request")
+    .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil/civilDailyCauseList.json"))
     .header("x-list-type", "CIVIL_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
-    .header("x-display-to","${endDate}")
+    .header("x-display-to", "${endDate}")
     .header("x-content-date", "${endDate}")
     .check(status is 201)
 
   // Set requests
-  val createPublicationFamilyRequest : HttpRequestBuilder = http("Create Publication Family request")
-    .post(PublicationsPath )
+  val createPublicationFamilyRequest: HttpRequestBuilder = http("Create Publication Family request")
+    .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-family/familyDailyCauseList.json"))
     .header("x-list-type", "FAMILY_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
