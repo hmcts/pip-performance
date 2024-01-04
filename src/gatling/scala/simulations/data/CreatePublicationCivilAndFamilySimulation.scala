@@ -1,8 +1,8 @@
-package simulations.publication
+package simulations.data
 
 import io.gatling.core.Predef._
-import requests.publication.PublicationRequests.httpProtocol
-import scenarios.publication.PublicationScenarios
+import requests.data.PublicationRequests.httpProtocol
+import scenarios.data.PublicationScenarios
 import utils.auth.OAuthAPI.config.{onceUsers, rampUpUsers, rampUpUsersDuration}
 
 import scala.concurrent.duration.DurationInt
