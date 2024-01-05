@@ -12,4 +12,11 @@ object PublicationScenarios {
     .exec(PublicationRequests.postPublicationCivilAndFamilyFiftyCasesRequest)
     .exec(PublicationRequests.postPublicationCivilAndFamilyHundredCasesRequest)
     .exec(PublicationRequests.postPublicationCivilAndFamilyTwoHundredCasesRequest)
+
+  val generateArtefactSummary = scenario("Generate Artefact Summary")
+    .exec(OAuthAPI.authChannel)
+    .exec(PublicationRequests.generateArtefactSummaryTwoCasesRequest)
+    .exec(PublicationRequests.generateArtefactSummaryFiftyCasesRequest)
+    .exec(PublicationRequests.generateArtefactSummaryHundredCasesRequest)
+    .exec(PublicationRequests.generateArtefactSummaryTwoHundredCasesRequest)
 }
