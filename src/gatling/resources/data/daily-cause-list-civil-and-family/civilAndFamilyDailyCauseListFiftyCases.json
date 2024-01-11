@@ -1,0 +1,405 @@
+{
+  "document": {
+    "version": "",
+    "publicationDate": "2020-09-13T23:30:52.123Z"
+  },
+  "venue": {
+    "venueName": "PRESTON",
+    "venueContact": {
+      "venueTelephone": "01772 844700",
+      "venueEmail": "court1@moj.gov.uk"
+    },
+    "venueAddress": {
+      "line": ["THE LAW COURTS"],
+      "postCode": "PR1 2LL"
+    }
+  },
+  "@schemaLocation": "",
+  "courtLists": [
+    {
+      "courtHouse": {
+        "courtHouseName": "Court A",
+        "courtHouseAddress": {
+          "line": ["Address Line 1", "Address Line 2"],
+          "town": "Town A",
+          "county": "County A",
+          "postCode": "AA1 AA1"
+        },
+        "courtRoom": [
+          {
+            "courtRoomName": "1",
+            "session": [
+              {
+                "sessionStartTime": "",
+                "sessionChannel": ["VIDEO HEARING"],
+                "judiciary": [
+                  {
+                    "johTitle": "Mr",
+                    "johKnownAs": "Firstname1 Surname1"
+                  },
+                  {
+                    "johTitle": "Mr",
+                    "johKnownAs": "Presiding",
+                    "isPresiding": true
+                  }
+                ],
+                "sittings": [
+                  {
+                    "sittingStart": "2022-07-27T09:40:17.496Z",
+                    "sittingEnd": "2022-07-27T10:45:17.496Z",
+                    "hearing": [
+                      {
+                        "hearingType": "Hearing Type",
+                        "case":[
+                          {
+                            "caseName": "VENDBLEND",
+                            "caseNumber": "B82379",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "INTERFIND",
+                            "caseNumber": "B47317",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "GENMY",
+                            "caseNumber": "B92164",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "VITRICOMP",
+                            "caseNumber": "B49234",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ENERSOL",
+                            "caseNumber": "B23725",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "MAROPTIC",
+                            "caseNumber": "B84344",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "OMNIGOG",
+                            "caseNumber": "B26052",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "AQUAZURE",
+                            "caseNumber": "B95841",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "APEXTRI",
+                            "caseNumber": "B36355",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "GENMOM",
+                            "caseNumber": "B61461",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "INVENTURE",
+                            "caseNumber": "B63954",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "VOLAX",
+                            "caseNumber": "B39942",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "CALLFLEX",
+                            "caseNumber": "B69561",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ORONOKO",
+                            "caseNumber": "B24220",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "COMSTRUCT",
+                            "caseNumber": "B75779",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "CORPORANA",
+                            "caseNumber": "B45793",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "FURNIGEER",
+                            "caseNumber": "B28218",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "EZENTIA",
+                            "caseNumber": "B29454",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "DRAGBOT",
+                            "caseNumber": "B30411",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "BYTREX",
+                            "caseNumber": "B24882",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "LETPRO",
+                            "caseNumber": "B89502",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "LEXICONDO",
+                            "caseNumber": "B96641",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "NSPIRE",
+                            "caseNumber": "B87893",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ZAJ",
+                            "caseNumber": "B55618",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ZOARERE",
+                            "caseNumber": "B45240",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "STOCKPOST",
+                            "caseNumber": "B45073",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "GRONK",
+                            "caseNumber": "B25259",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "CUIZINE",
+                            "caseNumber": "B46080",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "KOOGLE",
+                            "caseNumber": "B79502",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "AVIT",
+                            "caseNumber": "B24719",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ISOSTREAM",
+                            "caseNumber": "B98671",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ACIUM",
+                            "caseNumber": "B53555",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "KANGLE",
+                            "caseNumber": "B22400",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "VENOFLEX",
+                            "caseNumber": "B73034",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "BARKARAMA",
+                            "caseNumber": "B76937",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "VALREDA",
+                            "caseNumber": "B74800",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "EXTRAWEAR",
+                            "caseNumber": "B14135",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ASSURITY",
+                            "caseNumber": "B30264",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ENTHAZE",
+                            "caseNumber": "B61559",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "BICOL",
+                            "caseNumber": "B48155",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "DATAGEN",
+                            "caseNumber": "B97604",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ZAPPIX",
+                            "caseNumber": "B81082",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "NUTRALAB",
+                            "caseNumber": "B86912",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "PULZE",
+                            "caseNumber": "B95587",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "BEDDER",
+                            "caseNumber": "B76540",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "ECOSYS",
+                            "caseNumber": "B75012",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "MAGNEMO",
+                            "caseNumber": "B66018",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "SULTRAX",
+                            "caseNumber": "B49971",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "RUBADUB",
+                            "caseNumber": "B27048",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          },
+                          {
+                            "caseName": "EARWAX",
+                            "caseNumber": "B57346",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3"
+                          }
+                        ],
+                        "party": [
+                          {
+                            "partyRole": "APPLICANT_PETITIONER",
+                            "individualDetails": {
+                              "individualSurname": "Surname"
+                            }
+                          },
+                          {
+                            "partyRole": "RESPONDENT",
+                            "individualDetails": {
+                              "individualSurname": "Surname"
+                            }
+                          },
+                          {
+                            "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                            "friendlyRoleName": "Legal Advisor",
+                            "individualDetails": {
+                              "individualForenames": "Individual Forenames",
+                              "individualMiddleName": "Individual Middlename",
+                              "individualSurname": "Individual Surname",
+                              "title": "Mr"
+                            }
+                          },
+                          {
+                            "partyRole": "RESPONDENT_REPRESENTATIVE",
+                            "friendlyRoleName": "Legal Advisor",
+                            "individualDetails": {
+                              "individualForenames": "Individual Forenames",
+                              "individualMiddleName": "Individual Middlename",
+                              "individualSurname": "Individual Surname",
+                              "title": "Mr"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "channel": ["testSittingChannel"],
+                    "duration": "",
+                    "startTime": "9.40am",
+                    "durationAsHours": 1,
+                    "durationAsMinutes": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
