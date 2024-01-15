@@ -37,10 +37,48 @@ object PublicationRequests {
       "endDate" -> LocalDateTime.now().plusDays(1)
     ))
 
+  val createDifferentSizePublicationFeed =
+    Iterator.continually(Map(
+      "startDate" -> LocalDateTime.now(),
+      "endDate" -> LocalDateTime.now().plusDays(1)
+    ))
+
   // Set requests
   val createPublicationCivilAndFamilyRequest: HttpRequestBuilder = http("Create Publication Civil And Family request")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  // Set requests
+  val createPublicationCivilAndFamilyTwoCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 2 cases")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseListTwoCases.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  // Set requests
+  val createPublicationCivilAndFamilyFiftyCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 50 cases")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseListFiftyCases.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  // Set requests
+  val createPublicationCivilAndFamilyHundredCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 100 cases")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseListHundredCases.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  // Set requests
+  val createPublicationCivilAndFamilyTwoHundredCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 200 cases")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseListTwoHundredCases.json"))
     .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
     .check(status is 201)

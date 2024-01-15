@@ -2,7 +2,7 @@ package scenarios.data
 
 import io.gatling.core.Predef._
 import requests.data.PublicationRequests
-import requests.data.PublicationRequests.{courtListFeed, createPublicationFeed}
+import requests.data.PublicationRequests.{courtListFeed, createDifferentSizePublicationFeed, createPublicationFeed}
 import utils.auth.OAuthAPI
 
 object PublicationScenarios {
@@ -95,4 +95,12 @@ object PublicationScenarios {
     }
     )
 
+  val CreatePublicationDifferentFileSizeScenario = scenario("Create Publication Civil And Family Different File Sizes scenario")
+    .exec(OAuthAPI.authData)
+    .feed(createDifferentSizePublicationFeed)
+    .feed(courtListFeed)
+    .exec(PublicationRequests.createPublicationCivilAndFamilyTwoCasesRequest)
+    .exec(PublicationRequests.createPublicationCivilAndFamilyFiftyCasesRequest)
+    .exec(PublicationRequests.createPublicationCivilAndFamilyHundredCasesRequest)
+    .exec(PublicationRequests.createPublicationCivilAndFamilyTwoHundredCasesRequest)
 }
