@@ -8,7 +8,7 @@ import utils.auth.OAuthAPI.config.{onceUsers, rampUpUsers, rampUpUsersDuration}
 import scala.concurrent.duration.DurationInt
 import scala.language.postfixOps
 
-class generateArtefactSummary extends Simulation {
+class generateArtefactSummarySimulation extends Simulation {
 
   private val generateArtefactSummaryExec = PublicationScenarios.generateArtefactSummary
     .inject(
