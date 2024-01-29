@@ -18,8 +18,8 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
   val tenantId = _tenantId
   val clientId = _clientId
   val clientSecret = _clientSecret
-  val clientIdAccManagement = _clientSecretAccManagement
-  val clientSecretAccManagement = _clientSecret
+  val clientIdAccManagement = _clientIdAccManagement
+  val clientSecretAccManagement = _clientSecretAccManagement
   val subscriptionManagementApi = _subscriptionManagementApi
   val dataManagementApi = _dataManagementApi
   val accountManagementApi = _accountManagementApi
