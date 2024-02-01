@@ -5,6 +5,8 @@ import com.fasterxml.jackson.annotation.JsonProperty
 class RootConfig(@JsonProperty("tenantId") _tenantId: String,
                  @JsonProperty("clientId") _clientId: String,
                  @JsonProperty("clientSecret") _clientSecret: String,
+                 @JsonProperty("clientIdAccManagement") _clientIdAccManagement: String,
+                 @JsonProperty("clientSecretAccManagement") _clientSecretAccManagement: String,
                  @JsonProperty("subscriptionManagementApi") _subscriptionManagementApi: ApiConfig,
                  @JsonProperty("dataManagementApi") _dataManagementApi: ApiConfig,
                  @JsonProperty("accountManagementApi") _accountManagementApi: ApiConfig,
@@ -16,6 +18,8 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
   val tenantId = _tenantId
   val clientId = _clientId
   val clientSecret = _clientSecret
+  val clientIdAccManagement = _clientIdAccManagement
+  val clientSecretAccManagement = _clientSecretAccManagement
   val subscriptionManagementApi = _subscriptionManagementApi
   val dataManagementApi = _dataManagementApi
   val accountManagementApi = _accountManagementApi
