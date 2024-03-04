@@ -95,12 +95,51 @@ object PublicationScenarios {
     }
     )
 
-  val CreatePublicationDifferentFileSizeScenario = scenario("Create Publication Civil And Family Different File Sizes scenario")
+  val CreatePublicationCivilAndFamilyTwoCasesScenario = scenario("Create Publication Civil And Family 2 cases scenario")
     .exec(OAuthAPI.authData)
     .feed(createDifferentSizePublicationFeed)
     .feed(courtListFeed)
     .exec(PublicationRequests.createPublicationCivilAndFamilyTwoCasesRequest)
+
+  val CreatePublicationCivilAndFamilyFiftyCasesScenario = scenario("Create Publication Civil And Family 50 cases scenario")
+    .exec(OAuthAPI.authData)
+    .feed(createDifferentSizePublicationFeed)
+    .feed(courtListFeed)
     .exec(PublicationRequests.createPublicationCivilAndFamilyFiftyCasesRequest)
+
+  val CreatePublicationCivilAndFamilyHundredCasesScenario = scenario("Create Publication Civil And Family 100 cases scenario")
+    .exec(OAuthAPI.authData)
+    .feed(createDifferentSizePublicationFeed)
+    .feed(courtListFeed)
     .exec(PublicationRequests.createPublicationCivilAndFamilyHundredCasesRequest)
+
+  val CreatePublicationCivilAndFamilyTwoHundredCasesScenario = scenario("Create Publication Civil And Family 200 cases scenario")
+    .exec(OAuthAPI.authData)
+    .feed(createDifferentSizePublicationFeed)
+    .feed(courtListFeed)
     .exec(PublicationRequests.createPublicationCivilAndFamilyTwoHundredCasesRequest)
+
+  val CreatePublicationCivilAndFamily1MBScenario = scenario("Create Publication Civil And Family 1MB scenario")
+    .exec(OAuthAPI.authData)
+    .feed(createDifferentSizePublicationFeed)
+    .feed(courtListFeed)
+    .exec(PublicationRequests.createPublicationCivilAndFamily1MBRequest)
+
+  val CreatePublicationCivilAndFamily2MBScenario = scenario("Create Publication Civil And Family 2MB scenario")
+    .exec(OAuthAPI.authData)
+    .feed(createDifferentSizePublicationFeed)
+    .feed(courtListFeed)
+    .exec(PublicationRequests.createPublicationCivilAndFamily2MBRequest)
+
+  val CreatePublicationCivilAndFamily3MBScenario = scenario("Create Publication Civil And Family 3MB scenario")
+    .exec(OAuthAPI.authData)
+    .feed(createDifferentSizePublicationFeed)
+    .feed(courtListFeed)
+    .exec(PublicationRequests.createPublicationCivilAndFamily3MBRequest)
+
+  val CreatePublicationCivilAndFamily4MBScenario = scenario("Create Publication Civil And Family 4MB scenario")
+    .exec(OAuthAPI.authData)
+    .feed(createDifferentSizePublicationFeed)
+    .feed(courtListFeed)
+    .exec(PublicationRequests.createPublicationCivilAndFamily4MBRequest)
 }
