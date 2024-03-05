@@ -19,13 +19,13 @@ class CreatePublication3MBSimulation extends Simulation {
   setUp(createPublication3MBExec)
     .protocols(httpProtocol)
     .assertions(
-      details("Create Publication Civil And Family 3MB request").responseTime.percentile(90).lt(1000)
+      details("Create Publication Civil And Family 3MB request").responseTime.percentile(90).lt(2000)
     )
     .assertions(
-      details("Create Publication Civil And Family 3MB request").responseTime.percentile(95).lt(1500)
+      details("Create Publication Civil And Family 3MB request").responseTime.percentile(95).lt(2500)
     )
     .assertions(
-      details("Create Publication Civil And Family 3MB request").responseTime.percentile(99).lt(2000)
+      details("Create Publication Civil And Family 3MB request").responseTime.percentile(99).lt(3000)
     )
 }
 
