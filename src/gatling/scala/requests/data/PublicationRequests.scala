@@ -84,6 +84,38 @@ object PublicationRequests {
     .check(status is 201)
 
   // Set requests
+  val createPublicationCivilAndFamily1MBRequest: HttpRequestBuilder = http("Create Publication Civil And Family 1MB request")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList1MB.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  // Set requests
+  val createPublicationCivilAndFamily2MBRequest: HttpRequestBuilder = http("Create Publication Civil And Family 2MB request")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList2MB.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  // Set requests
+  val createPublicationCivilAndFamily3MBRequest: HttpRequestBuilder = http("Create Publication Civil And Family 3MB request")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList3MB.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  // Set requests
+  val createPublicationCivilAndFamily4MBRequest: HttpRequestBuilder = http("Create Publication Civil And Family 4MB request")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList4MB.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  // Set requests
   val createPublicationCivilRequest: HttpRequestBuilder = http("Create Publication Civil request")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil/civilDailyCauseList.json"))
