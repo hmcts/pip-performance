@@ -1,6 +1,6 @@
 {
   "document": {
-    "publicationDate": "20-02-2020T20:00.001Z",
+    "publicationDate": "2020-09-13T23:30:52.123Z",
     "documentName": "This is a document name",
     "version": "This is a document version"
   },
@@ -40,8 +40,8 @@
               {
                 "sittings": [
                   {
-                    "sittingStart": "20-02-2020T20:00.001Z",
-                    "sittingEnd": "20-02-2020T20:00.001Z",
+                    "sittingStart": "2022-07-27T09:40:17.496Z",
+                    "sittingEnd": "2022-07-27T10:45:17.496Z",
                     "hearing": [
                       {
                         "hearingType": "Directions",
