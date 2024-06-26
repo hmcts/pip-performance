@@ -10,17 +10,21 @@
       "venueEmail": "court1@moj.gov.uk"
     },
     "venueAddress": {
-      "line": ["THE LAW COURTS"],
+      "line": [
+        "THE LAW COURTS"
+      ],
       "postCode": "PR1 2LL"
     }
   },
-  "@schemaLocation": "",
   "courtLists": [
     {
       "courtHouse": {
         "courtHouseName": "Court A",
         "courtHouseAddress": {
-          "line": ["Address Line 1", "Address Line 2"],
+          "line": [
+            "Address Line 1",
+            "Address Line 2"
+          ],
           "town": "Town A",
           "county": "County A",
           "postCode": "AA1 AA1"
@@ -31,15 +35,15 @@
             "session": [
               {
                 "sessionStartTime": "",
-                "sessionChannel": ["VIDEO HEARING"],
+                "sessionChannel": [
+                  "VIDEO HEARING"
+                ],
                 "judiciary": [
                   {
-                    "johTitle": "Mr",
-                    "johKnownAs": "Firstname1 Surname1"
+                    "johKnownAs": "Judge KnownAs"
                   },
                   {
-                    "johTitle": "Mr",
-                    "johKnownAs": "Presiding",
+                    "johKnownAs": "Judge KnownAs Presiding",
                     "isPresiding": true
                   }
                 ],
@@ -50,349 +54,2158 @@
                     "hearing": [
                       {
                         "hearingType": "Hearing Type",
-                        "case":[
+                        "case": [
                           {
-                            "caseName": "VENDBLEND",
-                            "caseNumber": "B82379",
+                            "caseName": "ASSISTIA",
+                            "caseNumber": "D29647",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "INTERFIND",
-                            "caseNumber": "B47317",
+                            "caseName": "ZILLA",
+                            "caseNumber": "D46113",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "GENMY",
-                            "caseNumber": "B92164",
+                            "caseName": "XINWARE",
+                            "caseNumber": "D12280",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "VITRICOMP",
-                            "caseNumber": "B49234",
+                            "caseName": "OTHERSIDE",
+                            "caseNumber": "D81152",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "ENERSOL",
-                            "caseNumber": "B23725",
+                            "caseName": "KONNECT",
+                            "caseNumber": "D76168",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "MAROPTIC",
-                            "caseNumber": "B84344",
+                            "caseName": "CIRCUM",
+                            "caseNumber": "D90717",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "OMNIGOG",
-                            "caseNumber": "B26052",
+                            "caseName": "PLASMOX",
+                            "caseNumber": "D14086",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "AQUAZURE",
-                            "caseNumber": "B95841",
+                            "caseName": "PLASMOSIS",
+                            "caseNumber": "D40335",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "APEXTRI",
-                            "caseNumber": "B36355",
+                            "caseName": "SUREMAX",
+                            "caseNumber": "D98377",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "GENMOM",
-                            "caseNumber": "B61461",
+                            "caseName": "ROBOID",
+                            "caseNumber": "D67006",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "INVENTURE",
-                            "caseNumber": "B63954",
+                            "caseName": "DIGIGENE",
+                            "caseNumber": "D20516",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "VOLAX",
-                            "caseNumber": "B39942",
+                            "caseName": "UNDERTAP",
+                            "caseNumber": "D42913",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "CALLFLEX",
-                            "caseNumber": "B69561",
+                            "caseName": "PORTICO",
+                            "caseNumber": "D38299",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "ORONOKO",
-                            "caseNumber": "B24220",
+                            "caseName": "APPLIDECK",
+                            "caseNumber": "D24469",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "COMSTRUCT",
-                            "caseNumber": "B75779",
+                            "caseName": "XELEGYL",
+                            "caseNumber": "D70981",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "CORPORANA",
-                            "caseNumber": "B45793",
+                            "caseName": "HIVEDOM",
+                            "caseNumber": "D14218",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "FURNIGEER",
-                            "caseNumber": "B28218",
+                            "caseName": "ENTROFLEX",
+                            "caseNumber": "D73445",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "EZENTIA",
-                            "caseNumber": "B29454",
+                            "caseName": "SILODYNE",
+                            "caseNumber": "D69047",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "DRAGBOT",
-                            "caseNumber": "B30411",
+                            "caseName": "COLAIRE",
+                            "caseNumber": "D59039",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "BYTREX",
-                            "caseNumber": "B24882",
+                            "caseName": "CINESANCT",
+                            "caseNumber": "D21533",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "LETPRO",
-                            "caseNumber": "B89502",
+                            "caseName": "ISONUS",
+                            "caseNumber": "D10998",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "LEXICONDO",
-                            "caseNumber": "B96641",
+                            "caseName": "STRALUM",
+                            "caseNumber": "D32025",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "NSPIRE",
-                            "caseNumber": "B87893",
+                            "caseName": "TELEQUIET",
+                            "caseNumber": "D56570",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "ZAJ",
-                            "caseNumber": "B55618",
+                            "caseName": "ZOMBOID",
+                            "caseNumber": "D67852",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "ZOARERE",
-                            "caseNumber": "B45240",
+                            "caseName": "ERSUM",
+                            "caseNumber": "D63645",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "caseName": "STOCKPOST",
-                            "caseNumber": "B45073",
+                            "caseName": "ZILLADYNE",
+                            "caseNumber": "D93756",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "CONFERIA",
+                            "caseNumber": "D82945",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "QABOOS",
+                            "caseNumber": "D86788",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "NORALEX",
+                            "caseNumber": "D78791",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "BIOLIVE",
+                            "caseNumber": "D45702",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "CENTURIA",
+                            "caseNumber": "D35895",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "TOYLETRY",
+                            "caseNumber": "D55860",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "DATAGENE",
+                            "caseNumber": "D37471",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "GEEKOL",
+                            "caseNumber": "D75620",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "OBLIQ",
+                            "caseNumber": "D74093",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "NURALI",
+                            "caseNumber": "D26134",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "VISALIA",
+                            "caseNumber": "D16723",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "LYRICHORD",
+                            "caseNumber": "D86284",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
                             "caseName": "GRONK",
-                            "caseNumber": "B25259",
+                            "caseNumber": "D51445",
                             "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "CUIZINE",
-                            "caseNumber": "B46080",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "KOOGLE",
-                            "caseNumber": "B79502",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "AVIT",
-                            "caseNumber": "B24719",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "ISOSTREAM",
-                            "caseNumber": "B98671",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "ACIUM",
-                            "caseNumber": "B53555",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "KANGLE",
-                            "caseNumber": "B22400",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "VENOFLEX",
-                            "caseNumber": "B73034",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "BARKARAMA",
-                            "caseNumber": "B76937",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "VALREDA",
-                            "caseNumber": "B74800",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "EXTRAWEAR",
-                            "caseNumber": "B14135",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "ASSURITY",
-                            "caseNumber": "B30264",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "ENTHAZE",
-                            "caseNumber": "B61559",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "BICOL",
-                            "caseNumber": "B48155",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "DATAGEN",
-                            "caseNumber": "B97604",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "ZAPPIX",
-                            "caseNumber": "B81082",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "NUTRALAB",
-                            "caseNumber": "B86912",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "PULZE",
-                            "caseNumber": "B95587",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "BEDDER",
-                            "caseNumber": "B76540",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "ECOSYS",
-                            "caseNumber": "B75012",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "MAGNEMO",
-                            "caseNumber": "B66018",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "SULTRAX",
-                            "caseNumber": "B49971",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "RUBADUB",
-                            "caseNumber": "B27048",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
-                          },
-                          {
-                            "caseName": "EARWAX",
-                            "caseNumber": "B57346",
-                            "caseType": "Case Type",
-                            "caseSequenceIndicator": "2 of 3"
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
                           }
-                        ],
-                        "party": [
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "partyRole": "APPLICANT_PETITIONER",
-                            "individualDetails": {
-                              "individualSurname": "Surname"
-                            }
-                          },
+                            "caseName": "TRANSLINK",
+                            "caseNumber": "D94721",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "partyRole": "RESPONDENT",
-                            "individualDetails": {
-                              "individualSurname": "Surname"
-                            }
-                          },
+                            "caseName": "EVEREST",
+                            "caseNumber": "D11916",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
-                            "friendlyRoleName": "Legal Advisor",
-                            "individualDetails": {
-                              "individualForenames": "Individual Forenames",
-                              "individualMiddleName": "Individual Middlename",
-                              "individualSurname": "Individual Surname",
-                              "title": "Mr"
-                            }
-                          },
+                            "caseName": "ROUGHIES",
+                            "caseNumber": "D29825",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
                           {
-                            "partyRole": "RESPONDENT_REPRESENTATIVE",
-                            "friendlyRoleName": "Legal Advisor",
-                            "individualDetails": {
-                              "individualForenames": "Individual Forenames",
-                              "individualMiddleName": "Individual Middlename",
-                              "individualSurname": "Individual Surname",
-                              "title": "Mr"
-                            }
+                            "caseName": "TELEPARK",
+                            "caseNumber": "D83513",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "MYOPIUM",
+                            "caseNumber": "D17863",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "QNEKT",
+                            "caseNumber": "D55967",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "CENTREXIN",
+                            "caseNumber": "D21705",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "BRAINQUIL",
+                            "caseNumber": "D60299",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "SIGNIDYNE",
+                            "caseNumber": "D36374",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "QUILK",
+                            "caseNumber": "D10711",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "hearingType": "Hearing Type",
+                        "case": [
+                          {
+                            "caseName": "DANCERITY",
+                            "caseNumber": "D53412",
+                            "caseType": "Case Type",
+                            "caseSequenceIndicator": "2 of 3",
+                            "reportingRestrictionDetail": [
+                              "Reporting restriction 1",
+                              "Reporting restriction 2"
+                            ],
+                            "party": [
+                              {
+                                "partyRole": "APPLICANT_PETITIONER",
+                                "individualDetails": {
+                                  "individualSurname": "Applicant Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT",
+                                "individualDetails": {
+                                  "individualSurname": "Respondent Surname 1"
+                                }
+                              },
+                              {
+                                "partyRole": "APPLICANT_PETITIONER_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor",
+                                "individualDetails": {
+                                  "individualForenames": "Rep Forenames 1",
+                                  "individualMiddleName": "Rep Middlename 1",
+                                  "individualSurname": "Rep Surname 1",
+                                  "title": "Mr"
+                                }
+                              },
+                              {
+                                "partyRole": "RESPONDENT_REPRESENTATIVE",
+                                "friendlyRoleName": "Legal Advisor"
+                              }
+                            ]
                           }
                         ]
                       }
                     ],
-                    "channel": ["testSittingChannel"],
-                    "duration": "",
-                    "startTime": "9.40am",
-                    "durationAsHours": 1,
-                    "durationAsMinutes": 5
+                    "channel": [
+                      "testSittingChannel"
+                    ]
                   }
                 ]
               }
