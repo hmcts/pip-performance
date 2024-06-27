@@ -7,10 +7,10 @@ import utils.auth.OAuthAPI.config
 
 object PublicationRequests {
 
-  private val artefactIdTwoCases = "017e9e51-f970-475e-896a-164c70f4e60e"
-  private val artefactIdFiftyCases = "f0f2446c-82e6-4154-bf78-b72f4278229d"
-  private val artefactIdHundredCases = "e6f5b986-5659-40f0-af3a-6e947bf155c2"
-  private val artefactIdTwoHundredCases = "88f38043-cd71-4843-a62a-6daf16f4c7f5"
+  private val artefactIdTwoCases = "2fcbf066-4657-43c9-b9f1-8313f649820f"
+  private val artefactIdFiftyCases = "74a21307-48f4-43e4-a2fc-25091d46613c"
+  private val artefactIdHundredCases = "506c4973-0283-46a5-9c90-eaa76e029ea8"
+  private val artefactIdTwoHundredCases = "0e74e020-a7b8-49a1-b141-59a944da7e8e"
 
   // Set paths for endpoints
   private val PublicationsPath = "/publication/"
