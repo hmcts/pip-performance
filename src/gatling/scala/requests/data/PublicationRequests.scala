@@ -14,6 +14,12 @@ object PublicationRequests {
   // Set paths for endpoints
   private val PublicationsPath = "/publication"
 
+  private val artefactIdTwoCases = "23aa4c86-4ffe-477b-b5e5-c76b8f3a9a12"
+  private val artefactIdFiftyCases = "f5aed02c-b6b7-440e-9f66-32029bd823cc"
+  private val artefactIdHundredCases = "90889d83-088a-4ebf-bf68-781962cb5d3e"
+  private val artefactIdTwoHundredCases = "33538ac4-7cba-475d-b091-d7c0003dd2a3"
+  private val fileTypePath = "/PDF"
+
   // Load court CSV file
   val courtListFeed = csv("courtLists/ReferenceData.csv").circular
   val httpProtocol = http.baseUrl(config.dataManagementApi.url)
@@ -51,7 +57,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilAndFamilyTwoCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 2 cases")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseListTwoCases.json"))
@@ -59,7 +64,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilAndFamilyFiftyCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 50 cases")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseListFiftyCases.json"))
@@ -67,7 +71,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilAndFamilyHundredCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 100 cases")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseListHundredCases.json"))
@@ -75,7 +78,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilAndFamilyTwoHundredCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 200 cases")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseListTwoHundredCases.json"))
@@ -83,7 +85,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilAndFamily1MBRequest: HttpRequestBuilder = http("Create Publication Civil And Family 1MB request")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList1MB.json"))
@@ -91,7 +92,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilAndFamily2MBRequest: HttpRequestBuilder = http("Create Publication Civil And Family 2MB request")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList2MB.json"))
@@ -99,7 +99,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilAndFamily3MBRequest: HttpRequestBuilder = http("Create Publication Civil And Family 3MB request")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList3MB.json"))
@@ -107,7 +106,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilAndFamily4MBRequest: HttpRequestBuilder = http("Create Publication Civil And Family 4MB request")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList4MB.json"))
@@ -115,7 +113,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilRequest: HttpRequestBuilder = http("Create Publication Civil request")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil/civilDailyCauseList.json"))
@@ -123,7 +120,6 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
-  // Set requests
   val createPublicationCivilNextDayRequest: HttpRequestBuilder = http("Create Publication Civil Next Day request")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil/civilDailyCauseList.json"))
@@ -133,11 +129,50 @@ object PublicationRequests {
     .header("x-content-date", "${endDate}")
     .check(status is 201)
 
-  // Set requests
   val createPublicationFamilyRequest: HttpRequestBuilder = http("Create Publication Family request")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-family/familyDailyCauseList.json"))
     .header("x-list-type", "FAMILY_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
     .check(status is 201)
+
+  val getPublicationCivilAndFamilyTwoCasesRequest: HttpRequestBuilder = http("Generate PDF 2 Cases request")
+    .get(PublicationsPath + "/" + artefactIdTwoCases + fileTypePath)
+    .header("Authorization", "bearer ${bearerx}")
+    .check(status is 200)
+
+  val getPublicationCivilAndFamilyFiftyCasesRequest: HttpRequestBuilder = http("Generate PDF 50 Cases request")
+    .get(PublicationsPath + "/" + artefactIdFiftyCases + fileTypePath)
+    .header("Authorization", "bearer ${bearerx}")
+    .check(status is 200)
+
+  val getPublicationCivilAndFamilyHundredCasesRequest: HttpRequestBuilder = http("Generate PDF 100 Cases request")
+    .get(PublicationsPath + "/" + artefactIdHundredCases + fileTypePath)
+    .header("Authorization", "bearer ${bearerx}")
+    .check(status is 200)
+
+  val generateArtefactSummaryTwoCasesRequest: HttpRequestBuilder = http("Generate Artefact Summary 2 Cases request")
+    .get(PublicationsPath + "/" + artefactIdTwoCases + "/summary")
+    .header("Authorization", "bearer ${bearerx}")
+    .check(status is 200)
+
+  val generateArtefactSummaryFiftyCasesRequest: HttpRequestBuilder = http("Generate Artefact Summary 50 Cases request")
+    .get(PublicationsPath + "/" + artefactIdFiftyCases + "/summary")
+    .header("Authorization", "bearer ${bearerx}")
+    .check(status is 200)
+
+  val generateArtefactSummaryHundredCasesRequest: HttpRequestBuilder = http("Generate Artefact Summary 100 Cases request")
+    .get(PublicationsPath + "/" + artefactIdHundredCases + "/summary")
+    .header("Authorization", "bearer ${bearerx}")
+    .check(status is 200)
+
+  val generateArtefactSummaryTwoHundredCasesRequest: HttpRequestBuilder = http("Generate Artefact Summary 200 Cases request")
+    .get(PublicationsPath + "/" + artefactIdTwoHundredCases + "/summary")
+    .header("Authorization", "bearer ${bearerx}")
+    .check(status is 200)
+
+  val getPayloadCivilAndFamilyHundredCasesRequest: HttpRequestBuilder = http("Get payload 100 Cases request")
+    .get(PublicationsPath + "/" + artefactIdHundredCases + "/payload")
+    .header("Authorization", "bearer ${bearerx}")
+    .check(status is 200)
 }

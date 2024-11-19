@@ -142,4 +142,36 @@ object PublicationScenarios {
     .feed(createDifferentSizePublicationFeed)
     .feed(courtListFeed)
     .exec(PublicationRequests.createPublicationCivilAndFamily4MBRequest)
+
+  val generatePdfTwoCasesScenario = scenario("Generate PDF 2 cases")
+    .exec(OAuthAPI.authData)
+    .exec(PublicationRequests.getPublicationCivilAndFamilyTwoCasesRequest)
+
+  val generatePdfFiftyCasesScenario = scenario("Generate PDF 50 cases")
+    .exec(OAuthAPI.authData)
+    .exec(PublicationRequests.getPublicationCivilAndFamilyFiftyCasesRequest)
+
+  val generatePdfHundredCasesScenario = scenario("Generate PDF 100 cases")
+    .exec(OAuthAPI.authData)
+    .exec(PublicationRequests.getPublicationCivilAndFamilyHundredCasesRequest)
+
+  val generateArtefactSummaryTwoCasesScenario = scenario("Generate Artefact Summary 2 cases")
+    .exec(OAuthAPI.authData)
+    .exec(PublicationRequests.generateArtefactSummaryTwoCasesRequest)
+
+  val generateArtefactSummaryFiftyCasesScenario = scenario("Generate Artefact Summary 50 cases")
+    .exec(OAuthAPI.authData)
+    .exec(PublicationRequests.generateArtefactSummaryFiftyCasesRequest)
+
+  val generateArtefactSummaryHundredCasesScenario = scenario("Generate Artefact Summary 100 cases")
+    .exec(OAuthAPI.authData)
+    .exec(PublicationRequests.generateArtefactSummaryHundredCasesRequest)
+
+  val generateArtefactSummaryTwoHundredCasesScenario = scenario("Generate Artefact Summary 200 cases")
+    .exec(OAuthAPI.authData)
+    .exec(PublicationRequests.generateArtefactSummaryTwoHundredCasesRequest)
+
+  val getPayloadHundredCasesScenario = scenario("Get payload 100 cases")
+    .exec(OAuthAPI.authData)
+    .exec(PublicationRequests.getPayloadCivilAndFamilyHundredCasesRequest)
 }

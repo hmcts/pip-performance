@@ -13,9 +13,6 @@ dataManagementApi:
 accountManagementApi:
   scopes: ${env:ACCOUNT_MANAGEMENT_AZ_API}/.default
   url: ${env:ACCOUNT_MANAGEMENT_URL:-https://pip-account-management.staging.platform.hmcts.net}
-channelManagementApi:
-  scopes: ${env:CHANNEL_MANAGEMENT_AZ_API}/.default
-  url: ${env:CHANNEL_MANAGEMENT_URL:-https://pip-channel-management.staging.platform.hmcts.net}
 publicationServicesApi:
   scopes: ${env:PUBLICATION_SERVICES_AZ_API}/.default
   url: ${env:PUBLICATION_SERVICES_URL:-https://pip-publication-services.staging.platform.hmcts.net}

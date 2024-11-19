@@ -27,7 +27,6 @@ object OAuthAPI {
   private val clientIdAccManagement = config.clientIdAccManagement;
   private val clientSecretAccManagement = config.clientSecretAccManagement;
   private val scope = config.dataManagementApi.scope;
-  private val scopeChannel = config.channelManagementApi.scope;
   private val scopePublication = config.publicationServicesApi.scope;
   private val grantType = "client_credentials";
 
@@ -38,16 +37,6 @@ object OAuthAPI {
     .exec(http("Microsoft Token Generation")
       .post(s"$authURI/$tenant/oauth2/v2.0/token")
       .formParam("scope", scope)
-      .formParam("grant_type", grantType)
-      .formParam("client_secret", clientSecret)
-      .formParam("client_id", clientId)
-      .headers(header).check(status.is(200))
-      .check(jsonPath("$..access_token").saveAs("bearerx")))
-
-  val authChannel = scenario("GetToken")
-    .exec(http("Microsoft Token Generation")
-      .post(s"$authURI/$tenant/oauth2/v2.0/token")
-      .formParam("scope", scopeChannel)
       .formParam("grant_type", grantType)
       .formParam("client_secret", clientSecret)
       .formParam("client_id", clientId)
