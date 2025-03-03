@@ -10,7 +10,6 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
                  @JsonProperty("subscriptionManagementApi") _subscriptionManagementApi: ApiConfig,
                  @JsonProperty("dataManagementApi") _dataManagementApi: ApiConfig,
                  @JsonProperty("accountManagementApi") _accountManagementApi: ApiConfig,
-                 @JsonProperty("channelManagementApi") _channelManagementApi: ApiConfig,
                  @JsonProperty("publicationServicesApi") _publicationServicesApi: ApiConfig,
                  @JsonProperty("frontEndUrl") _frontEndUrl: String
 
@@ -23,7 +22,6 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
   val subscriptionManagementApi = _subscriptionManagementApi
   val dataManagementApi = _dataManagementApi
   val accountManagementApi = _accountManagementApi
-  val channelManagementApi = _channelManagementApi
   val publicationServicesApi = _publicationServicesApi
   val frontEndUrl = _frontEndUrl
   val rampUpUsers: Int = Integer.getInteger("rampUsers", 0).toInt
