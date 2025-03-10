@@ -12,7 +12,7 @@ object SubscriptionRequests {
   private val ConfigureListTypePath = "/subscription/configure-list-types/"
   private val DeleteSubscriptionPath = "/subscription/user/"
 
-  val userId = "0e68f98c-29c5-4eff-aa26-0a872ee8bf86"
+  val userId = "6a2b020b-ac4f-4bb0-9dd6-58f9a3c226a1"
   val createSubscriptionByLocation = "{\"channel\":\"EMAIL\",\"searchType\":\"LOCATION_ID\",\"searchValue\":\"10000\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"locationName\":\"locationName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
   val createSubscriptionByCaseName = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_ID\",\"searchValue\":\"CaseName\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
   val createSubscriptionByUrn = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_URN\",\"searchValue\":\"CaseName\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
