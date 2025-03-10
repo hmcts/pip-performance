@@ -28,7 +28,7 @@ object OAuthAPI {
   private val clientSecretAccManagement = config.clientSecretAccManagement;
   private val scope = config.dataManagementApi.scope;
   private val scopePublication = config.publicationServicesApi.scope;
-  private val scopeSubscription = config.subscriptionManagementApi.scope;
+  private val scopeAccount = config.accountManagementApi.scope;
   private val grantType = "client_credentials";
 
   val header = Map("Content-Type" -> """application/x-www-form-urlencoded""");
@@ -54,13 +54,13 @@ object OAuthAPI {
       .headers(header).check(status.is(200))
       .check(jsonPath("$..access_token").saveAs("bearerx")))
 
-  val authSubscription = scenario("GetToken")
+  val authAccount = scenario("GetToken")
     .exec(http("Microsoft Token Generation")
       .post(s"$authURI/$tenant/oauth2/v2.0/token")
-      .formParam("scope", scopeSubscription)
+      .formParam("scope", scopeAccount)
       .formParam("grant_type", grantType)
-      .formParam("client_secret", clientSecretAccManagement)
-      .formParam("client_id", clientIdAccManagement)
+      .formParam("client_secret", clientSecret)
+      .formParam("client_id", clientId)
       .headers(header).check(status.is(200))
       .check(jsonPath("$..access_token").saveAs("bearerx")))
 }
