@@ -5,6 +5,8 @@ import io.gatling.http.Predef._
 import io.gatling.http.request.builder._
 import utils.auth.OAuthAPI.config
 
+import scala.util.Random
+
 object SubscriptionRequests {
 
   // Set paths for endpoints
@@ -12,10 +14,11 @@ object SubscriptionRequests {
   private val ConfigureListTypePath = "/subscription/configure-list-types/"
   private val DeleteSubscriptionPath = "/subscription/user/"
 
+
   val userId = "6a2b020b-ac4f-4bb0-9dd6-58f9a3c226a1"
-  val createSubscriptionByLocation = "{\"channel\":\"EMAIL\",\"searchType\":\"LOCATION_ID\",\"searchValue\":\"10000\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"locationName\":\"locationName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
-  val createSubscriptionByCaseName = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_ID\",\"searchValue\":\"CaseName\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
-  val createSubscriptionByUrn = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_URN\",\"searchValue\":\"CaseName\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
+  val createSubscriptionByLocation = "{\"channel\":\"EMAIL\",\"searchType\":\"LOCATION_ID\",\"searchValue\":\"${randomNumber}\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"locationName\":\"locationName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
+  val createSubscriptionByCaseName = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_ID\",\"searchValue\":\"${randomName}\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
+  val createSubscriptionByUrn = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_URN\",\"searchValue\":\"${randomName}\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
   val configureListType = "{\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"listType\":[\"RPT_MIDLANDS_WEEKLY_HEARING_LIST\",\"RPT_NORTHERN_WEEKLY_HEARING_LIST\"],\"listLanguage\":[\"ENGLISH\"]}"
 
   val httpProtocol = http.baseUrl(config.subscriptionManagementApi.url)
