@@ -12,13 +12,16 @@ object SubscriptionRequests {
   private val ConfigureListTypePath = "/subscription/configure-list-types/"
   private val DeleteSubscriptionPath = "/subscription/user/"
 
-  val userId = "6a2b020b-ac4f-4bb0-9dd6-58f9a3c226a1"
-  val createSubscriptionByLocation = "{\"channel\":\"EMAIL\",\"searchType\":\"LOCATION_ID\",\"searchValue\":\"10000\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"locationName\":\"locationName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
-  val createSubscriptionByCaseName = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_ID\",\"searchValue\":\"CaseName\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
-  val createSubscriptionByUrn = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_URN\",\"searchValue\":\"CaseName\",\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
-  val configureListType = "{\"userId\":\"0e68f98c-29c5-4eff-aa26-0a872ee8bf86\",\"listType\":[\"RPT_MIDLANDS_WEEKLY_HEARING_LIST\",\"RPT_NORTHERN_WEEKLY_HEARING_LIST\"],\"listLanguage\":[\"ENGLISH\"]}"
+  // Load court CSV file
+  val locationListFeed = csv("courtLists/ReferenceData.csv").circular
 
-  val httpProtocol = http.baseUrl(config.accountManagementApi.url)
+  val userId = "6a2b020b-ac4f-4bb0-9dd6-58f9a3c226a1"
+  val createSubscriptionByLocation = "{\"channel\":\"EMAIL\",\"searchType\":\"LOCATION_ID\",\"searchValue\":\"${P&I ID}\",\"userId\":\""+userId+"\",\"${Court Desc}\":\"locationName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
+  val createSubscriptionByCaseName = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_ID\",\"searchValue\":\"${randomName}\",\"userId\":\""+userId+"\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
+  val createSubscriptionByUrn = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_URN\",\"searchValue\":\"${randomName}\",\"userId\":\""+userId+"\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
+  val configureListType = "{\"userId\":\""+userId+"\",\"listType\":[\"CIVIL_AND_FAMILY_DAILY_CAUSE_LIST\",\"CIVIL_DAILY_CAUSE_LIST\",\"FAMILY_DAILY_CAUSE_LIST\"],\"listLanguage\":[\"ENGLISH\"]}"
+
+  val httpProtocol = http.baseUrl(config.subscriptionManagementApi.url)
 
   val postCreateSubscriptionByLocationRequest: HttpRequestBuilder = http("Create Subscription By Location Request")
     .post(CreateSubscriptionPath)
