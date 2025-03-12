@@ -8,7 +8,7 @@ import utils.auth.OAuthAPI.config.{onceUsers, rampUpUsers, rampUpUsersDuration}
 import scala.concurrent.duration.DurationInt
 import scala.language.postfixOps
 
-class deleteSubscriptionByIserIdSimulation extends Simulation {
+class deleteSubscriptionByUserIdSimulation extends Simulation {
 
   private val deleteSubscriptionByUserIdExec = SubscriptionScenarios.deleteSubscriptionByUserIdScenario
     .inject(

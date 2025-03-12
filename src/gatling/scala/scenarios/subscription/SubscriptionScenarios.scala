@@ -2,6 +2,7 @@ package scenarios.subscription
 
 import io.gatling.core.Predef._
 import requests.subscription.SubscriptionRequests
+import requests.subscription.SubscriptionRequests.locationListFeed
 import utils.auth.OAuthAPI
 
 import scala.util.Random
@@ -12,12 +13,8 @@ object SubscriptionScenarios {
     Map("randomName" -> s"${Random.alphanumeric.take(20).mkString}")
   }
 
-  val feedRandomNumber = Iterator.continually {
-    Map("randomNumber" -> s"${Random.nextInt(10000).toString}")
-  }
-
-  val createSubscriptionByLocationScenario = scenario("Subscription By Location")
-    .feed(feedRandomNumber)
+  val createSubscriptionByLocationScenario = scenario("Subscription By Location For Publication")
+    .feed(locationListFeed)
     .exec(OAuthAPI.authSubscription)
     .exec(SubscriptionRequests.postCreateSubscriptionByLocationRequest)
 
