@@ -21,7 +21,7 @@ object SubscriptionRequests {
   val createSubscriptionByUrn = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_URN\",\"searchValue\":\"${randomName}\",\"userId\":\""+userId+"\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
   val configureListType = "{\"userId\":\""+userId+"\",\"listType\":[\"CIVIL_AND_FAMILY_DAILY_CAUSE_LIST\",\"CIVIL_DAILY_CAUSE_LIST\",\"FAMILY_DAILY_CAUSE_LIST\"],\"listLanguage\":[\"ENGLISH\"]}"
 
-  val httpProtocol = http.baseUrl(config.subscriptionManagementApi.url)
+  val httpProtocol = http.baseUrl(config.accountManagementApi.url)
 
   val postCreateSubscriptionByLocationRequest: HttpRequestBuilder = http("Create Subscription By Location Request")
     .post(CreateSubscriptionPath)

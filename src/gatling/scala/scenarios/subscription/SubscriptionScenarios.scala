@@ -15,24 +15,24 @@ object SubscriptionScenarios {
 
   val createSubscriptionByLocationScenario = scenario("Subscription By Location For Publication")
     .feed(locationListFeed)
-    .exec(OAuthAPI.authSubscription)
+    .exec(OAuthAPI.authAccount)
     .exec(SubscriptionRequests.postCreateSubscriptionByLocationRequest)
 
   val createSubscriptionByCaseNameScenario = scenario("Subscription By Case Name")
-    .exec(OAuthAPI.authSubscription)
+    .exec(OAuthAPI.authAccount)
     .feed(feedRandomName)
     .exec(SubscriptionRequests.postCreateSubscriptionByCaseNameRequest)
 
   val createSubscriptionByCaseUrnScenario = scenario("Subscription By Case Urn")
-    .exec(OAuthAPI.authSubscription)
+    .exec(OAuthAPI.authAccount)
     .feed(feedRandomName)
     .exec(SubscriptionRequests.postCreateSubscriptionByCaseUrnRequest)
 
   val configureListTypeScenario = scenario("Configure List Type")
-    .exec(OAuthAPI.authSubscription)
+    .exec(OAuthAPI.authAccount)
     .exec(SubscriptionRequests.putConfigureListTypeRequest)
 
   val deleteSubscriptionByUserIdScenario = scenario("Delete Subscription by User Id")
-    .exec(OAuthAPI.authSubscription)
+    .exec(OAuthAPI.authAccount)
     .exec(SubscriptionRequests.deleteSubscriptionByUserIdRequest)
 }
