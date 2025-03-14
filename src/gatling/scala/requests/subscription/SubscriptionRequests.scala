@@ -54,12 +54,5 @@ object SubscriptionRequests {
     .header("Accept", "application/json")
     .header("x-user-id", userId)
     .check(status is 200)
-
-  val deleteSubscriptionByUserIdRequest: HttpRequestBuilder = http("Delete Subscription By User Id")
-    .delete(DeleteSubscriptionPath + userId)
-    .header("Authorization", "bearer ${bearerx}")
-    .header("Accept", "application/json")
-    .header("x-user-id", userId)
-    .check(status is 200)
 }
 

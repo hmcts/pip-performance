@@ -31,8 +31,4 @@ object SubscriptionScenarios {
   val configureListTypeScenario = scenario("Configure List Type")
     .exec(OAuthAPI.authAccount)
     .exec(SubscriptionRequests.putConfigureListTypeRequest)
-
-  val deleteSubscriptionByUserIdScenario = scenario("Delete Subscription by User Id")
-    .exec(OAuthAPI.authAccount)
-    .exec(SubscriptionRequests.deleteSubscriptionByUserIdRequest)
 }
