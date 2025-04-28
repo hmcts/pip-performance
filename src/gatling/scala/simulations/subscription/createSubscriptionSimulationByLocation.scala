@@ -12,7 +12,7 @@ class createSubscriptionSimulationByLocation extends Simulation {
 
   private val createSubscriptionByLocationExec = SubscriptionScenarios.createSubscriptionByLocationScenario
     .inject(
-      atOnceUsers(onceUsers),
+      atOnceUsers(200),
       rampUsers(rampUpUsers) during (rampUpUsersDuration seconds)
     )
 

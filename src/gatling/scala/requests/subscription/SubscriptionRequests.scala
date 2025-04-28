@@ -21,10 +21,10 @@ object SubscriptionRequests {
   val createSubscriptionByUrn = "{\"channel\":\"EMAIL\",\"searchType\":\"CASE_URN\",\"searchValue\":\"${randomName}\",\"userId\":\"" + userId + "\",\"caseName\":\"TestCaseName\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
   val configureListType = "{\"userId\":\"" + userId + "\",\"listType\":[\"CIVIL_AND_FAMILY_DAILY_CAUSE_LIST\",\"CIVIL_DAILY_CAUSE_LIST\",\"FAMILY_DAILY_CAUSE_LIST\"],\"listLanguage\":[\"ENGLISH\"]}"
 
-  val httpProtocol = http.baseUrl(config.accountManagementApi.url)
+  val httpProtocol = http.baseUrl(config.subscriptionManagementApi.url)
 
   val postCreateSubscriptionByLocationRequest: HttpRequestBuilder = http("Create Subscription By Location Request")
-    .post(CreateSubscriptionPath)
+    .post(config.subscriptionManagementApi.url + CreateSubscriptionPath)
     .body(StringBody(createSubscriptionByLocation)).asJson
     .header("Authorization", "bearer ${bearerx}")
     .header("Accept", "application/json")
@@ -48,7 +48,7 @@ object SubscriptionRequests {
     .check(status is 201)
 
   val putConfigureListTypeRequest: HttpRequestBuilder = http("Configure List Type For Subscription")
-    .put(ConfigureListTypePath + userId)
+    .put(config.subscriptionManagementApi.url + ConfigureListTypePath + userId)
     .body(StringBody(configureListType)).asJson
     .header("Authorization", "bearer ${bearerx}")
     .header("Accept", "application/json")

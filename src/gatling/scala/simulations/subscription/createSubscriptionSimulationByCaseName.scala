@@ -12,7 +12,7 @@ class createSubscriptionSimulationByCaseName extends Simulation {
 
   private val createSubscriptionByCaseNameExec = SubscriptionScenarios.createSubscriptionByCaseNameScenario
     .inject(
-      atOnceUsers(onceUsers),
+      atOnceUsers(200),
       rampUsers(rampUpUsers) during (rampUpUsersDuration seconds)
     )
 

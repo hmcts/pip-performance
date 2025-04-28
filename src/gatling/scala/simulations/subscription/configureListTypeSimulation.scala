@@ -12,7 +12,7 @@ class configureListTypeSimulation extends Simulation {
 
   private val configureListTypesExec = SubscriptionScenarios.configureListTypeScenario
     .inject(
-      atOnceUsers(onceUsers),
+      atOnceUsers(200),
       rampUsers(rampUpUsers) during (rampUpUsersDuration seconds)
     )
 
