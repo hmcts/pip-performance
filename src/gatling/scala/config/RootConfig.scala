@@ -7,11 +7,11 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
                  @JsonProperty("clientSecret") _clientSecret: String,
                  @JsonProperty("clientIdAccManagement") _clientIdAccManagement: String,
                  @JsonProperty("clientSecretAccManagement") _clientSecretAccManagement: String,
-                 @JsonProperty("subscriptionManagementApi") _subscriptionManagementApi: ApiConfig,
                  @JsonProperty("dataManagementApi") _dataManagementApi: ApiConfig,
                  @JsonProperty("accountManagementApi") _accountManagementApi: ApiConfig,
                  @JsonProperty("publicationServicesApi") _publicationServicesApi: ApiConfig,
-                 @JsonProperty("frontEndUrl") _frontEndUrl: String
+                 @JsonProperty("frontEndUrl") _frontEndUrl: String,
+                 @JsonProperty("testSystemAdminId") _testSystemAdminId: String
 
                 ) {
   val tenantId = _tenantId
@@ -19,11 +19,11 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
   val clientSecret = _clientSecret
   val clientIdAccManagement = _clientIdAccManagement
   val clientSecretAccManagement = _clientSecretAccManagement
-  val subscriptionManagementApi = _subscriptionManagementApi
   val dataManagementApi = _dataManagementApi
   val accountManagementApi = _accountManagementApi
   val publicationServicesApi = _publicationServicesApi
   val frontEndUrl = _frontEndUrl
+  val testSystemAdminId = _testSystemAdminId
   val rampUpUsers: Int = Integer.getInteger("rampUsers", 0).toInt
   val rampUpUsersDuration: Int = Integer.getInteger("rampDuration", 30).toInt
   val onceUsers: Int = Integer.getInteger("atOnceUsers", 1).toInt
