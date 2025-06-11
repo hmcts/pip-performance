@@ -12,7 +12,7 @@ import scala.util.Random
 object PublicationRequests {
 
   // Set paths for endpoints
-  private val PublicationsPath = "/publication"
+  private val PublicationsPath = config.dataManagementApi.url + "/publication"
 
   private val artefactIdTwoCases = "23aa4c86-4ffe-477b-b5e5-c76b8f3a9a12"
   private val artefactIdFiftyCases = "f5aed02c-b6b7-440e-9f66-32029bd823cc"

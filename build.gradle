@@ -18,7 +18,7 @@ gatling {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
@@ -27,6 +27,7 @@ dependencies {
     gatling group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.16.0'
     gatling group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.16.0'
     gatling group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.16.0'
+    gatling group: 'com.fasterxml.jackson.module', name: 'jackson-module-scala_2.13', version: '2.16.0'
     gatling group: 'io.gatling', name: 'gatling-core', version: '3.9.5'
     implementation 'commons-collections:commons-collections:3.2.2'
     testImplementation group: 'io.gatling', name: 'gatling-core', version: '3.9.5'

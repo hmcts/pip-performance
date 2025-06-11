@@ -4,9 +4,6 @@ clientSecret: ${env:CLIENT_SECRET}
 clientIdAccManagement: ${env:CLIENT_ID_ACC}
 clientSecretAccManagement: ${env:CLIENT_SECRET_ACC}
 frontEndUrl: ${env:FRONTEND_URL:-https://pip-frontend.staging.platform.hmcts.net}
-subscriptionManagementApi:
-  scopes: ${env:SUBSCRIPTION_MANAGEMENT_AZ_API}/.default
-  url: ${env:SUBSCRIPTION_MANAGEMENT_URL:-https://pip-subscription-management.staging.platform.hmcts.net}
 dataManagementApi:
   scopes: ${env:DATA_MANAGEMENT_AZ_API}/.default
   url: ${env:DATA_MANAGEMENT_URL:-https://pip-data-management.staging.platform.hmcts.net}
@@ -16,6 +13,6 @@ accountManagementApi:
 publicationServicesApi:
   scopes: ${env:PUBLICATION_SERVICES_AZ_API}/.default
   url: ${env:PUBLICATION_SERVICES_URL:-https://pip-publication-services.staging.platform.hmcts.net}
-
+testSystemAdminId: ${env:TEST_SYSTEM_ADMIN_ID}
 
 
