@@ -29,6 +29,7 @@ object AccountRequests {
     .header("x-issuer-id", config.testSystemAdminId)
     .header("Content-Type", "application/json")
     .check(status is 201)
+    .check(bodyString.saveAs("ResponseBody"))
     .check(jsonPath("$['CREATED_ACCOUNTS']").ofType[Seq[Any]].find.saveAs("createdAccountIds"))
 
   def deleteAccounts(emailPrefix: String): HttpRequestBuilder = http("Delete all accounts with prefix")
