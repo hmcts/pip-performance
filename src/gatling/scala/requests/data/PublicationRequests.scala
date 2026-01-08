@@ -136,6 +136,13 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
+  val createPublicationCrownFirmPddaRequest: HttpRequestBuilder = http("Create Publication Crown Firm Pdda request")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/crown-firm-pdda-list/crownFirmPddaList.json"))
+    .header("x-list-type", "CROWN_FIRM_PDDA_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
   val getPublicationCivilAndFamilyTwoCasesRequest: HttpRequestBuilder = http("Generate PDF 2 Cases request")
     .get(PublicationsPath + "/" + artefactIdTwoCases + fileTypePath)
     .header("Authorization", "bearer ${bearerx}")
