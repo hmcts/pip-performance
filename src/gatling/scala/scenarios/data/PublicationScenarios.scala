@@ -4,6 +4,7 @@ import io.gatling.core.Predef._
 import requests.data.PublicationRequests
 import requests.data.PublicationRequests.{courtListFeed, createDifferentSizePublicationFeed, createPublicationFeed}
 import utils.auth.OAuthAPI
+import utils.auth.OAuthAPI.config
 
 object PublicationScenarios {
 
@@ -142,6 +143,14 @@ object PublicationScenarios {
     .feed(createDifferentSizePublicationFeed)
     .feed(courtListFeed)
     .exec(PublicationRequests.createPublicationCivilAndFamily4MBRequest)
+
+  val CreatePublicationCrownFirmPddaScenario = scenario("Create Publication Crown Firm Pdda scenario")
+    .exec(OAuthAPI.authData)
+    .feed(createDifferentSizePublicationFeed)
+    .feed(courtListFeed)
+    .exec(session => session.set("requesterId", config.testSystemAdminId))
+    .exec(PublicationRequests.createPublicationCrownFirmPddaRequest)
+
 
   val generatePdfTwoCasesScenario = scenario("Generate PDF 2 cases")
     .exec(OAuthAPI.authData)
