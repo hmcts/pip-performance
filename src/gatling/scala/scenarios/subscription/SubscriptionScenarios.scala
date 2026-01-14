@@ -1,34 +1,33 @@
 package scenarios.subscription
 
 import io.gatling.core.Predef._
+import io.gatling.core.structure.ChainBuilder
 import requests.subscription.SubscriptionRequests
 import requests.subscription.SubscriptionRequests.locationListFeed
-import utils.auth.OAuthAPI
+import utils.auth.OAuthAPI.config
 
 import scala.util.Random
 
 object SubscriptionScenarios {
 
+  // Reusable random name feeder
   val feedRandomName = Iterator.continually {
     Map("randomName" -> s"${Random.alphanumeric.take(20).mkString}")
   }
 
-  val createSubscriptionByLocationScenario = scenario("Subscription By Location For Publication")
-    .feed(locationListFeed)
-    .exec(OAuthAPI.authAccount)
-    .exec(SubscriptionRequests.postCreateSubscriptionByLocationRequest)
+  // Pure flows without authentication
+  val createSubscriptionByLocationFlow: ChainBuilder =
+    feed(locationListFeed)
+      .exec(SubscriptionRequests.postCreateSubscriptionByLocationRequest)
 
-  val createSubscriptionByCaseNameScenario = scenario("Subscription By Case Name")
-    .exec(OAuthAPI.authAccount)
-    .feed(feedRandomName)
-    .exec(SubscriptionRequests.postCreateSubscriptionByCaseNameRequest)
+  val createSubscriptionByCaseNameFlow: ChainBuilder =
+    feed(feedRandomName)
+      .exec(SubscriptionRequests.postCreateSubscriptionByCaseNameRequest)
 
-  val createSubscriptionByCaseUrnScenario = scenario("Subscription By Case Urn")
-    .exec(OAuthAPI.authAccount)
-    .feed(feedRandomName)
-    .exec(SubscriptionRequests.postCreateSubscriptionByCaseUrnRequest)
+  val createSubscriptionByCaseUrnFlow: ChainBuilder =
+    feed(feedRandomName)
+      .exec(SubscriptionRequests.postCreateSubscriptionByCaseUrnRequest)
 
-  val configureListTypeScenario = scenario("Configure List Type")
-    .exec(OAuthAPI.authAccount)
-    .exec(SubscriptionRequests.putConfigureListTypeRequest)
+  val configureListTypeFlow: ChainBuilder =
+    exec(SubscriptionRequests.putConfigureListTypeRequest)
 }

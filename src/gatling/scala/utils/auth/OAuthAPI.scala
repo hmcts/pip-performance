@@ -42,7 +42,9 @@ object OAuthAPI {
       .formParam("client_secret", clientSecret)
       .formParam("client_id", clientId)
       .headers(header).check(status.is(200))
-      .check(jsonPath("$..access_token").saveAs("bearerx")))
+      .check(jsonPath("$..access_token").saveAs("AuthTokenDataManagement"))
+      .silent)
+
 
   val authPublication = scenario("GetToken")
     .exec(http("Microsoft Token Generation")
@@ -52,7 +54,8 @@ object OAuthAPI {
       .formParam("client_secret", clientSecretAccManagement)
       .formParam("client_id", clientIdAccManagement)
       .headers(header).check(status.is(200))
-      .check(jsonPath("$..access_token").saveAs("bearerx")))
+      .check(jsonPath("$..access_token").saveAs("AuthTokenPubServices"))
+      .silent)
 
   val authAccount = scenario("GetToken")
     .exec(http("Microsoft Token Generation")
@@ -62,5 +65,6 @@ object OAuthAPI {
       .formParam("client_secret", clientSecret)
       .formParam("client_id", clientId)
       .headers(header).check(status.is(200))
-      .check(jsonPath("$..access_token").saveAs("bearerx")))
+      .check(jsonPath("$..access_token").saveAs("AuthTokenAccountManagement"))
+      .silent)
 }

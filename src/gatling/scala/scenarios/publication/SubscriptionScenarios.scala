@@ -1,24 +1,22 @@
 package scenarios.publication
 
 import io.gatling.core.Predef._
+import io.gatling.core.structure.ChainBuilder
 import requests.publication.SubscriptionRequests
-import utils.auth.OAuthAPI
+import utils.auth.OAuthAPI.config
 
 object SubscriptionScenarios {
 
-  val notifySubscriptionTwoCasesScenario = scenario("Generate PDF 2 cases")
-    .exec(OAuthAPI.authPublication)
-    .exec(SubscriptionRequests.postNotifySubscriptionTwoCasesRequest)
+  // Pure flows without authentication, now including requesterId
+  val notifySubscriptionTwoCasesFlow: ChainBuilder =
+    exec(SubscriptionRequests.postNotifySubscriptionTwoCasesRequest)
 
-  val notifySubscriptionFiftyCasesScenario = scenario("Generate PDF 50 cases")
-    .exec(OAuthAPI.authPublication)
-    .exec(SubscriptionRequests.postNotifySubscriptionFiftyCasesRequest)
+  val notifySubscriptionFiftyCasesFlow: ChainBuilder =
+    exec(SubscriptionRequests.postNotifySubscriptionFiftyCasesRequest)
 
-  val notifySubscriptionHundredCasesScenario = scenario("Generate PDF 100 cases")
-    .exec(OAuthAPI.authPublication)
-    .exec(SubscriptionRequests.postNotifySubscriptionHundredCasesRequest)
+  val notifySubscriptionHundredCasesFlow: ChainBuilder =
+    exec(SubscriptionRequests.postNotifySubscriptionHundredCasesRequest)
 
-  val notifySubscriptionTwoHundredCasesScenario = scenario("Generate PDF 200 cases")
-    .exec(OAuthAPI.authPublication)
-    .exec(SubscriptionRequests.postNotifySubscriptionTwoHundredCasesRequest)
+  val notifySubscriptionTwoHundredCasesFlow: ChainBuilder =
+    exec(SubscriptionRequests.postNotifySubscriptionTwoHundredCasesRequest)
 }

@@ -3,6 +3,7 @@ package simulations.data
 import io.gatling.core.Predef._
 import requests.data.PublicationRequests.httpProtocol
 import scenarios.data.PublicationScenarios
+import utils.auth.OAuthAPI
 import utils.auth.OAuthAPI.config.{onceUsers, rampUpUsers, rampUpUsersDuration}
 
 import scala.concurrent.duration.DurationInt
@@ -10,14 +11,17 @@ import scala.language.postfixOps
 
 class getPayload100CasesSimulation extends Simulation {
 
-  private val getPayloadExec = PublicationScenarios.getPayloadHundredCasesScenario
-    .inject(
+  private val getPayloadExec = scenario("Get payload 100 Cases")
+    .exec(OAuthAPI.authData) // authenticate once per user
+    .exec(PublicationScenarios.getPayloadHundredCases)
+
+
+  setUp(
+    getPayloadExec.inject(
       atOnceUsers(onceUsers),
       rampUsers(rampUpUsers) during (rampUpUsersDuration seconds)
     )
-
-  setUp(getPayloadExec)
-    .protocols(httpProtocol)
+  ).protocols(httpProtocol)
     .assertions(
       details("Get payload 100 Cases request").responseTime.percentile(90).lt(1000)
     )

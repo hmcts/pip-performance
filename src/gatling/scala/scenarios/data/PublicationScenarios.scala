@@ -1,186 +1,148 @@
 package scenarios.data
 
 import io.gatling.core.Predef._
+import io.gatling.core.structure.ChainBuilder
 import requests.data.PublicationRequests
-import requests.data.PublicationRequests.{courtListFeed, createDifferentSizePublicationFeed, createPublicationFeed}
+import requests.data.PublicationRequests._
 import utils.auth.OAuthAPI
 import utils.auth.OAuthAPI.config
 
 object PublicationScenarios {
 
-  val CreatePublicationCivilScenario = scenario("Create Publication Civil scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createPublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationCivilRequest)
-    .exec(session => {
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber1").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber2").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber3").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber4").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber5").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber6").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber7").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber8").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber9").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber10").as[String] + "\n")
+  /* -----------------------------------
+     Shared session initialisation
+   ----------------------------------- */
+  val withRequesterId: ChainBuilder =
+    exec(session => session.set("requesterId", config.testSystemAdminId))
+
+  /* -----------------------------------
+     Case number persistence
+   ----------------------------------- */
+  private val caseFile = scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv")
+
+  def writeCaseNumbers(count: Int): ChainBuilder =
+    exec { session =>
+      (1 to count).foreach { i =>
+        caseFile.appendAll(session(s"caseNumber$i").as[String] + "\n")
+      }
       session
     }
-    )
 
-  val CreatePublicationFamilyScenario = scenario("Create Publication Family scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createPublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationFamilyRequest)
-    .exec(session => {
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber1").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber2").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber3").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber4").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber5").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber6").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber7").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber8").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber9").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber10").as[String] + "\n")
-      session
-    }
-    )
+  val write5  = writeCaseNumbers(5)
+  val write10 = writeCaseNumbers(10)
 
-  val CreatePublicationCivilAndFamilyScenario = scenario("Create Publication Civil And Family scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createPublicationFeed)
-    .feed(courtListFeed)
-    // Civil
-    .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
-    .exec(session => {
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber1").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber2").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber3").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber4").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber5").as[String] + "\n")
-      session
-    }
-    )
-    // Civil
-    .exec(PublicationRequests.createPublicationCivilNextDayRequest)
-    .exec(session => {
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber1").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber2").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber3").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber4").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber5").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber6").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber7").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber8").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber9").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber10").as[String] + "\n")
-      session
-    }
-    )
-    // Family
-    .exec(PublicationRequests.createPublicationFamilyRequest)
-    .exec(session => {
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber1").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber2").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber3").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber4").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber5").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber6").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber7").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber8").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber9").as[String] + "\n")
-      scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv").appendAll(session("caseNumber10").as[String] + "\n")
-      session
-    }
-    )
+  /* -----------------------------------
+     Publication creation flows
+   ----------------------------------- */
+  val createPublicationCivil: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createPublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilRequest)
+      .exec(write10)
 
-  val CreatePublicationCivilAndFamilyTwoCasesScenario = scenario("Create Publication Civil And Family 2 cases scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createDifferentSizePublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationCivilAndFamilyTwoCasesRequest)
+  val createPublicationFamily: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createPublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationFamilyRequest)
+      .exec(write10)
 
-  val CreatePublicationCivilAndFamilyFiftyCasesScenario = scenario("Create Publication Civil And Family 50 cases scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createDifferentSizePublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationCivilAndFamilyFiftyCasesRequest)
+  val createPublicationCivilAndFamily: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createPublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
+      .exec(write5)
+      .exec(PublicationRequests.createPublicationCivilNextDayRequest)
+      .exec(write10)
+      .exec(PublicationRequests.createPublicationFamilyRequest)
+      .exec(write10)
 
-  val CreatePublicationCivilAndFamilyHundredCasesScenario = scenario("Create Publication Civil And Family 100 cases scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createDifferentSizePublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationCivilAndFamilyHundredCasesRequest)
+  /* -----------------------------------
+     Variable size payload flows
+   ----------------------------------- */
+  val createTwoCases: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamilyTwoCasesRequest)
 
-  val CreatePublicationCivilAndFamilyTwoHundredCasesScenario = scenario("Create Publication Civil And Family 200 cases scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createDifferentSizePublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationCivilAndFamilyTwoHundredCasesRequest)
+  val createFiftyCases: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamilyFiftyCasesRequest)
 
-  val CreatePublicationCivilAndFamily1MBScenario = scenario("Create Publication Civil And Family 1MB scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createDifferentSizePublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationCivilAndFamily1MBRequest)
+  val createHundredCases: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamilyHundredCasesRequest)
 
-  val CreatePublicationCivilAndFamily2MBScenario = scenario("Create Publication Civil And Family 2MB scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createDifferentSizePublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationCivilAndFamily2MBRequest)
+  val createTwoHundredCases: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamilyTwoHundredCasesRequest)
 
-  val CreatePublicationCivilAndFamily3MBScenario = scenario("Create Publication Civil And Family 3MB scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createDifferentSizePublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationCivilAndFamily3MBRequest)
+  val create1MB: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamily1MBRequest)
 
-  val CreatePublicationCivilAndFamily4MBScenario = scenario("Create Publication Civil And Family 4MB scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createDifferentSizePublicationFeed)
-    .feed(courtListFeed)
-    .exec(PublicationRequests.createPublicationCivilAndFamily4MBRequest)
+  val create2MB: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamily2MBRequest)
 
-  val CreatePublicationCrownFirmPddaScenario = scenario("Create Publication Crown Firm Pdda scenario")
-    .exec(OAuthAPI.authData)
-    .feed(createDifferentSizePublicationFeed)
-    .feed(courtListFeed)
-    .exec(session => session.set("requesterId", config.testSystemAdminId))
-    .exec(PublicationRequests.createPublicationCrownFirmPddaRequest)
+  val create3MB: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamily3MBRequest)
 
+  val create4MB: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamily4MBRequest)
 
-  val generatePdfTwoCasesScenario = scenario("Generate PDF 2 cases")
-    .exec(OAuthAPI.authData)
-    .exec(PublicationRequests.getPublicationCivilAndFamilyTwoCasesRequest)
+  /* -----------------------------------
+     CrownFirm PDDA flow
+   ----------------------------------- */
+  val createPublicationCrownFirmPdda: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCrownFirmPddaRequest)
 
-  val generatePdfFiftyCasesScenario = scenario("Generate PDF 50 cases")
-    .exec(OAuthAPI.authData)
-    .exec(PublicationRequests.getPublicationCivilAndFamilyFiftyCasesRequest)
+  /* -----------------------------------
+     PDF + Artefact flows
+   ----------------------------------- */
+  val generatePdfTwoCases: ChainBuilder =
+    exec(PublicationRequests.getPublicationCivilAndFamilyTwoCasesRequest)
 
-  val generatePdfHundredCasesScenario = scenario("Generate PDF 100 cases")
-    .exec(OAuthAPI.authData)
-    .exec(PublicationRequests.getPublicationCivilAndFamilyHundredCasesRequest)
+  val generatePdfFiftyCases: ChainBuilder =
+    exec(PublicationRequests.getPublicationCivilAndFamilyFiftyCasesRequest)
 
-  val generateArtefactSummaryTwoCasesScenario = scenario("Generate Artefact Summary 2 cases")
-    .exec(OAuthAPI.authData)
-    .exec(PublicationRequests.generateArtefactSummaryTwoCasesRequest)
+  val generatePdfHundredCases: ChainBuilder =
+    exec(PublicationRequests.getPublicationCivilAndFamilyHundredCasesRequest)
 
-  val generateArtefactSummaryFiftyCasesScenario = scenario("Generate Artefact Summary 50 cases")
-    .exec(OAuthAPI.authData)
-    .exec(PublicationRequests.generateArtefactSummaryFiftyCasesRequest)
+  val generateArtefactTwoCases: ChainBuilder =
+    exec(PublicationRequests.generateArtefactSummaryTwoCasesRequest)
 
-  val generateArtefactSummaryHundredCasesScenario = scenario("Generate Artefact Summary 100 cases")
-    .exec(OAuthAPI.authData)
-    .exec(PublicationRequests.generateArtefactSummaryHundredCasesRequest)
+  val generateArtefactFiftyCases: ChainBuilder =
+    exec(PublicationRequests.generateArtefactSummaryFiftyCasesRequest)
 
-  val generateArtefactSummaryTwoHundredCasesScenario = scenario("Generate Artefact Summary 200 cases")
-    .exec(OAuthAPI.authData)
-    .exec(PublicationRequests.generateArtefactSummaryTwoHundredCasesRequest)
+  val generateArtefactHundredCases: ChainBuilder =
+    exec(PublicationRequests.generateArtefactSummaryHundredCasesRequest)
 
-  val getPayloadHundredCasesScenario = scenario("Get payload 100 cases")
-    .exec(OAuthAPI.authData)
-    .exec(PublicationRequests.getPayloadCivilAndFamilyHundredCasesRequest)
+  val generateArtefactTwoHundredCases: ChainBuilder =
+    exec(PublicationRequests.generateArtefactSummaryTwoHundredCasesRequest)
+
+  val getPayloadHundredCases: ChainBuilder =
+    exec(PublicationRequests.getPayloadCivilAndFamilyHundredCasesRequest)
 }

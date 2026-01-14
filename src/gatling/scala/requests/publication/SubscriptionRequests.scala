@@ -8,44 +8,46 @@ import utils.auth.OAuthAPI.config
 object SubscriptionRequests {
 
 
-
-
+  private val artefactIdTwoCases = "23aa4c86-4ffe-477b-b5e5-c76b8f3a9a12"
+  private val artefactIdFiftyCases = "f5aed02c-b6b7-440e-9f66-32029bd823cc"
+  private val artefactIdHundredCases = "90889d83-088a-4ebf-bf68-781962cb5d3e"
+  private val artefactIdTwoHundredCases = "33538ac4-7cba-475d-b091-d7c0003dd2a3"
 
   // Set paths for endpoints
-  private val NotifySubscriptionPath = "/notify/v2/subscription"
+  private val NotifySubscriptionPath = "/notify/subscription"
 
-  val notifySubscriptionBodyTwoCases = "{\"artefactId\":\"2fcbf066-4657-43c9-b9f1-8313f649820f\",\"subscriptionEmails\": [{ \"email\": \"test_account_admin@justice.gov.uk\",\"subscriptions\": {\"LOCATION_ID\":[\"996\"]}}]}"
-  val notifySubscriptionBodyFiftyCases = "{\"artefactId\":\"74a21307-48f4-43e4-a2fc-25091d46613c\",\"subscriptionEmails\": [{ \"email\": \"test_account_admin@justice.gov.uk\",\"subscriptions\": {\"LOCATION_ID\":[\"996\"]}}]}"
-  val notifySubscriptionBodyHundredCases = "{\"artefactId\":\"506c4973-0283-46a5-9c90-eaa76e029ea8\",\"subscriptionEmails\": [{ \"email\": \"test_account_admin@justice.gov.uk\",\"subscriptions\": {\"LOCATION_ID\":[\"996\"]}}]}"
-  val notifySubscriptionBodyTwoHundredCases = "{\"artefactId\":\"0e74e020-a7b8-49a1-b141-59a944da7e8e\",\"subscriptionEmails\": [{ \"email\": \"test_account_admin@justice.gov.uk\",\"subscriptions\": {\"LOCATION_ID\":[\"996\"]}}]}"
+  val notifySubscriptionBodyTwoCases = s"""{"artefactId":"$artefactIdTwoCases","subscriptionEmails":[{"email":"test_account_admin@justice.gov.uk","subscriptions":{"LOCATION_ID":["996"]}}]}"""
+  val notifySubscriptionBodyFiftyCases = s"""{"artefactId":"$artefactIdFiftyCases","subscriptionEmails":[{"email":"test_account_admin@justice.gov.uk","subscriptions":{"LOCATION_ID":["996"]}}]}"""
+  val notifySubscriptionBodyHundredCases = s"""{"artefactId":"$artefactIdHundredCases","subscriptionEmails":[{"email":"test_account_admin@justice.gov.uk","subscriptions":{"LOCATION_ID":["996"]}}]}"""
+  val notifySubscriptionBodyTwoHundredCases = s"""{"artefactId":"$artefactIdTwoHundredCases","subscriptionEmails":[{"email":"test_account_admin@justice.gov.uk","subscriptions":{"LOCATION_ID":["996"]}}]}"""
 
   val httpProtocol = http.baseUrl(config.publicationServicesApi.url)
 
   val postNotifySubscriptionTwoCasesRequest: HttpRequestBuilder = http("Notify Subscription 2 Cases request")
     .post(NotifySubscriptionPath)
     .body(StringBody(notifySubscriptionBodyTwoCases)).asJson
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenPubServices}")
     .header("Accept", "application/json")
     .check(status is 202)
 
   val postNotifySubscriptionFiftyCasesRequest: HttpRequestBuilder = http("Notify Subscription 50 Cases request")
     .post(NotifySubscriptionPath)
     .body(StringBody(notifySubscriptionBodyFiftyCases)).asJson
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenPubServices}")
     .header("Accept", "application/json")
     .check(status is 202)
 
   val postNotifySubscriptionHundredCasesRequest: HttpRequestBuilder = http("Notify Subscription 100 Cases request")
     .post(NotifySubscriptionPath)
     .body(StringBody(notifySubscriptionBodyHundredCases)).asJson
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenPubServices}")
     .header("Accept", "application/json")
     .check(status is 202)
 
   val postNotifySubscriptionTwoHundredCasesRequest: HttpRequestBuilder = http("Notify Subscription 200 Cases request")
     .post(NotifySubscriptionPath)
     .body(StringBody(notifySubscriptionBodyTwoHundredCases)).asJson
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenPubServices}")
     .header("Accept", "application/json")
     .check(status is 202)
 }
