@@ -145,41 +145,41 @@ object PublicationRequests {
 
   val getPublicationCivilAndFamilyTwoCasesRequest: HttpRequestBuilder = http("Generate PDF 2 Cases request")
     .get(PublicationsPath + "/" + artefactIdTwoCases + fileTypePath)
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenDataManagement}")
     .check(status is 200)
 
   val getPublicationCivilAndFamilyFiftyCasesRequest: HttpRequestBuilder = http("Generate PDF 50 Cases request")
     .get(PublicationsPath + "/" + artefactIdFiftyCases + fileTypePath)
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenDataManagement}")
     .check(status is 200)
 
   val getPublicationCivilAndFamilyHundredCasesRequest: HttpRequestBuilder = http("Generate PDF 100 Cases request")
     .get(PublicationsPath + "/" + artefactIdHundredCases + fileTypePath)
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenDataManagement}")
     .check(status is 200)
 
   val generateArtefactSummaryTwoCasesRequest: HttpRequestBuilder = http("Generate Artefact Summary 2 Cases request")
     .get(PublicationsPath + "/" + artefactIdTwoCases + "/summary")
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenDataManagement}")
     .check(status is 200)
 
   val generateArtefactSummaryFiftyCasesRequest: HttpRequestBuilder = http("Generate Artefact Summary 50 Cases request")
     .get(PublicationsPath + "/" + artefactIdFiftyCases + "/summary")
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenDataManagement}")
     .check(status is 200)
 
   val generateArtefactSummaryHundredCasesRequest: HttpRequestBuilder = http("Generate Artefact Summary 100 Cases request")
     .get(PublicationsPath + "/" + artefactIdHundredCases + "/summary")
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenDataManagement}")
     .check(status is 200)
 
   val generateArtefactSummaryTwoHundredCasesRequest: HttpRequestBuilder = http("Generate Artefact Summary 200 Cases request")
     .get(PublicationsPath + "/" + artefactIdTwoHundredCases + "/summary")
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenDataManagement}")
     .check(status is 200)
 
   val getPayloadCivilAndFamilyHundredCasesRequest: HttpRequestBuilder = http("Get payload 100 Cases request")
     .get(PublicationsPath + "/" + artefactIdHundredCases + "/payload")
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenDataManagement}")
     .check(status is 200)
 }

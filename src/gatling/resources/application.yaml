@@ -14,5 +14,4 @@ publicationServicesApi:
   scopes: ${env:PUBLICATION_SERVICES_AZ_API}/.default
   url: ${env:PUBLICATION_SERVICES_URL:-https://pip-publication-services.staging.platform.hmcts.net}
 testSystemAdminId: ${env:TEST_SYSTEM_ADMIN_ID}
-
-
+testVerifiedUserId: ${env:TEST_VERIFIED_USER_ID}

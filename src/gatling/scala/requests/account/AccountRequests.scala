@@ -25,8 +25,8 @@ object AccountRequests {
   def createAccount(accounts: ListBuffer[Map[String, String]]): HttpRequestBuilder = http("Create a PI_AAD Account")
     .post(AccountsPath)
     .body(ByteArrayBody(mapper.writeValueAsBytes(accounts)))
-    .header("Authorization", "bearer ${bearerx}")
-    .header("x-issuer-id", config.testSystemAdminId)
+    .header("Authorization", "bearer ${AuthTokenAccountManagement}")
+    .header("x-requester-id", config.testSystemAdminId)
     .header("Content-Type", "application/json")
     .check(status is 201)
     .check(bodyString.saveAs("ResponseBody"))
@@ -34,7 +34,8 @@ object AccountRequests {
 
   def deleteAccounts(emailPrefix: String): HttpRequestBuilder = http("Delete all accounts with prefix")
     .delete(TestingSupportDeleteAccountPath + emailPrefix)
-    .header("Authorization", "bearer ${bearerx}")
+    .header("Authorization", "bearer ${AuthTokenAccountManagement}")
+    .header("x-requester-id", config.testSystemAdminId)
     .check(status is 200)
 
 }
