@@ -6,7 +6,8 @@ import io.gatling.http.request.builder._
 import utils.auth.OAuthAPI.config
 import utils.headers.Headers
 
-import java.time.LocalDateTime
+import java.time.{LocalDate, LocalDateTime}
+import java.util.concurrent.atomic.AtomicLong
 import scala.util.Random
 
 object PublicationRequests {
@@ -23,31 +24,54 @@ object PublicationRequests {
   // Load court CSV file
   val courtListFeed = csv("courtLists/ReferenceData.csv").circular
   val httpProtocol = http.baseUrl(config.dataManagementApi.url)
+  private val startCounter = new AtomicLong(0)
 
   // Set feeders
+
+  val numberOfDays = 5000
+  val maxPastRangeDays = 20000 // must be >= numberOfDays
+
+  require(
+    maxPastRangeDays >= numberOfDays,
+    "maxPastRangeDays must be >= numberOfDays to guarantee uniqueness"
+  )
+
+  val randomPastDays: Vector[LocalDate] =
+    Random
+      .shuffle((1 to maxPastRangeDays).toVector) // start at 1 => strictly past
+      .take(numberOfDays)
+      .map(offset => LocalDate.now().minusDays(offset))
+
   val createPublicationFeed =
-    Iterator.continually(Map(
-      "caseName" -> ("perfCaseName " + Random.nextInt(99999999)),
-      "caseNumber1" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseNumber2" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseNumber3" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseNumber4" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseNumber5" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseNumber6" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseNumber7" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseNumber8" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseNumber9" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseNumber10" -> ("perfCaseNumber " + Random.nextInt(99999999)),
-      "caseUrn" -> ("perfURN " + Random.nextInt(99999999)),
-      "startDate" -> LocalDateTime.now(),
-      "endDate" -> LocalDateTime.now().plusDays(1)
-    ))
+    randomPastDays.iterator.map { day =>
+      val start = day.atStartOfDay()
+
+      Map(
+        "caseName"      -> s"perfCaseName ${Random.nextInt(99999999)}",
+        "caseNumber1"   -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseNumber2"   -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseNumber3"   -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseNumber4"   -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseNumber5"   -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseNumber6"   -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseNumber7"   -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseNumber8"   -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseNumber9"   -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseNumber10"  -> s"perfCaseNumber ${Random.nextInt(99999999)}",
+        "caseUrn"       -> s"perfURN ${Random.nextInt(99999999)}",
+        "startDate"     -> start,
+        "endDate"       -> start.plusDays(1)
+      )
+    }
 
   val createDifferentSizePublicationFeed =
-    Iterator.continually(Map(
-      "startDate" -> LocalDateTime.now(),
-      "endDate" -> LocalDateTime.now().plusDays(1)
-    ))
+    randomPastDays.iterator.map { day =>
+      val start = day.atStartOfDay()
+      Map(
+        "startDate" -> start,
+        "endDate"   -> LocalDateTime.now().plusDays(1)
+      )
+    }
 
   // Set requests
   val createPublicationCivilAndFamilyRequest: HttpRequestBuilder = http("Create Publication Civil And Family request")
