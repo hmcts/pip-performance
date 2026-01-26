@@ -8,7 +8,7 @@ object Headers {
   val headersAPI = Map(
     "Authorization" -> "bearer ${AuthTokenDataManagement}",
     "Accept" -> "application/json",
-    "x-provenance" -> "MANUAL_UPLOAD",
+    "x-provenance" -> "SNL",
     "x-source-artefact-id" -> ("artefact-id-perf-" + Random.nextInt(99999999)),
     "x-type" -> "LIST",
     "x-sensitivity" -> "PUBLIC",
