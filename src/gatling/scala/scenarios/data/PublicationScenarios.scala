@@ -59,6 +59,13 @@ object PublicationScenarios {
       .exec(PublicationRequests.createPublicationFamilyRequest)
       .exec(write10)
 
+  val createPublicationCivilAndFamilyOnly: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createPublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
+      .exec(write5)
+
   /* -----------------------------------
      Variable size payload flows
    ----------------------------------- */
