@@ -7,8 +7,10 @@ import requests.data.PublicationRequests
 import requests.combined.SubscriptionRequests
 import utils.auth.OAuthAPI.config
 
-import java.time.LocalDateTime
+import java.time.{LocalDate, LocalDateTime}
+import java.util.concurrent.atomic.AtomicLong
 import scala.collection.mutable.ListBuffer
+import scala.util.Random
 
 object PublicationFlowScenarios {
 
@@ -18,9 +20,22 @@ object PublicationFlowScenarios {
 
   private val sequenceRangeBatch1 = Seq.range(1, UsersToCreate / 2, 1)
   private val sequenceRangeBatch2 = Seq.range(UsersToCreate / 2, UsersToCreate + 1, 1)
+  private val startCounter = new AtomicLong(0)
 
   val withRequesterId: ChainBuilder =
     exec(session => session.set("requesterId", config.testSystemAdminId))
+
+  val numberOfDays = 5000
+  val maxPastRangeDays = 20000
+
+  require(maxPastRangeDays >= numberOfDays)
+
+  val pastDayIterator: Iterator[LocalDate] =
+    Random
+      .shuffle((1 to maxPastRangeDays).toVector)
+      .take(numberOfDays)
+      .map(offset => LocalDate.now().minusDays(offset))
+      .iterator
 
   val accountsBatch1: ListBuffer[Map[String, String]] = ListBuffer()
   for (n <- sequenceRangeBatch1) {
@@ -59,11 +74,15 @@ object PublicationFlowScenarios {
         exec(SubscriptionRequests.postCreateSubscriptionByLocationRequestWithUser)
           .exec(SubscriptionRequests.putConfigureListTypeRequestWithUser)
       )
-      .exec(session => session
-        .set("startDate", LocalDateTime.now())
-        .set("endDate", LocalDateTime.now().plusDays(1))
-        .set("P&I ID", TestLocationid)
-      )
+      .exec { session =>
+        val day   = pastDayIterator.next()
+        val start = day.atStartOfDay()
+
+        session
+          .set("startDate", start)
+          .set("endDate", LocalDateTime.now().plusDays(1))
+          .set("P&I ID", TestLocationid)
+      }
       .exec(withRequesterId)
       .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
       .pause(30)

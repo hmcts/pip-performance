@@ -29,463 +29,7 @@
     },
     "CourtLists": [
       {
-        "SittingDate": "2025-09-'11'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 3,
-            "SittingAt": "'13':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Moran"
-                ],
-                "CitizenNameSurname": "'Browning'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 18,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-16",
-                  "HearingEndDate": "2025-09-3",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'20'",
-                "CaseNumberCaTH": "T001122'27'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'3'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 6,
-            "SittingAt": "'16':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Alexis"
-                ],
-                "CitizenNameSurname": "'Welch'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 23,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-19",
-                  "HearingEndDate": "2025-09-25",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'13'",
-                "CaseNumberCaTH": "T001122'25'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'22'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 10,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Berry"
-                ],
-                "CitizenNameSurname": "'Burgess'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 55,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-4",
-                  "HearingEndDate": "2025-09-20",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'28'",
-                "CaseNumberCaTH": "T001122'21'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'17'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 5,
-            "SittingAt": "'15':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Guthrie"
-                ],
-                "CitizenNameSurname": "'Vasquez'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 17,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-22",
-                  "HearingEndDate": "2025-09-6",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'13'",
-                "CaseNumberCaTH": "T001122'17'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'11'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 2,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Tara"
-                ],
-                "CitizenNameSurname": "'Mathis'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 1,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-12",
-                  "HearingEndDate": "2025-09-10",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'17'",
-                "CaseNumberCaTH": "T001122'18'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'26'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 5,
-            "SittingAt": "'14':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Nelda"
-                ],
-                "CitizenNameSurname": "'Walton'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 39,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-20",
-                  "HearingEndDate": "2025-09-9",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'14'",
-                "CaseNumberCaTH": "T001122'27'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'1'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 2,
-            "SittingAt": "'12':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Roseann"
-                ],
-                "CitizenNameSurname": "'Clark'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 17,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-28",
-                  "HearingEndDate": "2025-09-21",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'25'",
-                "CaseNumberCaTH": "T001122'24'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'26'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 9,
-            "SittingAt": "'12':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Alisa"
-                ],
-                "CitizenNameSurname": "'Koch'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 28,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-25",
-                  "HearingEndDate": "2025-09-28",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'14'",
-                "CaseNumberCaTH": "T001122'13'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'11'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 2,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Tanner"
-                ],
-                "CitizenNameSurname": "'Horn'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 53,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-4",
-                  "HearingEndDate": "2025-09-4",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'14'",
-                "CaseNumberCaTH": "T001122'21'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'12'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 9,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Rogers"
-                ],
-                "CitizenNameSurname": "'Salazar'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 28,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-17",
-                  "HearingEndDate": "2025-09-14",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'21'",
-                "CaseNumberCaTH": "T001122'23'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'28'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 9,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Miranda"
-                ],
-                "CitizenNameSurname": "'Hayes'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 11,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-12",
-                  "HearingEndDate": "2025-09-21",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'28'",
-                "CaseNumberCaTH": "T001122'28'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'24'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 1,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Nicholson"
-                ],
-                "CitizenNameSurname": "'Ware'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 15,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-17",
-                  "HearingEndDate": "2025-09-18",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'12'",
-                "CaseNumberCaTH": "T001122'22'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'13'",
+        "SittingDate": "2025-09-03",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -495,129 +39,15 @@
         "Sittings": [
           {
             "CourtRoomNumber": 7,
-            "SittingAt": "'13':00:00",
+            "SittingAt": "10:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Valencia"
+                  "John"
                 ],
-                "CitizenNameSurname": "'Ross'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 55,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-12",
-                  "HearingEndDate": "2025-09-28",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'24'",
-                "CaseNumberCaTH": "T001122'15'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'19'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 2,
-            "SittingAt": "'14':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Letha"
-                ],
-                "CitizenNameSurname": "'Conway'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 24,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-28",
-                  "HearingEndDate": "2025-09-14",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'17'",
-                "CaseNumberCaTH": "T001122'14'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'2'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 3,
-            "SittingAt": "'10':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Christian"
-                ],
-                "CitizenNameSurname": "'Harding'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 42,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-18",
-                  "HearingEndDate": "2025-09-11",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'25'",
-                "CaseNumberCaTH": "T001122'23'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'21'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 6,
-            "SittingAt": "'10':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Serrano"
-                ],
-                "CitizenNameSurname": "'Webster'"
+                "CitizenNameSurname": "Warner"
               }
             },
             "Hearings": [
@@ -625,57 +55,19 @@
                 "HearingSequenceNumber": 11,
                 "HearingDetails": {
                   "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-13",
-                  "HearingEndDate": "2025-09-24",
+                  "HearingDate": "2025-09-24",
+                  "HearingEndDate": "2025-09-14",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'15'",
-                "CaseNumberCaTH": "T001122'18'"
+                "CaseNumber": "T00112221",
+                "CaseNumberCaTH": "T00112212"
               }
             ]
           }
         ]
       },
       {
-        "SittingDate": "2025-09-'24'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 7,
-            "SittingAt": "'10':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Vasquez"
-                ],
-                "CitizenNameSurname": "'Bird'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 4,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-27",
-                  "HearingEndDate": "2025-09-5",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'23'",
-                "CaseNumberCaTH": "T001122'12'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'14'",
+        "SittingDate": "2025-09-14",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -685,15 +77,2713 @@
         "Sittings": [
           {
             "CourtRoomNumber": 4,
-            "SittingAt": "'10':00:00",
+            "SittingAt": "11:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Wells"
+                  "Ann"
                 ],
-                "CitizenNameSurname": "'Thomas'"
+                "CitizenNameSurname": "Stafford"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 52,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-13",
+                  "HearingEndDate": "2025-09-26",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112213",
+                "CaseNumberCaTH": "T00112216"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-04",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Irene"
+                ],
+                "CitizenNameSurname": "Maynard"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 16,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-24",
+                  "HearingEndDate": "2025-09-13",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112224",
+                "CaseNumberCaTH": "T00112212"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-17",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 10,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Hodge"
+                ],
+                "CitizenNameSurname": "Riddle"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 59,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-17",
+                  "HearingEndDate": "2025-09-12",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112221",
+                "CaseNumberCaTH": "T00112212"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-21",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Melinda"
+                ],
+                "CitizenNameSurname": "Ford"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 36,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-17",
+                  "HearingEndDate": "2025-09-28",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112225",
+                "CaseNumberCaTH": "T00112219"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-25",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 6,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Erma"
+                ],
+                "CitizenNameSurname": "Fitzpatrick"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 25,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-20",
+                  "HearingEndDate": "2025-09-23",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112215",
+                "CaseNumberCaTH": "T00112212"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-14",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 3,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Price"
+                ],
+                "CitizenNameSurname": "Vincent"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 28,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-25",
+                  "HearingEndDate": "2025-09-24",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112215",
+                "CaseNumberCaTH": "T00112211"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-14",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 9,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Ester"
+                ],
+                "CitizenNameSurname": "Pittman"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 14,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-16",
+                  "HearingEndDate": "2025-09-28",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112224",
+                "CaseNumberCaTH": "T00112222"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-25",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 6,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Queen"
+                ],
+                "CitizenNameSurname": "Bell"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 23,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-23",
+                  "HearingEndDate": "2025-09-19",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112211",
+                "CaseNumberCaTH": "T00112226"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-25",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Hahn"
+                ],
+                "CitizenNameSurname": "Wheeler"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 27,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-22",
+                  "HearingEndDate": "2025-09-25",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112225",
+                "CaseNumberCaTH": "T00112215"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-10",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 9,
+            "SittingAt": "09:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Lea"
+                ],
+                "CitizenNameSurname": "Pacheco"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 55,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-26",
+                  "HearingEndDate": "2025-09-14",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112221",
+                "CaseNumberCaTH": "T00112216"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-03",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 9,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Melisa"
+                ],
+                "CitizenNameSurname": "Mann"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 12,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-21",
+                  "HearingEndDate": "2025-09-22",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112218",
+                "CaseNumberCaTH": "T00112223"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-07",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "13:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Carole"
+                ],
+                "CitizenNameSurname": "Patton"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 56,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-20",
+                  "HearingEndDate": "2025-09-28",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112222",
+                "CaseNumberCaTH": "T00112213"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-14",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 4,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Josefa"
+                ],
+                "CitizenNameSurname": "Bolton"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 30,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-24",
+                  "HearingEndDate": "2025-09-12",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112218",
+                "CaseNumberCaTH": "T00112217"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-28",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Jacobson"
+                ],
+                "CitizenNameSurname": "Figueroa"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 34,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-26",
+                  "HearingEndDate": "2025-09-13",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112220",
+                "CaseNumberCaTH": "T00112211"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-25",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 3,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Huffman"
+                ],
+                "CitizenNameSurname": "Burton"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 60,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-21",
+                  "HearingEndDate": "2025-09-27",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112214",
+                "CaseNumberCaTH": "T00112216"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-16",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "11:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Alissa"
+                ],
+                "CitizenNameSurname": "Mccormick"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 34,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-10",
+                  "HearingEndDate": "2025-09-20",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112212",
+                "CaseNumberCaTH": "T00112225"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-20",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 3,
+            "SittingAt": "13:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Chaney"
+                ],
+                "CitizenNameSurname": "Mcclain"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 60,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-18",
+                  "HearingEndDate": "2025-09-16",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112211",
+                "CaseNumberCaTH": "T00112218"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-13",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Marion"
+                ],
+                "CitizenNameSurname": "Head"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 20,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-23",
+                  "HearingEndDate": "2025-09-18",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112227",
+                "CaseNumberCaTH": "T00112214"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-09",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "13:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Elsie"
+                ],
+                "CitizenNameSurname": "Dudley"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 48,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-13",
+                  "HearingEndDate": "2025-09-13",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112218",
+                "CaseNumberCaTH": "T00112213"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-05",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 4,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Knowles"
+                ],
+                "CitizenNameSurname": "Bennett"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 20,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-15",
+                  "HearingEndDate": "2025-09-25",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112224",
+                "CaseNumberCaTH": "T00112220"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-01",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Kerry"
+                ],
+                "CitizenNameSurname": "Morton"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 50,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-12",
+                  "HearingEndDate": "2025-09-16",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112227",
+                "CaseNumberCaTH": "T00112212"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-25",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Cameron"
+                ],
+                "CitizenNameSurname": "Bowman"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 25,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-28",
+                  "HearingEndDate": "2025-09-23",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112224",
+                "CaseNumberCaTH": "T00112216"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-06",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Santana"
+                ],
+                "CitizenNameSurname": "Welch"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 23,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-19",
+                  "HearingEndDate": "2025-09-23",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112219",
+                "CaseNumberCaTH": "T00112217"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-05",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "09:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Johnson"
+                ],
+                "CitizenNameSurname": "Reeves"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 13,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-21",
+                  "HearingEndDate": "2025-09-20",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112221",
+                "CaseNumberCaTH": "T00112217"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-16",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 9,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Wilkins"
+                ],
+                "CitizenNameSurname": "Hickman"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 24,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-17",
+                  "HearingEndDate": "2025-09-18",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112212",
+                "CaseNumberCaTH": "T00112213"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-28",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Rice"
+                ],
+                "CitizenNameSurname": "Morales"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 49,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-27",
+                  "HearingEndDate": "2025-09-27",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112214",
+                "CaseNumberCaTH": "T00112219"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-28",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 8,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Leigh"
+                ],
+                "CitizenNameSurname": "Williams"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 58,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-14",
+                  "HearingEndDate": "2025-09-22",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112226",
+                "CaseNumberCaTH": "T00112224"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-05",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Hill"
+                ],
+                "CitizenNameSurname": "Houston"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 48,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-26",
+                  "HearingEndDate": "2025-09-15",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112217",
+                "CaseNumberCaTH": "T00112220"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-09",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Bentley"
+                ],
+                "CitizenNameSurname": "Kemp"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 24,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-22",
+                  "HearingEndDate": "2025-09-28",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112219",
+                "CaseNumberCaTH": "T00112213"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-03",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "13:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Gertrude"
+                ],
+                "CitizenNameSurname": "Gonzalez"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 15,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-11",
+                  "HearingEndDate": "2025-09-21",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112227",
+                "CaseNumberCaTH": "T00112225"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-05",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 3,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Alma"
+                ],
+                "CitizenNameSurname": "Cobb"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 41,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-23",
+                  "HearingEndDate": "2025-09-19",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112217",
+                "CaseNumberCaTH": "T00112214"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-18",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 9,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Hodges"
+                ],
+                "CitizenNameSurname": "Green"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 59,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-11",
+                  "HearingEndDate": "2025-09-25",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112226",
+                "CaseNumberCaTH": "T00112214"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-01",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 6,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Renee"
+                ],
+                "CitizenNameSurname": "Estrada"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 24,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-25",
+                  "HearingEndDate": "2025-09-23",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112228",
+                "CaseNumberCaTH": "T00112214"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-15",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Bell"
+                ],
+                "CitizenNameSurname": "Lindsey"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 18,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-24",
+                  "HearingEndDate": "2025-09-11",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112226",
+                "CaseNumberCaTH": "T00112213"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-05",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 3,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Le"
+                ],
+                "CitizenNameSurname": "Jenkins"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 50,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-24",
+                  "HearingEndDate": "2025-09-17",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112219",
+                "CaseNumberCaTH": "T00112211"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-23",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "13:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Miriam"
+                ],
+                "CitizenNameSurname": "Robles"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 30,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-12",
+                  "HearingEndDate": "2025-09-22",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112216",
+                "CaseNumberCaTH": "T00112219"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-14",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Hardin"
+                ],
+                "CitizenNameSurname": "Cooke"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 24,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-17",
+                  "HearingEndDate": "2025-09-26",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112212",
+                "CaseNumberCaTH": "T00112220"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-04",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "13:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Jan"
+                ],
+                "CitizenNameSurname": "Sargent"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 28,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-17",
+                  "HearingEndDate": "2025-09-20",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112222",
+                "CaseNumberCaTH": "T00112226"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-13",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 10,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Willis"
+                ],
+                "CitizenNameSurname": "Pickett"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 13,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-16",
+                  "HearingEndDate": "2025-09-16",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112221",
+                "CaseNumberCaTH": "T00112222"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-08",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 10,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Lelia"
+                ],
+                "CitizenNameSurname": "Watts"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 34,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-23",
+                  "HearingEndDate": "2025-09-28",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112222",
+                "CaseNumberCaTH": "T00112228"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-18",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Crawford"
+                ],
+                "CitizenNameSurname": "Summers"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 58,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-11",
+                  "HearingEndDate": "2025-09-13",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112224",
+                "CaseNumberCaTH": "T00112215"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-22",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 6,
+            "SittingAt": "09:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Lindsey"
+                ],
+                "CitizenNameSurname": "Moody"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 11,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-14",
+                  "HearingEndDate": "2025-09-11",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112217",
+                "CaseNumberCaTH": "T00112222"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-11",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 8,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Cain"
+                ],
+                "CitizenNameSurname": "Sandoval"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 27,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-14",
+                  "HearingEndDate": "2025-09-27",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112228",
+                "CaseNumberCaTH": "T00112226"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-21",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 6,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Lila"
+                ],
+                "CitizenNameSurname": "Acevedo"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 26,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-22",
+                  "HearingEndDate": "2025-09-16",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112225",
+                "CaseNumberCaTH": "T00112219"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-24",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "11:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Nikki"
+                ],
+                "CitizenNameSurname": "Odonnell"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 35,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-15",
+                  "HearingEndDate": "2025-09-21",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112215",
+                "CaseNumberCaTH": "T00112227"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-25",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 6,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Blair"
+                ],
+                "CitizenNameSurname": "Lawrence"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 44,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-19",
+                  "HearingEndDate": "2025-09-11",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112219",
+                "CaseNumberCaTH": "T00112224"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-20",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 9,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Maureen"
+                ],
+                "CitizenNameSurname": "Wright"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 27,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-27",
+                  "HearingEndDate": "2025-09-16",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112211",
+                "CaseNumberCaTH": "T00112216"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-12",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 8,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Knapp"
+                ],
+                "CitizenNameSurname": "Becker"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 39,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-22",
+                  "HearingEndDate": "2025-09-12",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112216",
+                "CaseNumberCaTH": "T00112223"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-03",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 10,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Bernice"
+                ],
+                "CitizenNameSurname": "Beach"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 17,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-11",
+                  "HearingEndDate": "2025-09-14",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112222",
+                "CaseNumberCaTH": "T00112211"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-22",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 3,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Luz"
+                ],
+                "CitizenNameSurname": "Huber"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 41,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-21",
+                  "HearingEndDate": "2025-09-20",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112225",
+                "CaseNumberCaTH": "T00112225"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-02",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 9,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Gallegos"
+                ],
+                "CitizenNameSurname": "Golden"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 24,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-17",
+                  "HearingEndDate": "2025-09-28",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112212",
+                "CaseNumberCaTH": "T00112223"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-20",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Mariana"
+                ],
+                "CitizenNameSurname": "Dejesus"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 47,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-18",
+                  "HearingEndDate": "2025-09-22",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112220",
+                "CaseNumberCaTH": "T00112227"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-20",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Marie"
+                ],
+                "CitizenNameSurname": "Sloan"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 16,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-20",
+                  "HearingEndDate": "2025-09-28",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112215",
+                "CaseNumberCaTH": "T00112214"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-16",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 4,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Neal"
+                ],
+                "CitizenNameSurname": "Mccray"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 30,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-13",
+                  "HearingEndDate": "2025-09-25",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112227",
+                "CaseNumberCaTH": "T00112211"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-08",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "11:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Eula"
+                ],
+                "CitizenNameSurname": "Knight"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 27,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-13",
+                  "HearingEndDate": "2025-09-17",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112224",
+                "CaseNumberCaTH": "T00112220"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-07",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 8,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Dawson"
+                ],
+                "CitizenNameSurname": "Moon"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 57,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-13",
+                  "HearingEndDate": "2025-09-23",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112222",
+                "CaseNumberCaTH": "T00112217"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-18",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 3,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Kris"
+                ],
+                "CitizenNameSurname": "Roman"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 47,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-16",
+                  "HearingEndDate": "2025-09-15",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112228",
+                "CaseNumberCaTH": "T00112219"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-06",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "09:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Cooley"
+                ],
+                "CitizenNameSurname": "Foley"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 39,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-10",
+                  "HearingEndDate": "2025-09-24",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112216",
+                "CaseNumberCaTH": "T00112222"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-03",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Snow"
+                ],
+                "CitizenNameSurname": "Fields"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 53,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-15",
+                  "HearingEndDate": "2025-09-14",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112225",
+                "CaseNumberCaTH": "T00112227"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-08",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Yolanda"
+                ],
+                "CitizenNameSurname": "Taylor"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 48,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-13",
+                  "HearingEndDate": "2025-09-12",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112223",
+                "CaseNumberCaTH": "T00112225"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-27",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 4,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Amparo"
+                ],
+                "CitizenNameSurname": "Tyler"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 46,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-23",
+                  "HearingEndDate": "2025-09-11",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112225",
+                "CaseNumberCaTH": "T00112227"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-23",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Gilda"
+                ],
+                "CitizenNameSurname": "Lambert"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 36,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-28",
+                  "HearingEndDate": "2025-09-16",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112215",
+                "CaseNumberCaTH": "T00112226"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-01",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "09:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Dillon"
+                ],
+                "CitizenNameSurname": "Solis"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 58,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-18",
+                  "HearingEndDate": "2025-09-10",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112219",
+                "CaseNumberCaTH": "T00112215"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-18",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Wright"
+                ],
+                "CitizenNameSurname": "Doyle"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 52,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-10",
+                  "HearingEndDate": "2025-09-16",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112219",
+                "CaseNumberCaTH": "T00112223"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-04",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Adrian"
+                ],
+                "CitizenNameSurname": "Henson"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 36,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-18",
+                  "HearingEndDate": "2025-09-21",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112217",
+                "CaseNumberCaTH": "T00112212"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-28",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "11:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Stokes"
+                ],
+                "CitizenNameSurname": "Garcia"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 40,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-12",
+                  "HearingEndDate": "2025-09-11",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112224",
+                "CaseNumberCaTH": "T00112218"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-01",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "13:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Lilia"
+                ],
+                "CitizenNameSurname": "Lloyd"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 56,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-27",
+                  "HearingEndDate": "2025-09-22",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112221",
+                "CaseNumberCaTH": "T00112223"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-17",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 9,
+            "SittingAt": "09:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Berta"
+                ],
+                "CitizenNameSurname": "Herrera"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 41,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-14",
+                  "HearingEndDate": "2025-09-26",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112213",
+                "CaseNumberCaTH": "T00112226"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-03",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 3,
+            "SittingAt": "09:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Darla"
+                ],
+                "CitizenNameSurname": "Adkins"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 47,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-19",
+                  "HearingEndDate": "2025-09-25",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112217",
+                "CaseNumberCaTH": "T00112212"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-22",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Mcconnell"
+                ],
+                "CitizenNameSurname": "Stephens"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 24,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-28",
+                  "HearingEndDate": "2025-09-25",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112218",
+                "CaseNumberCaTH": "T00112213"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-24",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "11:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Krista"
+                ],
+                "CitizenNameSurname": "Roberts"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 54,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-25",
+                  "HearingEndDate": "2025-09-13",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112219",
+                "CaseNumberCaTH": "T00112212"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-18",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 10,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Alexander"
+                ],
+                "CitizenNameSurname": "Jones"
               }
             },
             "Hearings": [
@@ -705,15 +2795,15 @@
                   "HearingEndDate": "2025-09-26",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'12'",
-                "CaseNumberCaTH": "T001122'26'"
+                "CaseNumber": "T00112213",
+                "CaseNumberCaTH": "T00112213"
               }
             ]
           }
         ]
       },
       {
-        "SittingDate": "2025-09-'10'",
+        "SittingDate": "2025-09-26",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -722,36 +2812,36 @@
         },
         "Sittings": [
           {
-            "CourtRoomNumber": 7,
-            "SittingAt": "'9':00:00",
+            "CourtRoomNumber": 6,
+            "SittingAt": "15:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Garza"
+                  "Georgette"
                 ],
-                "CitizenNameSurname": "'Morrow'"
+                "CitizenNameSurname": "Mercer"
               }
             },
             "Hearings": [
               {
-                "HearingSequenceNumber": 14,
+                "HearingSequenceNumber": 12,
                 "HearingDetails": {
                   "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-15",
-                  "HearingEndDate": "2025-09-21",
+                  "HearingDate": "2025-09-14",
+                  "HearingEndDate": "2025-09-10",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'18'",
-                "CaseNumberCaTH": "T001122'13'"
+                "CaseNumber": "T00112222",
+                "CaseNumberCaTH": "T00112212"
               }
             ]
           }
         ]
       },
       {
-        "SittingDate": "2025-09-'4'",
+        "SittingDate": "2025-09-14",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -760,36 +2850,188 @@
         },
         "Sittings": [
           {
-            "CourtRoomNumber": 2,
-            "SittingAt": "'11':00:00",
+            "CourtRoomNumber": 9,
+            "SittingAt": "15:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Bryan"
+                  "Josie"
                 ],
-                "CitizenNameSurname": "'Wilder'"
+                "CitizenNameSurname": "Suarez"
               }
             },
             "Hearings": [
               {
-                "HearingSequenceNumber": 60,
+                "HearingSequenceNumber": 45,
                 "HearingDetails": {
                   "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-26",
-                  "HearingEndDate": "2025-09-18",
+                  "HearingDate": "2025-09-22",
+                  "HearingEndDate": "2025-09-25",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'24'",
-                "CaseNumberCaTH": "T001122'24'"
+                "CaseNumber": "T00112220",
+                "CaseNumberCaTH": "T00112227"
               }
             ]
           }
         ]
       },
       {
-        "SittingDate": "2025-09-'28'",
+        "SittingDate": "2025-09-16",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 8,
+            "SittingAt": "09:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Cherry"
+                ],
+                "CitizenNameSurname": "Rowland"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 56,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-24",
+                  "HearingEndDate": "2025-09-27",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112226",
+                "CaseNumberCaTH": "T00112213"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-15",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Rhonda"
+                ],
+                "CitizenNameSurname": "Spence"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 34,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-21",
+                  "HearingEndDate": "2025-09-14",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112227",
+                "CaseNumberCaTH": "T00112212"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-24",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Odessa"
+                ],
+                "CitizenNameSurname": "Rivas"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 55,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-19",
+                  "HearingEndDate": "2025-09-16",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112212",
+                "CaseNumberCaTH": "T00112228"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-03",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 9,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "James"
+                ],
+                "CitizenNameSurname": "Leonard"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 18,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-19",
+                  "HearingEndDate": "2025-09-26",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112225",
+                "CaseNumberCaTH": "T00112215"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-19",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -799,15 +3041,15 @@
         "Sittings": [
           {
             "CourtRoomNumber": 5,
-            "SittingAt": "'12':00:00",
+            "SittingAt": "13:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Emerson"
+                  "Lindsay"
                 ],
-                "CitizenNameSurname": "'Howe'"
+                "CitizenNameSurname": "Rivera"
               }
             },
             "Hearings": [
@@ -815,19 +3057,19 @@
                 "HearingSequenceNumber": 20,
                 "HearingDetails": {
                   "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-22",
-                  "HearingEndDate": "2025-09-11",
+                  "HearingDate": "2025-09-25",
+                  "HearingEndDate": "2025-09-17",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'21'",
-                "CaseNumberCaTH": "T001122'17'"
+                "CaseNumber": "T00112223",
+                "CaseNumberCaTH": "T00112227"
               }
             ]
           }
         ]
       },
       {
-        "SittingDate": "2025-09-'18'",
+        "SittingDate": "2025-09-13",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -837,585 +3079,15 @@
         "Sittings": [
           {
             "CourtRoomNumber": 4,
-            "SittingAt": "'11':00:00",
+            "SittingAt": "15:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Gamble"
+                  "Shauna"
                 ],
-                "CitizenNameSurname": "'Donovan'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 6,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-4",
-                  "HearingEndDate": "2025-09-21",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'19'",
-                "CaseNumberCaTH": "T001122'15'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'20'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 5,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Barr"
-                ],
-                "CitizenNameSurname": "'Short'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 28,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-7",
-                  "HearingEndDate": "2025-09-20",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'12'",
-                "CaseNumberCaTH": "T001122'22'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'19'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 5,
-            "SittingAt": "'13':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Courtney"
-                ],
-                "CitizenNameSurname": "'Berry'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 9,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-1",
-                  "HearingEndDate": "2025-09-23",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'22'",
-                "CaseNumberCaTH": "T001122'27'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'3'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 9,
-            "SittingAt": "'13':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Laverne"
-                ],
-                "CitizenNameSurname": "'Hester'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 42,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-25",
-                  "HearingEndDate": "2025-09-14",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'21'",
-                "CaseNumberCaTH": "T001122'23'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'1'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 7,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Jami"
-                ],
-                "CitizenNameSurname": "'Rosales'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 13,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-23",
-                  "HearingEndDate": "2025-09-16",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'22'",
-                "CaseNumberCaTH": "T001122'18'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'6'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 6,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Hollie"
-                ],
-                "CitizenNameSurname": "'Barrett'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 47,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-11",
-                  "HearingEndDate": "2025-09-5",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'16'",
-                "CaseNumberCaTH": "T001122'17'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'18'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 3,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Mcgowan"
-                ],
-                "CitizenNameSurname": "'Rivera'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 13,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-23",
-                  "HearingEndDate": "2025-09-9",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'22'",
-                "CaseNumberCaTH": "T001122'17'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'17'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 2,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Norton"
-                ],
-                "CitizenNameSurname": "'Todd'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 27,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-27",
-                  "HearingEndDate": "2025-09-24",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'25'",
-                "CaseNumberCaTH": "T001122'20'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'4'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 1,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Doreen"
-                ],
-                "CitizenNameSurname": "'Melendez'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 6,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-25",
-                  "HearingEndDate": "2025-09-18",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'13'",
-                "CaseNumberCaTH": "T001122'16'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'18'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 7,
-            "SittingAt": "'12':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Wilkins"
-                ],
-                "CitizenNameSurname": "'Willis'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 53,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-7",
-                  "HearingEndDate": "2025-09-10",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'23'",
-                "CaseNumberCaTH": "T001122'13'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'15'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 2,
-            "SittingAt": "'10':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Burke"
-                ],
-                "CitizenNameSurname": "'Cruz'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 9,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-19",
-                  "HearingEndDate": "2025-09-5",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'13'",
-                "CaseNumberCaTH": "T001122'17'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'16'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 7,
-            "SittingAt": "'16':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Cassie"
-                ],
-                "CitizenNameSurname": "'Mcdonald'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 58,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-28",
-                  "HearingEndDate": "2025-09-1",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'27'",
-                "CaseNumberCaTH": "T001122'24'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'17'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 2,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Aguilar"
-                ],
-                "CitizenNameSurname": "'Donaldson'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 21,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-22",
-                  "HearingEndDate": "2025-09-15",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'28'",
-                "CaseNumberCaTH": "T001122'25'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'23'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 7,
-            "SittingAt": "'15':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Marissa"
-                ],
-                "CitizenNameSurname": "'Castillo'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 28,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-15",
-                  "HearingEndDate": "2025-09-3",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'11'",
-                "CaseNumberCaTH": "T001122'24'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'3'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 5,
-            "SittingAt": "'15':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Iva"
-                ],
-                "CitizenNameSurname": "'Leach'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 36,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-19",
-                  "HearingEndDate": "2025-09-11",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'11'",
-                "CaseNumberCaTH": "T001122'25'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'6'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 8,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Landry"
-                ],
-                "CitizenNameSurname": "'Crane'"
+                "CitizenNameSurname": "Finley"
               }
             },
             "Hearings": [
@@ -1423,19 +3095,19 @@
                 "HearingSequenceNumber": 43,
                 "HearingDetails": {
                   "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-21",
-                  "HearingEndDate": "2025-09-16",
+                  "HearingDate": "2025-09-28",
+                  "HearingEndDate": "2025-09-26",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'22'",
-                "CaseNumberCaTH": "T001122'14'"
+                "CaseNumber": "T00112216",
+                "CaseNumberCaTH": "T00112224"
               }
             ]
           }
         ]
       },
       {
-        "SittingDate": "2025-09-'13'",
+        "SittingDate": "2025-09-14",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -1444,226 +3116,36 @@
         },
         "Sittings": [
           {
-            "CourtRoomNumber": 4,
-            "SittingAt": "'11':00:00",
+            "CourtRoomNumber": 6,
+            "SittingAt": "15:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Carney"
+                  "Kitty"
                 ],
-                "CitizenNameSurname": "'Kirby'"
+                "CitizenNameSurname": "Palmer"
               }
             },
             "Hearings": [
               {
-                "HearingSequenceNumber": 26,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-23",
-                  "HearingEndDate": "2025-09-8",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'13'",
-                "CaseNumberCaTH": "T001122'25'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'26'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 1,
-            "SittingAt": "'14':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Nadia"
-                ],
-                "CitizenNameSurname": "'Hewitt'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 19,
+                "HearingSequenceNumber": 24,
                 "HearingDetails": {
                   "HearingDescription": "TestHearingDescription2",
                   "HearingDate": "2025-09-19",
-                  "HearingEndDate": "2025-09-8",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'11'",
-                "CaseNumberCaTH": "T001122'14'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'18'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 6,
-            "SittingAt": "'15':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Mariana"
-                ],
-                "CitizenNameSurname": "'Johnson'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 22,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-21",
-                  "HearingEndDate": "2025-09-2",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'19'",
-                "CaseNumberCaTH": "T001122'21'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'16'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 1,
-            "SittingAt": "'16':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Parrish"
-                ],
-                "CitizenNameSurname": "'Joyce'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 58,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-5",
-                  "HearingEndDate": "2025-09-24",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'21'",
-                "CaseNumberCaTH": "T001122'21'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'9'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 6,
-            "SittingAt": "'10':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Rush"
-                ],
-                "CitizenNameSurname": "'Bradford'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 42,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-10",
-                  "HearingEndDate": "2025-09-18",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'17'",
-                "CaseNumberCaTH": "T001122'27'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'21'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 6,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Ericka"
-                ],
-                "CitizenNameSurname": "'Parks'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 47,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-5",
                   "HearingEndDate": "2025-09-10",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'20'",
-                "CaseNumberCaTH": "T001122'19'"
+                "CaseNumber": "T00112226",
+                "CaseNumberCaTH": "T00112212"
               }
             ]
           }
         ]
       },
       {
-        "SittingDate": "2025-09-'9'",
+        "SittingDate": "2025-09-08",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -1672,568 +3154,36 @@
         },
         "Sittings": [
           {
-            "CourtRoomNumber": 1,
-            "SittingAt": "'10':00:00",
+            "CourtRoomNumber": 10,
+            "SittingAt": "15:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Leanne"
+                  "Hendrix"
                 ],
-                "CitizenNameSurname": "'Duncan'"
+                "CitizenNameSurname": "Sherman"
               }
             },
             "Hearings": [
               {
-                "HearingSequenceNumber": 48,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-17",
-                  "HearingEndDate": "2025-09-28",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'20'",
-                "CaseNumberCaTH": "T001122'12'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'28'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 4,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Clara"
-                ],
-                "CitizenNameSurname": "'Rich'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 48,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-6",
-                  "HearingEndDate": "2025-09-17",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'26'",
-                "CaseNumberCaTH": "T001122'17'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'2'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 3,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Leon"
-                ],
-                "CitizenNameSurname": "'Ingram'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 22,
+                "HearingSequenceNumber": 51,
                 "HearingDetails": {
                   "HearingDescription": "TestHearingDescription2",
                   "HearingDate": "2025-09-17",
                   "HearingEndDate": "2025-09-21",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'21'",
-                "CaseNumberCaTH": "T001122'13'"
+                "CaseNumber": "T00112217",
+                "CaseNumberCaTH": "T00112219"
               }
             ]
           }
         ]
       },
       {
-        "SittingDate": "2025-09-'25'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 1,
-            "SittingAt": "'15':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Bolton"
-                ],
-                "CitizenNameSurname": "'Dudley'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 47,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-25",
-                  "HearingEndDate": "2025-09-2",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'11'",
-                "CaseNumberCaTH": "T001122'21'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'24'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 3,
-            "SittingAt": "'15':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Kelsey"
-                ],
-                "CitizenNameSurname": "'Woodard'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 33,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-21",
-                  "HearingEndDate": "2025-09-6",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'20'",
-                "CaseNumberCaTH": "T001122'20'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'2'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 1,
-            "SittingAt": "'10':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Bridget"
-                ],
-                "CitizenNameSurname": "'Riddle'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 33,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-10",
-                  "HearingEndDate": "2025-09-10",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'17'",
-                "CaseNumberCaTH": "T001122'22'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'10'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 3,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Rosalyn"
-                ],
-                "CitizenNameSurname": "'Burnett'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 54,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-16",
-                  "HearingEndDate": "2025-09-17",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'26'",
-                "CaseNumberCaTH": "T001122'17'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'19'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 2,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Liz"
-                ],
-                "CitizenNameSurname": "'Huffman'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 6,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-8",
-                  "HearingEndDate": "2025-09-11",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'20'",
-                "CaseNumberCaTH": "T001122'12'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'6'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 8,
-            "SittingAt": "'12':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Vivian"
-                ],
-                "CitizenNameSurname": "'Espinoza'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 27,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-28",
-                  "HearingEndDate": "2025-09-25",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'23'",
-                "CaseNumberCaTH": "T001122'20'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'24'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 6,
-            "SittingAt": "'9':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Donna"
-                ],
-                "CitizenNameSurname": "'Shepard'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 37,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-9",
-                  "HearingEndDate": "2025-09-27",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'17'",
-                "CaseNumberCaTH": "T001122'26'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'9'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 10,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Francesca"
-                ],
-                "CitizenNameSurname": "'Booth'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 23,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-28",
-                  "HearingEndDate": "2025-09-11",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'24'",
-                "CaseNumberCaTH": "T001122'22'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'25'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 8,
-            "SittingAt": "'12':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Lavonne"
-                ],
-                "CitizenNameSurname": "'Terry'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 57,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-10",
-                  "HearingEndDate": "2025-09-13",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'26'",
-                "CaseNumberCaTH": "T001122'14'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'18'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 4,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Calderon"
-                ],
-                "CitizenNameSurname": "'Perkins'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 1,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-16",
-                  "HearingEndDate": "2025-09-9",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'11'",
-                "CaseNumberCaTH": "T001122'22'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'1'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 6,
-            "SittingAt": "'15':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Lucia"
-                ],
-                "CitizenNameSurname": "'Young'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 29,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-5",
-                  "HearingEndDate": "2025-09-15",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'22'",
-                "CaseNumberCaTH": "T001122'18'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'22'",
-        "CourtHouse": {
-          "CourtHouseType": "Crown Court",
-          "CourtHouseCode": 1234,
-          "CourtHouseShortName": "TestShortName",
-          "CourtHouseName": "TestCourtHouseName"
-        },
-        "Sittings": [
-          {
-            "CourtRoomNumber": 10,
-            "SittingAt": "'11':00:00",
-            "SittingPriority": "T",
-            "Judiciary": {
-              "Judge": {
-                "CitizenNameTitle": "Mr",
-                "CitizenNameForename": [
-                  "Lucy"
-                ],
-                "CitizenNameSurname": "'Odonnell'"
-              }
-            },
-            "Hearings": [
-              {
-                "HearingSequenceNumber": 10,
-                "HearingDetails": {
-                  "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-1",
-                  "HearingEndDate": "2025-09-1",
-                  "HearingType": "ABC"
-                },
-                "CaseNumber": "T001122'19'",
-                "CaseNumberCaTH": "T001122'25'"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "SittingDate": "2025-09-'10'",
+        "SittingDate": "2025-09-02",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -2243,35 +3193,73 @@
         "Sittings": [
           {
             "CourtRoomNumber": 9,
-            "SittingAt": "'15':00:00",
+            "SittingAt": "10:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Paul"
+                  "Vargas"
                 ],
-                "CitizenNameSurname": "'Tran'"
+                "CitizenNameSurname": "Shaffer"
               }
             },
             "Hearings": [
               {
-                "HearingSequenceNumber": 27,
+                "HearingSequenceNumber": 25,
                 "HearingDetails": {
                   "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-26",
-                  "HearingEndDate": "2025-09-17",
+                  "HearingDate": "2025-09-16",
+                  "HearingEndDate": "2025-09-25",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'26'",
-                "CaseNumberCaTH": "T001122'23'"
+                "CaseNumber": "T00112215",
+                "CaseNumberCaTH": "T00112211"
               }
             ]
           }
         ]
       },
       {
-        "SittingDate": "2025-09-'17'",
+        "SittingDate": "2025-09-15",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 8,
+            "SittingAt": "11:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Fuentes"
+                ],
+                "CitizenNameSurname": "Aguilar"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 22,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-11",
+                  "HearingEndDate": "2025-09-18",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112216",
+                "CaseNumberCaTH": "T00112224"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-11",
         "CourtHouse": {
           "CourtHouseType": "Crown Court",
           "CourtHouseCode": 1234,
@@ -2281,28 +3269,560 @@
         "Sittings": [
           {
             "CourtRoomNumber": 5,
-            "SittingAt": "'10':00:00",
+            "SittingAt": "13:00:00",
             "SittingPriority": "T",
             "Judiciary": {
               "Judge": {
                 "CitizenNameTitle": "Mr",
                 "CitizenNameForename": [
-                  "Elise"
+                  "Beasley"
                 ],
-                "CitizenNameSurname": "'Mosley'"
+                "CitizenNameSurname": "Curtis"
               }
             },
             "Hearings": [
               {
-                "HearingSequenceNumber": 3,
+                "HearingSequenceNumber": 39,
                 "HearingDetails": {
                   "HearingDescription": "TestHearingDescription2",
-                  "HearingDate": "2025-09-28",
-                  "HearingEndDate": "2025-09-25",
+                  "HearingDate": "2025-09-18",
+                  "HearingEndDate": "2025-09-16",
                   "HearingType": "ABC"
                 },
-                "CaseNumber": "T001122'21'",
-                "CaseNumberCaTH": "T001122'23'"
+                "CaseNumber": "T00112222",
+                "CaseNumberCaTH": "T00112213"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-25",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 6,
+            "SittingAt": "09:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Marcella"
+                ],
+                "CitizenNameSurname": "Eaton"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 59,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-10",
+                  "HearingEndDate": "2025-09-28",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112218",
+                "CaseNumberCaTH": "T00112221"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-04",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 4,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Allyson"
+                ],
+                "CitizenNameSurname": "Burnett"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 29,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-14",
+                  "HearingEndDate": "2025-09-20",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112228",
+                "CaseNumberCaTH": "T00112216"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-21",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "11:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Daugherty"
+                ],
+                "CitizenNameSurname": "Howe"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 29,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-18",
+                  "HearingEndDate": "2025-09-14",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112224",
+                "CaseNumberCaTH": "T00112224"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-22",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 8,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Darcy"
+                ],
+                "CitizenNameSurname": "Donaldson"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 32,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-26",
+                  "HearingEndDate": "2025-09-18",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112227",
+                "CaseNumberCaTH": "T00112216"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-18",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "11:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Patti"
+                ],
+                "CitizenNameSurname": "Harrison"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 42,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-25",
+                  "HearingEndDate": "2025-09-22",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112223",
+                "CaseNumberCaTH": "T00112223"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-03",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 5,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Burt"
+                ],
+                "CitizenNameSurname": "Cox"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 44,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-16",
+                  "HearingEndDate": "2025-09-21",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112217",
+                "CaseNumberCaTH": "T00112222"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-14",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 3,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Maritza"
+                ],
+                "CitizenNameSurname": "Maxwell"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 27,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-24",
+                  "HearingEndDate": "2025-09-23",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112212",
+                "CaseNumberCaTH": "T00112221"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-18",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "14:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Lesa"
+                ],
+                "CitizenNameSurname": "Roy"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 37,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-24",
+                  "HearingEndDate": "2025-09-28",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112222",
+                "CaseNumberCaTH": "T00112227"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-16",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 7,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Clarissa"
+                ],
+                "CitizenNameSurname": "Puckett"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 48,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-14",
+                  "HearingEndDate": "2025-09-14",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112216",
+                "CaseNumberCaTH": "T00112221"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-22",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 6,
+            "SittingAt": "15:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Araceli"
+                ],
+                "CitizenNameSurname": "Bartlett"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 20,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-20",
+                  "HearingEndDate": "2025-09-10",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112228",
+                "CaseNumberCaTH": "T00112221"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-25",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 6,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Gross"
+                ],
+                "CitizenNameSurname": "Morin"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 18,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-10",
+                  "HearingEndDate": "2025-09-14",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112214",
+                "CaseNumberCaTH": "T00112223"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-22",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 1,
+            "SittingAt": "12:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Donaldson"
+                ],
+                "CitizenNameSurname": "Willis"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 36,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-23",
+                  "HearingEndDate": "2025-09-14",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112211",
+                "CaseNumberCaTH": "T00112221"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-11",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 2,
+            "SittingAt": "16:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Lamb"
+                ],
+                "CitizenNameSurname": "Castro"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 13,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-15",
+                  "HearingEndDate": "2025-09-26",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112218",
+                "CaseNumberCaTH": "T00112215"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SittingDate": "2025-09-23",
+        "CourtHouse": {
+          "CourtHouseType": "Crown Court",
+          "CourtHouseCode": 1234,
+          "CourtHouseShortName": "TestShortName",
+          "CourtHouseName": "TestCourtHouseName"
+        },
+        "Sittings": [
+          {
+            "CourtRoomNumber": 10,
+            "SittingAt": "10:00:00",
+            "SittingPriority": "T",
+            "Judiciary": {
+              "Judge": {
+                "CitizenNameTitle": "Mr",
+                "CitizenNameForename": [
+                  "Ray"
+                ],
+                "CitizenNameSurname": "Garrison"
+              }
+            },
+            "Hearings": [
+              {
+                "HearingSequenceNumber": 21,
+                "HearingDetails": {
+                  "HearingDescription": "TestHearingDescription2",
+                  "HearingDate": "2025-09-12",
+                  "HearingEndDate": "2025-09-26",
+                  "HearingType": "ABC"
+                },
+                "CaseNumber": "T00112220",
+                "CaseNumberCaTH": "T00112217"
               }
             ]
           }
