@@ -4,9 +4,11 @@ import io.gatling.core.Predef._
 import io.gatling.core.structure.ChainBuilder
 import requests.data.PublicationRequests
 import requests.data.PublicationRequests._
+import scenarios.combined.PublicationFlowScenarios.TestLocationid
 import utils.auth.OAuthAPI
 import utils.auth.OAuthAPI.config
 
+import java.time.LocalDateTime
 object PublicationScenarios {
 
   /* -----------------------------------
@@ -19,6 +21,7 @@ object PublicationScenarios {
      Case number persistence
    ----------------------------------- */
   private val caseFile = scala.reflect.io.File("src/gatling/resources/feederOutput/caseNumber.csv")
+  private val TestLocationId = 3500
 
   def writeCaseNumbers(count: Int): ChainBuilder =
     exec { session =>
@@ -64,6 +67,19 @@ object PublicationScenarios {
       .feed(createPublicationFeed)
       .feed(courtListFeed)
       .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
+      .exec(write5)
+
+  val createPublicationCivilAndFamilyStyleGuide: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createPublicationFeed)
+      .feed(courtListFeed)
+      .exec { session =>
+        session
+          .set("endDate", LocalDateTime.now().plusDays(1))
+          .set("P&I ID", TestLocationId)
+      }
+      .exec(withRequesterId)
+      .exec(PublicationRequests.createPublicationCivilAndFamilyRequestStyleGuide)
       .exec(write5)
 
   /* -----------------------------------
