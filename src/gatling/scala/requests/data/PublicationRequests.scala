@@ -24,7 +24,6 @@ object PublicationRequests {
   // Load court CSV file
   val courtListFeed = csv("courtLists/ReferenceData.csv").circular
   val httpProtocol = http.baseUrl(config.dataManagementApi.url)
-  private val startCounter = new AtomicLong(0)
 
   // Set feeders
 
@@ -60,7 +59,7 @@ object PublicationRequests {
         "caseNumber10"  -> s"perfCaseNumber ${Random.nextInt(99999999)}",
         "caseUrn"       -> s"perfURN ${Random.nextInt(99999999)}",
         "startDate"     -> start,
-        "endDate"       -> start.plusDays(1)
+        "endDate"       -> LocalDate.now().plusDays(1).atStartOfDay()
       )
     }
 
@@ -87,6 +86,7 @@ object PublicationRequests {
     .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
     .check(status is 201)
+    .check(jsonPath("$.artefactId").saveAs("artefactId"))
 
   val createPublicationCivilAndFamilyFiftyCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 50 cases")
     .post(PublicationsPath)
@@ -94,6 +94,7 @@ object PublicationRequests {
     .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
     .check(status is 201)
+    .check(jsonPath("$.artefactId").saveAs("artefactId"))
 
   val createPublicationCivilAndFamilyHundredCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 100 cases")
     .post(PublicationsPath)
@@ -101,6 +102,7 @@ object PublicationRequests {
     .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
     .check(status is 201)
+    .check(jsonPath("$.artefactId").saveAs("artefactId"))
 
   val createPublicationCivilAndFamilyTwoHundredCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 200 cases")
     .post(PublicationsPath)
@@ -108,6 +110,7 @@ object PublicationRequests {
     .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
     .headers(Headers.headersAPI)
     .check(status is 201)
+    .check(jsonPath("$.artefactId").saveAs("artefactId"))
 
   val createPublicationCivilAndFamily1MBRequest: HttpRequestBuilder = http("Create Publication Civil And Family 1MB request")
     .post(PublicationsPath)

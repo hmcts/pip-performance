@@ -35,8 +35,4 @@ object Headers {
     "x-requester-id" -> "${requesterId}"
   )
 
-  val headersSub = Map(
-
-  )
-
 }

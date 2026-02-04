@@ -66,6 +66,13 @@ object PublicationScenarios {
       .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
       .exec(write5)
 
+  def createPublicationCivilAndFamilyOnly(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createPublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
+      .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
+      .exec(write5)
+
   /* -----------------------------------
      Variable size payload flows
    ----------------------------------- */
@@ -75,11 +82,24 @@ object PublicationScenarios {
       .feed(courtListFeed)
       .exec(PublicationRequests.createPublicationCivilAndFamilyTwoCasesRequest)
 
+  def createTwoCases(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
+      .exec(PublicationRequests.createPublicationCivilAndFamilyTwoCasesRequest)
+
   val createFiftyCases: ChainBuilder =
     exec(withRequesterId)
       .feed(createDifferentSizePublicationFeed)
       .feed(courtListFeed)
       .exec(PublicationRequests.createPublicationCivilAndFamilyFiftyCasesRequest)
+
+  def createFiftyCases(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
+      .exec(PublicationRequests.createPublicationCivilAndFamilyFiftyCasesRequest)
+
 
   val createHundredCases: ChainBuilder =
     exec(withRequesterId)
@@ -87,10 +107,22 @@ object PublicationScenarios {
       .feed(courtListFeed)
       .exec(PublicationRequests.createPublicationCivilAndFamilyHundredCasesRequest)
 
+  def createHundredCases(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
+      .exec(PublicationRequests.createPublicationCivilAndFamilyHundredCasesRequest)
+
   val createTwoHundredCases: ChainBuilder =
     exec(withRequesterId)
       .feed(createDifferentSizePublicationFeed)
       .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamilyTwoHundredCasesRequest)
+
+  def createTwoHundredCases(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
       .exec(PublicationRequests.createPublicationCivilAndFamilyTwoHundredCasesRequest)
 
   val create1MB: ChainBuilder =
@@ -124,6 +156,12 @@ object PublicationScenarios {
     exec(withRequesterId)
       .feed(createDifferentSizePublicationFeed)
       .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCrownFirmPddaRequest)
+
+  def createPublicationCrownFirmPdda(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
       .exec(PublicationRequests.createPublicationCrownFirmPddaRequest)
 
   /* -----------------------------------
