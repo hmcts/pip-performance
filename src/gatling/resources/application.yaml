@@ -15,3 +15,5 @@ publicationServicesApi:
   url: ${env:PUBLICATION_SERVICES_URL:-https://pip-publication-services.staging.platform.hmcts.net}
 testSystemAdminId: ${env:TEST_SYSTEM_ADMIN_ID}
 testVerifiedUserId: ${env:TEST_VERIFIED_USER_ID}
+testCrimeUserId: ${env:TEST_CRIME_USER_ID}
+testCrimeUserPassword: ${env:TEST_CRIME_USER_PWD}

@@ -12,7 +12,9 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
                  @JsonProperty("publicationServicesApi") _publicationServicesApi: ApiConfig,
                  @JsonProperty("frontEndUrl") _frontEndUrl: String,
                  @JsonProperty("testSystemAdminId") _testSystemAdminId: String,
-                 @JsonProperty("testVerifiedUserId") _testVerifiedUserId: String
+                 @JsonProperty("testVerifiedUserId") _testVerifiedUserId: String,
+                 @JsonProperty("testCrimeUserId") _testCrimeUserId: String,
+                 @JsonProperty("testCrimeUserPassword") _testCrimeUserPassword: String
 
                 ) {
   val tenantId = _tenantId
@@ -26,6 +28,8 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
   val frontEndUrl = _frontEndUrl
   val testSystemAdminId = _testSystemAdminId
   val testVerifiedUserId = _testVerifiedUserId
+  val testCrimeUserId = _testCrimeUserId
+  val testCrimeUserPassword = _testCrimeUserPassword
   val rampUpUsers: Int = Integer.getInteger("rampUsers", 0).toInt
   val rampUpUsersDuration: Int = Integer.getInteger("rampDuration", 30).toInt
   val onceUsers: Int = Integer.getInteger("atOnceUsers", 1).toInt
