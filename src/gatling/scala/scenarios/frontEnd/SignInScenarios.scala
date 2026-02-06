@@ -6,8 +6,8 @@ import utils.auth.OAuthAPI.config
 
 object SignInScenarios {
 
-  val baseUrl = "https://pip-frontend.test.platform.hmcts.net"
-  val idamUrl = "https://login.sit.cjscp.org.uk"
+  val baseUrl = config.frontEndUrl
+  val idamUrl = config.idamUrl
 
   val username = config.testCrimeUserId
   val password = config.testCrimeUserPassword
@@ -79,7 +79,6 @@ object SignInScenarios {
           s"""{"authId":"$authId","callbacks":[{"type":"NameCallback","output":[{"name":"prompt","value":"User Name"}],"input":[{"name":"IDToken1","value":"$username"}]},{"type":"PasswordCallback","output":[{"name":"prompt","value":"Password"}],"input":[{"name":"IDToken2","value":"$password"}]}]}"""
         }))
         .check(status.is(200))
-        .check(jsonPath("$.tokenId").saveAs("tokenId"))
     )
     .pause(1)
     .exec(

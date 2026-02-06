@@ -4,6 +4,7 @@ clientSecret: ${env:CLIENT_SECRET}
 clientIdAccManagement: ${env:CLIENT_ID_ACC}
 clientSecretAccManagement: ${env:CLIENT_SECRET_ACC}
 frontEndUrl: ${env:FRONTEND_URL:-https://pip-frontend.staging.platform.hmcts.net}
+idamUrl: ${env:IDAM_URL:-https://login.sit.cjscp.org.uk}
 dataManagementApi:
   scopes: ${env:DATA_MANAGEMENT_AZ_API}/.default
   url: ${env:DATA_MANAGEMENT_URL:-https://pip-data-management.staging.platform.hmcts.net}

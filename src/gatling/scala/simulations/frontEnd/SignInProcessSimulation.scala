@@ -5,12 +5,13 @@ import io.gatling.http.Predef._
 
 import scala.concurrent.duration._
 import scenarios.frontEnd.SignInScenarios
+import utils.auth.OAuthAPI.config
 import utils.auth.OAuthAPI.config.{onceUsers, rampUpUsers, rampUpUsersDuration}
 
 class SignInProcessSimulation extends Simulation {
 
   val httpProtocol = http
-    .baseUrl("https://pip-frontend.test.platform.hmcts.net")
+    .baseUrl(config.frontEndUrl)
     .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8")
     .acceptEncodingHeader("gzip, deflate, br")
     .acceptLanguageHeader("en-GB,en;q=0.5")
