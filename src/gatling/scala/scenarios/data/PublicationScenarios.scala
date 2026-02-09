@@ -13,7 +13,7 @@ object PublicationScenarios {
      Shared session initialisation
    ----------------------------------- */
   val withRequesterId: ChainBuilder =
-    exec(session => session.set("requesterId, config.testSystemAdminId))
+    exec(session => session.set("requesterId", config.testSystemAdminId))
 
   /* -----------------------------------
      Case number persistence
