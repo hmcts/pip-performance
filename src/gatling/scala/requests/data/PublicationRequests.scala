@@ -6,6 +6,7 @@ import io.gatling.http.request.builder._
 import utils.auth.OAuthAPI.config
 import utils.headers.Headers
 
+import java.time.format.DateTimeFormatter
 import java.time.{LocalDate, LocalDateTime}
 import java.util.concurrent.atomic.AtomicLong
 import scala.util.Random
@@ -14,12 +15,15 @@ object PublicationRequests {
 
   // Set paths for endpoints
   private val PublicationsPath = config.dataManagementApi.url + "/publication"
+  private val civilAndFamilyDailyCauseListStyleGuidePath =
+    config.frontEndUrl + "/civil-and-family-daily-cause-list?artefactId="
 
   private val artefactIdTwoCases = "23aa4c86-4ffe-477b-b5e5-c76b8f3a9a12"
   private val artefactIdFiftyCases = "f5aed02c-b6b7-440e-9f66-32029bd823cc"
   private val artefactIdHundredCases = "90889d83-088a-4ebf-bf68-781962cb5d3e"
   private val artefactIdTwoHundredCases = "33538ac4-7cba-475d-b091-d7c0003dd2a3"
   private val fileTypePath = "/PDF"
+  private val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm")
 
   // Load court CSV file
   val courtListFeed = csv("courtLists/ReferenceData.csv").circular
@@ -80,6 +84,14 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
+  val createPublicationCivilAndFamilyRequestStyleGuide: HttpRequestBuilder = http("Create Publication Civil And Family request")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseList.json"))
+    .header("x-list-type", "CIVIL_AND_FAMILY_DAILY_CAUSE_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+    .check(jsonPath("$.artefactId").saveAs("artefactId"))
+
   val createPublicationCivilAndFamilyTwoCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 2 cases")
     .post(PublicationsPath)
     .body(ElFileBody("data/daily-cause-list-civil-and-family/civilAndFamilyDailyCauseListTwoCases.json"))
@@ -95,6 +107,12 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
     .check(jsonPath("$.artefactId").saveAs("artefactId"))
+
+  val viewCivilAndFamilyDailyCauseListStyleGuide =
+    http("View Civil And Family Daily Cause List")
+      .get(s"$civilAndFamilyDailyCauseListStyleGuidePath${"$"}{artefactId}")
+      .check(status.is(200))
+      .check(substring("Civil and Family Daily Cause List for").exists)
 
   val createPublicationCivilAndFamilyHundredCasesRequest: HttpRequestBuilder = http("Create Publication Civil And Family request 100 cases")
     .post(PublicationsPath)

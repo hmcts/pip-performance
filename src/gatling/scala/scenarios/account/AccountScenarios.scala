@@ -12,30 +12,25 @@ object AccountScenarios {
   val createSubscriptionByLocationWithUser = "{\"channel\":\"EMAIL\",\"searchType\":\"LOCATION_ID\",\"searchValue\":\"${locationId}\",\"userId\":\"${userId}\",\"locationName\":\"This is the location name\",\"lastUpdatedDate\":\"2024-12-01T01:01:01.123456Z\"}"
   val configureListTypeWithuser = "{\"userId\": \"${userId}\",\"listType\":${listTypes},\"listLanguage\":[\"ENGLISH\"]}"
 
+  private def generateAccounts(range: Seq[Int]): ListBuffer[Map[String, String]] = {
+    val accounts: ListBuffer[Map[String, String]] = ListBuffer()
+    for (n <- range) {
+      accounts.addOne(Map[String, String](
+        "userProvenance" -> "CRIME_IDAM",
+        "provenanceUserId" -> java.util.UUID.randomUUID.toString,
+        "email" -> (TestEmailPrefix + n + "@justice.gov.uk"),
+        "roles" -> "VERIFIED"
+      ))
+    }
+    accounts
+  }
+
   def createAccountAndSubscriptionByLocationAndListType(usersToCreate: Int, internalLocationId: Int, listTypesJson: String): ChainBuilder = {
     val sequenceRangeBatch1 = Seq.range(1, usersToCreate / 2, 1)
     val sequenceRangeBatch2 = Seq.range(usersToCreate / 2, usersToCreate + 1, 1)
 
-    val accountsBatch1: ListBuffer[Map[String, String]] = ListBuffer()
-    for (n <- sequenceRangeBatch1) {
-      accountsBatch1.addOne(Map[String, String](
-        "userProvenance" -> "CRIME_IDAM",
-        "provenanceUserId" -> java.util.UUID.randomUUID.toString,
-        "email" -> (TestEmailPrefix + n + "@justice.gov.uk"),
-        "roles" -> "VERIFIED"
-      ))
-    }
-
-    val accountsBatch2: ListBuffer[Map[String, String]] = ListBuffer()
-    for (n <- sequenceRangeBatch2) {
-      accountsBatch2.addOne(Map[String, String](
-        "userProvenance" -> "CRIME_IDAM",
-        "provenanceUserId" -> java.util.UUID.randomUUID.toString,
-        "email" -> (TestEmailPrefix + n + "@justice.gov.uk"),
-        "roles" -> "VERIFIED"
-      ))
-    }
-
+    val accountsBatch1 = generateAccounts(sequenceRangeBatch1)
+    val accountsBatch2 = generateAccounts(sequenceRangeBatch2)
 
     exec(AccountRequests.createAccount(accountsBatch1))
       .exec(session => session.set("locationId", internalLocationId))

@@ -11,9 +11,11 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
                  @JsonProperty("accountManagementApi") _accountManagementApi: ApiConfig,
                  @JsonProperty("publicationServicesApi") _publicationServicesApi: ApiConfig,
                  @JsonProperty("frontEndUrl") _frontEndUrl: String,
+                 @JsonProperty("idamUrl") _idamUrl: String,
                  @JsonProperty("testSystemAdminId") _testSystemAdminId: String,
-                 @JsonProperty("testVerifiedUserId") _testVerifiedUserId: String
-
+                 @JsonProperty("testVerifiedUserId") _testVerifiedUserId: String,
+                 @JsonProperty("testCrimeUserId") _testCrimeUserId: String,
+                 @JsonProperty("testCrimeUserPassword") _testCrimeUserPassword: String
                 ) {
   val tenantId = _tenantId
   val clientId = _clientId
@@ -24,8 +26,11 @@ class RootConfig(@JsonProperty("tenantId") _tenantId: String,
   val accountManagementApi = _accountManagementApi
   val publicationServicesApi = _publicationServicesApi
   val frontEndUrl = _frontEndUrl
+  val idamUrl = _idamUrl
   val testSystemAdminId = _testSystemAdminId
   val testVerifiedUserId = _testVerifiedUserId
+  val testCrimeUserId = _testCrimeUserId
+  val testCrimeUserPassword = _testCrimeUserPassword
   val rampUpUsers: Int = Integer.getInteger("rampUsers", 0).toInt
   val rampUpUsersDuration: Int = Integer.getInteger("rampDuration", 30).toInt
   val onceUsers: Int = Integer.getInteger("atOnceUsers", 1).toInt
