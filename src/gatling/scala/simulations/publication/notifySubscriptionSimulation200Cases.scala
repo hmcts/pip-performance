@@ -25,7 +25,9 @@ class notifySubscriptionSimulation200Cases extends Simulation {
   private val notifySubscriptionExec = scenario("Notify Subscription 200 Cases")
     .exec(OAuthAPI.authPublication)
     .exec(session => session.set("artefactId", GeneralHelper.readFirstArtefactId(artefactIdFile)))
-    .exec(NotificationScenarios.notifySubscriptionTwoHundredCasesFlow("${artefactId}", internalLocationId));
+    .group("Notify for 200 cases")(
+      exec(NotificationScenarios.notifySubscriptionTwoHundredCasesFlow("${artefactId}", internalLocationId))
+    )
 
   setUp(
     createPublicationDifferentSizesExec.inject(atOnceUsers(onceUsers)).andThen(
@@ -36,12 +38,12 @@ class notifySubscriptionSimulation200Cases extends Simulation {
   )
     .protocols(httpProtocol)
     .assertions(
-      details("Notify Subscription").responseTime.percentile(90).lt(2000)
+      details("Notify for 200 cases" / "Notify Subscription").responseTime.percentile(90).lt(2000)
     )
     .assertions(
-      details("Notify Subscription").responseTime.percentile(95).lt(2500)
+      details("Notify for 200 cases" / "Notify Subscription").responseTime.percentile(95).lt(2500)
     )
     .assertions(
-      details("Notify Subscription").responseTime.percentile(99).lt(3000)
+      details("Notify for 200 cases" / "Notify Subscription").responseTime.percentile(99).lt(3000)
     )
 }
