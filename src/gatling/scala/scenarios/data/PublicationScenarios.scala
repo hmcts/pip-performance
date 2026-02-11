@@ -4,8 +4,6 @@ import io.gatling.core.Predef._
 import io.gatling.core.structure.ChainBuilder
 import requests.data.PublicationRequests
 import requests.data.PublicationRequests._
-import scenarios.combined.PublicationFlowScenarios.TestLocationid
-import utils.auth.OAuthAPI
 import utils.auth.OAuthAPI.config
 
 import java.time.LocalDateTime
@@ -69,6 +67,13 @@ object PublicationScenarios {
       .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
       .exec(write5)
 
+  def createPublicationCivilAndFamilyOnly(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createPublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
+      .exec(PublicationRequests.createPublicationCivilAndFamilyRequest)
+      .exec(write5)
+
   val createPublicationCivilAndFamilyStyleGuide: ChainBuilder =
     exec(withRequesterId)
       .feed(createPublicationFeed)
@@ -91,11 +96,24 @@ object PublicationScenarios {
       .feed(courtListFeed)
       .exec(PublicationRequests.createPublicationCivilAndFamilyTwoCasesRequest)
 
+  def createTwoCases(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
+      .exec(PublicationRequests.createPublicationCivilAndFamilyTwoCasesRequest)
+
   val createFiftyCases: ChainBuilder =
     exec(withRequesterId)
       .feed(createDifferentSizePublicationFeed)
       .feed(courtListFeed)
       .exec(PublicationRequests.createPublicationCivilAndFamilyFiftyCasesRequest)
+
+  def createFiftyCases(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
+      .exec(PublicationRequests.createPublicationCivilAndFamilyFiftyCasesRequest)
+
 
   val createHundredCases: ChainBuilder =
     exec(withRequesterId)
@@ -103,10 +121,22 @@ object PublicationScenarios {
       .feed(courtListFeed)
       .exec(PublicationRequests.createPublicationCivilAndFamilyHundredCasesRequest)
 
+  def createHundredCases(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
+      .exec(PublicationRequests.createPublicationCivilAndFamilyHundredCasesRequest)
+
   val createTwoHundredCases: ChainBuilder =
     exec(withRequesterId)
       .feed(createDifferentSizePublicationFeed)
       .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCivilAndFamilyTwoHundredCasesRequest)
+
+  def createTwoHundredCases(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
       .exec(PublicationRequests.createPublicationCivilAndFamilyTwoHundredCasesRequest)
 
   val create1MB: ChainBuilder =
@@ -140,6 +170,12 @@ object PublicationScenarios {
     exec(withRequesterId)
       .feed(createDifferentSizePublicationFeed)
       .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCrownFirmPddaRequest)
+
+  def createPublicationCrownFirmPdda(locationId: Int): ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .exec(session => session.set("P&I ID", locationId))
       .exec(PublicationRequests.createPublicationCrownFirmPddaRequest)
 
   /* -----------------------------------
