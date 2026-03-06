@@ -13,11 +13,11 @@ class CreatePublicationAllServicesSimulation extends Simulation {
   private val createPublicationAllServicesExec = scenario("CreatePublicationAllServicesSimulation")
     .exec(OAuthAPI.authData) // authenticate once per user
     .randomSwitch(
-      9.0 -> PublicationScenarios.createPublicationCivilAndFamilyOnly,
-      18.0 -> PublicationScenarios.createPublicationCrownFirmPdda,
-      24.0 -> UploadHtmlFileScenario.uploadHtmlPublicationFlow,
-      15.0 -> PublicationScenarios.createPublicationMagsPublicAdultCrimePortal,
-      34.0 -> PublicationScenarios.createPublicationMagsPublicCommonPlatform
+      9.0 -> PublicationScenarios.createPublicationCivilAndFamilyOnly, //228 requests
+      18.0 -> PublicationScenarios.createPublicationCrownFirmPdda, //455 requests
+      24.0 -> UploadHtmlFileScenario.uploadHtmlPublicationFlow, //650 requests
+      15.0 -> PublicationScenarios.createPublicationMagsPublicAdultCrimePortal, //390 requests
+      34.0 -> PublicationScenarios.createPublicationMagsPublicCommonPlatform //878 requests
     )
 
 
