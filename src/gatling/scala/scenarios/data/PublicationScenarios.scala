@@ -179,6 +179,24 @@ object PublicationScenarios {
       .exec(PublicationRequests.createPublicationCrownFirmPddaRequest)
 
   /* -----------------------------------
+     CRIME DAILY LIST Crime Portal flow
+   ----------------------------------- */
+  val createPublicationMagsPublicAdultCrimePortal: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationMagsPublicAdultCrimePortalRequest)
+
+  /* -----------------------------------
+     MAGISTRATES PUBLIC LIST Common Platform flow
+   ----------------------------------- */
+  val createPublicationMagsPublicCommonPlatform: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationMagsPublicCommonPlatformRequest)
+
+  /* -----------------------------------
      PDF + Artefact flows
    ----------------------------------- */
   val generatePdfTwoCases: ChainBuilder =
