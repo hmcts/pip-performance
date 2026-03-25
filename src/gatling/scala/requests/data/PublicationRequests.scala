@@ -188,6 +188,20 @@ object PublicationRequests {
     .headers(Headers.headersAPI)
     .check(status is 201)
 
+  val createPublicationMagsPublicAdultCrimePortalRequest: HttpRequestBuilder = http("Create Publication Mags Public Daily Crime Portal request")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/magistrates-public-adult-court-list-daily/magistratesPublicAdultCourtListDaily.json"))
+    .header("x-list-type", "MAGISTRATES_PUBLIC_ADULT_COURT_LIST_DAILY")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  val createPublicationMagsPublicCommonPlatformRequest: HttpRequestBuilder = http("Create Publication Mags Public Common Platform request")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/magistrates-public-list/magistratesPublicList.json"))
+    .header("x-list-type", "MAGISTRATES_PUBLIC_LIST")
+    .headers(Headers.headersAPI)
+    .check(status is 201)
+
   val getPublicationCivilAndFamilyTwoCasesRequest: HttpRequestBuilder = http("Generate PDF 2 Cases request")
     .get(PublicationsPath + "/" + artefactIdTwoCases + fileTypePath)
     .header("Authorization", "bearer ${AuthTokenDataManagement}")
