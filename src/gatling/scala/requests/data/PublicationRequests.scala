@@ -207,7 +207,7 @@ object PublicationRequests {
     .body(ElFileBody("data/cst-weekly-hearing-list/cstWeeklyHearingList.json"))
     .header("x-list-type", "CST_WEEKLY_HEARING_LIST")
     .headers(Headers.headersAPI)
-    .header("x-court-id", "9999954")
+    .header("x-court-id", "9999954") //Venue must be National
     .check(status is 201)
 
   val getPublicationCivilAndFamilyTwoCasesRequest: HttpRequestBuilder = http("Generate PDF 2 Cases request")
