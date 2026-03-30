@@ -1,0 +1,178 @@
+[
+  {
+    "date": "10/12/2024",
+    "caseName": "Case 1 - Sample Name",
+    "hearingLength": "1 hour",
+    "hearingType": "mda",
+    "venue": "Venue A",
+    "additionalInformation": "Additional info for case 1"
+  },
+  {
+    "date": "11/12/2024",
+    "caseName": "Case 2 - Sample Name",
+    "hearingLength": "2 hours",
+    "hearingType": "trial",
+    "venue": "Venue B",
+    "additionalInformation": "Additional info for case 2"
+  },
+  {
+    "date": "12/12/2024",
+    "caseName": "Case 3 - Sample Name",
+    "hearingLength": "30 mins",
+    "hearingType": "mda",
+    "venue": "Venue C",
+    "additionalInformation": "Additional info for case 3"
+  },
+  {
+    "date": "13/12/2024",
+    "caseName": "Case 4 - Sample Name",
+    "hearingLength": "1 hour",
+    "hearingType": "appeal",
+    "venue": "Venue D",
+    "additionalInformation": "Additional info for case 4"
+  },
+  {
+    "date": "14/12/2024",
+    "caseName": "Case 5 - Sample Name",
+    "hearingLength": "3 hours",
+    "hearingType": "trial",
+    "venue": "Venue E",
+    "additionalInformation": "Additional info for case 5"
+  },
+  {
+    "date": "15/12/2024",
+    "caseName": "Case 6 - Sample Name",
+    "hearingLength": "45 mins",
+    "hearingType": "mda",
+    "venue": "Venue F",
+    "additionalInformation": "Additional info for case 6"
+  },
+  {
+    "date": "16/12/2024",
+    "caseName": "Case 7 - Sample Name",
+    "hearingLength": "2 hours",
+    "hearingType": "trial",
+    "venue": "Venue G",
+    "additionalInformation": "Additional info for case 7"
+  },
+  {
+    "date": "17/12/2024",
+    "caseName": "Case 8 - Sample Name",
+    "hearingLength": "1 hour",
+    "hearingType": "mda",
+    "venue": "Venue H",
+    "additionalInformation": "Additional info for case 8"
+  },
+  {
+    "date": "18/12/2024",
+    "caseName": "Case 9 - Sample Name",
+    "hearingLength": "4 hours",
+    "hearingType": "trial",
+    "venue": "Venue I",
+    "additionalInformation": "Additional info for case 9"
+  },
+  {
+    "date": "19/12/2024",
+    "caseName": "Case 10 - Sample Name",
+    "hearingLength": "1 hour",
+    "hearingType": "appeal",
+    "venue": "Venue J",
+    "additionalInformation": "Additional info for case 10"
+  },
+  {
+    "date": "20/12/2024",
+    "caseName": "Case 11 - Sample Name",
+    "hearingLength": "2 hours",
+    "hearingType": "trial",
+    "venue": "Venue K",
+    "additionalInformation": "Additional info for case 11"
+  },
+  {
+    "date": "21/12/2024",
+    "caseName": "Case 12 - Sample Name",
+    "hearingLength": "30 mins",
+    "hearingType": "mda",
+    "venue": "Venue L",
+    "additionalInformation": "Additional info for case 12"
+  },
+  {
+    "date": "22/12/2024",
+    "caseName": "Case 13 - Sample Name",
+    "hearingLength": "3 hours",
+    "hearingType": "trial",
+    "venue": "Venue M",
+    "additionalInformation": "Additional info for case 13"
+  },
+  {
+    "date": "23/12/2024",
+    "caseName": "Case 14 - Sample Name",
+    "hearingLength": "1 hour",
+    "hearingType": "appeal",
+    "venue": "Venue N",
+    "additionalInformation": "Additional info for case 14"
+  },
+  {
+    "date": "24/12/2024",
+    "caseName": "Case 15 - Sample Name",
+    "hearingLength": "2 hours",
+    "hearingType": "trial",
+    "venue": "Venue O",
+    "additionalInformation": "Additional info for case 15"
+  },
+  {
+    "date": "25/12/2024",
+    "caseName": "Case 16 - Sample Name",
+    "hearingLength": "1 hour",
+    "hearingType": "mda",
+    "venue": "Venue P",
+    "additionalInformation": "Additional info for case 16"
+  },
+  {
+    "date": "26/12/2024",
+    "caseName": "Case 17 - Sample Name",
+    "hearingLength": "45 mins",
+    "hearingType": "mda",
+    "venue": "Venue Q",
+    "additionalInformation": "Additional info for case 17"
+  },
+  {
+    "date": "27/12/2024",
+    "caseName": "Case 18 - Sample Name",
+    "hearingLength": "2 hours",
+    "hearingType": "trial",
+    "venue": "Venue R",
+    "additionalInformation": "Additional info for case 18"
+  },
+  {
+    "date": "28/12/2024",
+    "caseName": "Case 19 - Sample Name",
+    "hearingLength": "3 hours",
+    "hearingType": "appeal",
+    "venue": "Venue S",
+    "additionalInformation": "Additional info for case 19"
+  },
+  {
+    "date": "29/12/2024",
+    "caseName": "Case 20 - Sample Name",
+    "hearingLength": "1 hour",
+    "hearingType": "mda",
+    "venue": "Venue T",
+    "additionalInformation": "Additional info for case 20"
+  },
+  {
+    "date": "30/12/2024",
+    "caseName": "Case 20 - Sample Name",
+    "hearingLength": "1 hour",
+    "hearingType": "mda",
+    "venue": "Venue T",
+    "additionalInformation": "Additional info for case 20"
+  },
+  {
+    "date": "31/12/2024",
+    "caseName": "Case 20 - Sample Name",
+    "hearingLength": "1 hour",
+    "hearingType": "mda",
+    "venue": "Venue T",
+    "additionalInformation": "Additional info for case 20"
+  }
+]

@@ -190,8 +190,8 @@ object PublicationRequests {
 
   val createPublicationMagsPublicAdultCrimePortalRequest: HttpRequestBuilder = http("Create Publication Mags Public Daily Crime Portal request")
     .post(PublicationsPath)
-    .body(ElFileBody("data/magistrates-public-adult-court-list-daily/magistratesPublicAdultCourtListDaily.json"))
-    .header("x-list-type", "MAGISTRATES_PUBLIC_ADULT_COURT_LIST_DAILY")
+    .body(ElFileBody("data/magistrates-public-adult-court-list/magistratesPublicAdultCourtList.json"))
+    .header("x-list-type", "MAGISTRATES_PUBLIC_ADULT_COURT_LIST_FUTURE")
     .headers(Headers.headersAPI)
     .check(status is 201)
 
@@ -200,6 +200,14 @@ object PublicationRequests {
     .body(ElFileBody("data/magistrates-public-list/magistratesPublicList.json"))
     .header("x-list-type", "MAGISTRATES_PUBLIC_LIST")
     .headers(Headers.headersAPI)
+    .check(status is 201)
+
+  val createPublicationCstWeeklyHearingListRequest: HttpRequestBuilder = http("Create Publication CST Weekly Hearing List request")
+    .post(PublicationsPath)
+    .body(ElFileBody("data/cst-weekly-hearing-list/cstWeeklyHearingList.json"))
+    .header("x-list-type", "CST_WEEKLY_HEARING_LIST")
+    .headers(Headers.headersAPI)
+    .header("x-court-id", "9999954")
     .check(status is 201)
 
   val getPublicationCivilAndFamilyTwoCasesRequest: HttpRequestBuilder = http("Generate PDF 2 Cases request")
