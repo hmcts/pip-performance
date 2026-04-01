@@ -196,6 +196,16 @@ object PublicationScenarios {
       .feed(courtListFeed)
       .exec(PublicationRequests.createPublicationMagsPublicCommonPlatformRequest)
 
+
+  /* -----------------------------------
+     CST WEEKLY HEARING LIST Non-Strategic
+   ----------------------------------- */
+  val createPublicationCstWeeklyHearingList: ChainBuilder =
+    exec(withRequesterId)
+      .feed(createDifferentSizePublicationFeed)
+      .feed(courtListFeed)
+      .exec(PublicationRequests.createPublicationCstWeeklyHearingListRequest)
+
   /* -----------------------------------
      PDF + Artefact flows
    ----------------------------------- */
